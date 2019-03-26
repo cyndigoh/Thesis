@@ -1,0 +1,56 @@
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{i}{chapter*.1}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgements}{ii}{chapter*.2}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Declarations}{iii}{chapter*.3}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Submitted Abstracts}{iv}{chapter*.4}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Associated Publications}{v}{chapter*.5}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.5}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{vii}{chapter*.7}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{viii}{chapter*.8}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{ix}{chapter*.9}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\ttl@starttoc {chapters@1}
+\contentsline {section}{\numberline {1.1}Genetics and gene expression}{1}{section.1.1}
+\contentsline {subsubsection}{Types of genetic variation}{1}{subsubsection*.10}
+\contentsline {section}{\numberline {1.2}Specific aims and objectives}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{4}{chapter.2}
+\ttl@stoptoc {chapters@1}
+\ttl@starttoc {chapters@2}
+\contentsline {section}{\numberline {2.1}Genomic Advances in Sepsis}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}GAinS patient recruitment and exclusion criteria}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Other cohorts}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Hepatitis C virus infection patient recruitment and exclusion criteria}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Cardiac surgery patient recruitment and exclusion criteria}{5}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Metagenomics}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Nucleic acid extraction}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Library preparation methods}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Spike ins}{7}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Probe-based enrichment}{7}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Data processing}{8}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Digital droplet PCR}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Epstein Barr Virus Serology}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Transcriptomics}{9}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Sample collection}{9}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}RNA extraction}{9}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Microarray analysis}{9}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Data processing and analysis}{9}{subsection.2.6.4}
+\contentsline {chapter}{\numberline {3}Results1}{11}{chapter.3}
+\ttl@stoptoc {chapters@2}
+\ttl@starttoc {chapters@3}
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Difficulties in defining and diagnosing sepsis}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Aims}{11}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Results: sepsis}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Description of sepsis cohorts}{12}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Discussion}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Conclusions}{12}{section.3.4}
+\contentsline {chapter}{\numberline {4}General Discussion}{14}{chapter.4}
+\ttl@stoptoc {chapters@3}
+\ttl@starttoc {chapters@4}
+\contentsline {section}{\numberline {4.1}A section}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Limitations and future work}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conclusion}{14}{section.4.3}
+\contentsline {chapter}{Appendices}{15}{section.4.3}
+\contentsline {chapter}{\numberline {A}Results1}{15}{appendix.A}
+\contentsline {chapter}{\numberline {B}Results2}{19}{appendix.B}
+\contentsfinish 

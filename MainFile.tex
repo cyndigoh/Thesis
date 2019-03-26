@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Set Up file
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,12pt]{report}
+\textheight=23.5cm
+\textwidth=15cm
+
+%\addtolength{\voffset}{-50pt} %edit individual page dimensions
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{.3in}
+
+%\clubpenalty=10000
+%\widowpenalty=10000
+\hyphenpenalty=10000 %Prevent hyphenation if word is too long for line
+\tolerance=2000 %How much white space is considered acceptable
+\emergencystretch=10pt %Allow 10pt of additional white space per line in order to avoid underfull/overfull lines
+
+\raggedbottom
+\pdfminorversion=6
+
+% Text formatting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy} %Change the style of the current page
+\setlength{\headheight}{28pt}
+\fancyhead{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}} %Print the name of the chapter
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} %Print the name of the section
+\fancyhead[L]{\color{Gray}\bfseries\scshape\leftmark} %Current chapter printed on top left
+%\fancyhead[R]{\color{Gray}\itshape\rightmark} %Current chapter printed on top left
+
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot{}
+\fancyfoot[R]{\bfseries\thepage} %Page number on bottom right
+\fancypagestyle{plain}{
+		\fancyhead{}
+		\fancyfoot[R]{\bfseries\thepage}
+		\renewcommand{\headrulewidth}{0pt}}
+
+%SI units
+\usepackage{siunitx}
+
+% Line settings
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+% Colour text
+\usepackage[usenames, dvipsnames]{color} %Add colour to text
+\usepackage[usenames,dvipsnames,table]{xcolor}
+
+% Chapter headings
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0cm}{-1.cm}{-40pt}% left margin before-sep after-sep
+\titleformat{\chapter}[display] % paragraph shape
+	{\color{Gray}\Huge\filleft\scshape} % format for title, label, and text
+	{ \normalfont\bf\fontfamily{put}\fontseries{b}\fontsize{95pt}	{0pt} \selectfont\thechapter} % specify label
+	{5pt} % separation between label and title body
+	{} % before-code
+	[\titlerule\vspace{2ex}\filright\vspace{2ex}] % after-code
+
+% Other
+\usepackage{kpfonts}
+\usepackage{gensymb} %Allows you to use \degree
+
+%Bibliography
+\AtBeginDocument{\renewcommand{\bibname}{References}}
+
+%%% Graphics & Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{float} % Places float at precisely the location in the LaTex code
+\usepackage[font=small, labelfont=bf]{caption} %Small captions in bold
+
+% Figures
+\usepackage{graphicx}
+\usepackage{caption} %Subfigures over a page
+\usepackage[position=b]{subcaption}
+\usepackage{rotating} %Allows you to rotate floats
+\usepackage{rotfloat} %Allows [H] to be used when rotating floats
+
+% Numbering of appendix figures
+\usepackage{chngcntr}
+
+% Tables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lscape} %landscape tables
+\usepackage{tabulary} %Allows you to wrap text in a table column
+\tymin=.1\textwidth
+\tymax=.7\textwidth
+\usepackage{array} %Needed for some functions in tabular
+\usepackage{fixltx2e} %Allows you to use \textsubscript in tables
+\usepackage{longtable} %Tables can span across multiple pages
+\usepackage{booktabs} %Allows you to use \toprule etc when converting excel tables to latex
+\usepackage{tabu}
+\usepackage{setspace} %Set spacing in longtable
+\usepackage{multirow} %Multirows in tables
+
+% Table of contents %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mini table of contents for each chapter
+\usepackage{titletoc}
+
+%References %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url} %Allows you to add urls
+\usepackage{nameref} %Allows you to name chapter in reference rather than number
+\usepackage[colorlinks=false, hidelinks]{hyperref} %Citations are turned into hypertext links
+\usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=3, maxbibnames=3, dashed=false, firstinits=true, doi=false, url=false, isbn=false, uniquename=init]{biblatex}
+\addbibresource{./ThesisBibliography} %Location of references
+\renewbibmacro{in:}{} %Suppress the use of "`in"' before the journal title in bibliography
+\DeclareNameAlias{sortname}{last-first} %Display all authors in bibliography as last name followed by first
+\renewcommand*{\bibpagespunct}{\addcolon\space} %colon instead of comma before pages in bibliography
+\AtEveryBibitem{\clearfield{number}} %remove number field from bibliography
+
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\include{Preamble}
+
+\pagenumbering{arabic} 
+\setcounter{page}{1}
+\doublespacing
+
+%List the subfolders and .tex files for each of the chapters to be included
+\include{./Introduction/Introduction}										
+\cite{Bonsall2015}
+\include{./Materials_and_Methods/Materials_and_Methods}		
+\include{./Results1/Results1}
+\include{./Discussion/Discussion}
+\include{./Appendices/Appendices}
+
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\singlespacing
+\setlength\bibitemsep{\itemsep}
+\printbibliography
+
+\end{document}

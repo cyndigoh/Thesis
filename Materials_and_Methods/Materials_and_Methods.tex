@@ -1,0 +1,113 @@
+\chapter{Materials and Methods}
+\label{ch:MandM}
+\textit{This chapter describes }
+
+\startcontents[chapters]{\vspace{-1.4cm}}
+\singlespacing
+\printcontents[chapters]{}{1}{\section*{ }\setcounter{tocdepth}{1}}
+\doublespacing
+
+\section{Genomic Advances in Sepsis}
+The UK Genomic Advances in Sepsis (GAinS) study (http://ukccggains.com) is a multicentre prospective study initiated in 2005 by the UK Critical Care Genomics group to characterise genetic variants that affect susceptibility to and outcomes from sepsis. A bioresource arising from this study includes biological samples and phenotypic information from over 2000 individuals with sepsis from community acquired pneumonia (CAP) or faecal peritonitis (FP) admitted to intensive care units (ICUs). This thesis focuses only on the subset of individuals with sepsis from CAP. Recruitment was initially carried out in 34 ICUs and remains ongoing in 4 ICUs across the UK.
+
+\subsection{GAinS patient recruitment and exclusion criteria}
+Sepsis patients were recruited through the GAinS study from 34 participating ICUs between 2005 and 2018. Patients were recruited if they met the diagnostic criteria for severe sepsis in use at the time of study initiation (Sepsis-2, 1992 ACCP/SCCM consensus definition). CAP was defined as febrile illness associated with cough, sputum production, breathlessness, leukocytosis and radiological features of pneumonia acquired prior to or within 48 hours of hospital admission. Exclusion criteria included immunocompromise, admission for palliative care only, and pregnancy.
+
+
+\section{Other cohorts}
+Two other cohorts were studied: (a) patients with hepatitis C virus infection, and (b) patients undergoing cardiac surgery.
+
+\subsection{Hepatitis C virus infection patient recruitment and exclusion criteria}
+The hepatitis C virus infection (HCV) cohort was recruited through the NIHR Oxford Biomedical Research Centre Prospective Cohort Study in Hepatitis C. 
+
+\subsection{Cardiac surgery patient recruitment and exclusion criteria}
+Patients undergoing elective cardiac surgery requiring cardiopulmonary bypass (coronary artery bypass grafting, valve replacement, or valve repair) were recruited by Dr Eduardo Svoren and Professor Charles Hinds (Bart's and the London NHS Trust). This study aimed to investigate the host inflammatory response induced by elective cardiac surgery involving cardiopulmonary bypass. Patients were excluded if they were immunocompromised, undergoing an emergency operation, had malignancy, or were unable to provide informed consent. 
+
+
+\section{Metagenomics}
+\subsection{Nucleic acid extraction}
+
+Total nucleic acid extraction was performed using the NucliSENS easyMag platform (Biomerieux). Typically, 500ul of extracted plasma was eluted in 25 $\mu$ l of buffer. Postextraction quality control was performed using the Agilent 2100 Bioanalyzer platform and/or the Qubit dsDNA HS Assay (Thermo Fisher Scientific).
+
+\subsection{Library preparation methods}
+Four library prepration methods were evaluated.
+
+1. RNA: We used the NEBNext Ultra Directional RNA Library Prep Kit for Illumina (New England Biolabs) with several modifications to the manufacturer’s guidelines including: fragmentation for 4 minutes at 94$^{\circ}$C, omission of Actinomycin D at first-strand reverse transcription, library amplification for 15 PCR cycles using custom indexed primers and post-PCR clean-up with 0.85x volume Ampure XP (Beckman Coulter).
+
+2: DNA: The Nextera DNA Library Preparation Kit (Illumina) was used according to the manufacturer's guidelines.
+
+3: Combined with Fragmentation (CF): This involved the RNA protocol (1) followed by the DNA protocol (2).
+
+4. This involved the RNA protocol (1), with omission of fragmentation, end repair, and adaptor ligation steps, followed by the DNA protocol (2). 
+
+\subsection{Spike ins}
+RNA: We used the Ambion ERCC RNA Spike-In Mix 1 (Thermo Fisher Scientific) consisting of 92 synthetic transcripts between 250-2000 nucleotides in length, at a range of pre-specified concentrations\cite{Rna2005}.
+
+DNA: Multiple restriction enzyme digest of three synthetic plasmids was performed according to manufacturer instructions (New England BioLabs) (Table ~\ref{tab:plasmid}). 
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Plasmid & Original size (bp) & Restriction enzymes & Fragment sizes (bp)\\
+\hline
+pHBV & 6820 & AccI, AlwNI, HindIII, NdeI & 800, 1178, 1652, 3190\\
+p1990 & 4808 & AccI, AlwNI, HindIII & 401, 588, 1796, 2023\\
+p2022 & 3356 & AccI, AlwNI, NdeI & 379, 1099, 1878\\
+\hline
+\end{tabular}
+\end{center}
+\smallskip
+\caption[plasmid]{\textbf{DNA spike-in controls.} Plasmids, restriction enzymes, and resulting fragment sizes.}
+\label{tab:plasmid}
+\end{table}
+
+The three plasmids were pooled in equal mass ratios and spiked-in at 3\% sample DNA concentration by mass.
+
+\subsection{Probe-based enrichment}
+In collaboration with a paediatric meningitis study, a custom probe panel covering bacterial and viral pathogens relevant to meningitis and pneumonia was designed using the Agilent SureDesign service. This included probes complementary to three ERCCs (ERCC14, ERCC25, ERCC116) and the pHBV plasmid fragment. The probe set included 52,101 120nt RNA oligonucleotide probes (\num{5.87e6} bp). 
+
+1$\mu$g of each indexed pooled library was enriched using the Agilent SureSelect$^{XT}$ Target Enrichment System for Illumina Paired-End Multiplexed Sequencing Library protocol with one major modification to the recommended protocol. This involved capture on a post-PCR indexed pool with use oligonucleotide blockers complementary to adapter sequences.
+
+\subsection{Data processing}
+
+\section{Digital droplet PCR}
+Digital droplet PCR (ddPCR) was performed for targets from several microorganisms: (a) influenza, (b) \textit{S. pneumoniae}, (c) Epstein-Barr virus, and (d) cytomegalovirus. The assay was performed on samples following nucleic acid extraction as above. For the RNA-based pathogen (influenza) following nucleic acid extraction, we performed first strand cDNA synthesis (SuperScript III First-Strand Synthesis System, Invitrogen). 
+
+Sample processing was performed in triplicate (1.5$\mu$l per replicate) following the recommended workflow (QX200 ddPCR system, Bio-Rad). Custom-designed PrimeTime (IDT) primer/probe sets targeting the influenza A matrix (M) and \textit{S. pneumoniae} capsular polysaccharide biosynthesis (\textit{cpsA}) genes were designed based on published sequence data.
+
+\section{Epstein Barr Virus Serology}
+Enzyme linked immunosorbent assay was used to test for the presence of IgG and IgM antibodies against the EBV viral capsid antigen (VCA) using proprietary kits (Abcam). The manufacturer's instructions were followed. Plasma samples (10ul) were diluted to the recommended 1:100 concentration and run in duplicate. Absorbance was measured at 450 nm using the X plate reader. Samples were considered to be positive if the absorbance value was greater than 10\% over the cut-off control absorbance value. 
+
+\section{Transcriptomics}
+\subsection{Sample collection}
+\subsection{RNA extraction}
+
+
+\subsection{Microarray analysis}
+
+\subsection{Data processing and analysis}
+Four microarray datasets were combined for analysis. The datasets included GAinS patients (both CAP and FP) as well as the negative control Cardiac Surgery patients. Quality control was performed for each dataset individually and outliers removed before the individual datsets were combined. Prior to QC, 19 samples from the Radhakrishnan cohort (2 mislabelled, 5 replicates, 12 missing consent, 1 CAP misdiagnosis) and 84 samples from the Davenport cohort (48 failed hybridsation, 34 missing consent, 2 CAP misdiagnosis, 1 withdrawn consent) were excluded.
+
+The QC for each dataset involved filtering out probes with a detection value of <0.95  in >95\% of samples followed by normalisation using the Variance Stabilisation and Normalisation (vsn) R package \cite{Huber2002}. 
+
+After the four datasets were combined, probe filtering was repeated using the same parameters described above followed by normalisation using vsn. Using principal component analysis, clear batch effects were seen and the ComBat function from the R package sva was used to directly estimate and remove the known batch effects. 
+
+
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Dataset            & Samples post-QC & CAP             & FP            & Cardiac    \\ \hline
+Radhakrishnan 2010 & 236             & 124 (39/45/40)  & 94 (37/34/23) & 18 (6/6/6) \\ \hline
+Davenport 2011     & 339             & 262 (130/86/46) & 0             & 77 (39/38) \\ \hline
+Burnham 2014       & 159             & 106 (42/42/22)  & 53 (25/15/13) & 0          \\ \hline
+Burnham 2016       & 143             & 72 (24/24/24)   & 71 (23/24/24) & 0          \\ \hline
+Total              & 877             & 564             & 218           & 95         \\ \hline
+\end{tabular}
+\medskip
+\caption[GAinS samples]{\textbf{Summary of GAinS gene expression data} \\
+The number of samples is documented in the table with the number of patients at each time point in brackets. The three CAP and FP GAinS time points are day 1, day 3 and day 5 of ICU admission. The three Cardiac time points are prior to induction of anesthesia, immediately post-operative, 24 hours post-operative.}
+\label{tab:GAinS}
+\vspace{0.8cm}
+\end{table}
