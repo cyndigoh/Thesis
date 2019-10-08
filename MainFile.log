@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  25 MAR 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  8 OCT 2019 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,6 +335,9 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -1354,56 +1357,60 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 
 (./MainFile.aux (./Preamble.aux) (./Introduction/Introduction.aux)
 (./Materials_and_Methods/Materials_and_Methods.aux) (./Results1/Results1.aux)
-(./Discussion/Discussion.aux) (./Appendices/Appendices.aux))
+(./Results2/Results2.aux) (./Results3/Results3.aux
+
+LaTeX Warning: Label `fig:vp-viral-bacterial' multiply defined.
+
+) (./Discussion/Discussion.aux) (./Appendices/Appendices.aux))
 \openout1 = `MainFile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 115.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 115.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 118.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 115.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 118.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 115.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 118.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 115
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 118.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 118
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 115.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
@@ -1447,16 +1454,16 @@ e
 ))
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 115.
-Package gensymb Info: Math companion symbols declared on input line 115.
-LaTeX Info: Redefining \degree on input line 115.
-LaTeX Info: Redefining \celsius on input line 115.
+(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 118.
+Package gensymb Info: Math companion symbols declared on input line 118.
+LaTeX Info: Redefining \degree on input line 118.
+LaTeX Info: Redefining \celsius on input line 118.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 115.
-LaTeX Info: Redefining \ohm on input line 115.
-Package gensymb Info: Using \textohm for \ohm on input line 115.
-LaTeX Info: Redefining \micro on input line 115.
-Package gensymb Info: Using \textmu for \micro on input line 115.
+erthousand on input line 118.
+LaTeX Info: Redefining \ohm on input line 118.
+Package gensymb Info: Using \textohm for \ohm on input line 118.
+LaTeX Info: Redefining \micro on input line 118.
+Package gensymb Info: Using \textmu for \micro on input line 118.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1467,10 +1474,10 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 115.
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+Package hyperref Info: Link coloring OFF on input line 118.
+LaTeX Info: Redefining \ref on input line 118.
+LaTeX Info: Redefining \pageref on input line 118.
+LaTeX Info: Redefining \nameref on input line 118.
 
 (./MainFile.out) (./MainFile.out)
 \@outlinefile=\write5
@@ -1486,50 +1493,695 @@ Package biblatex Info: Data encoding 'ascii' specified.
 \openout4 = `MainFile-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'MainFile.bbl' not found.
+Package biblatex Info: ... file 'MainFile.bbl' found.
+ (./MainFile.bbl
 
-No file MainFile.bbl.
-Package biblatex Info: Reference section=0 on input line 115.
-Package biblatex Info: Reference segment=0 on input line 115.
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Agostini2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Allicock2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Amorim-Vaz2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Anh2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Antcliffe2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Ashburner2000':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Baldridge2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Barnato2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Barreiro2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Bernard1997':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Blackwell2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Blauwkamp2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Bomsztyk2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Boomer2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Briese2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Bright2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Buras2005':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Carrington1999':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Charalampous2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Chen2001':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cheng2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Chiu2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Choi2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Clark2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cohen1996':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cohen2000':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cohen1999':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'GO2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cowley2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cuthbertson2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Davenport2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Daviaud2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Dickson2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Dolgachev2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Durbin2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Fairfax2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Fang2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Feezor2003':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Feng2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Gnirke2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Gosiewski2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Grumaz2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Hamon2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Herberg2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Hindorff2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Huang2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Huang2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Ichinohe2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Jain2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Jain2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Jameson2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Jilek2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Kanwal2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Kiiveri2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Kim2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Kingsmore2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Kwok2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Landry2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Langelier2018a':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Langley2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'LeChatelier2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Lee2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Lee2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Lesnik1995':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Li2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Libert2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Loh2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Man2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Marazzi2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Marques2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Marshall2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Marti-Carvajal2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'McCarthy2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'McCloskey1994':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Morrison2001':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Munford2001':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Neumann-Haefelin2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Nicolae2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Nishida2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Ong2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Pagano2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Paschos2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Peltola2005':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Pereyra2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Peterson2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Quick2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Quick2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Quick2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rando2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rautanen2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rello2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Ripa2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Ritchie2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Robin2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rogers2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rol2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Root2003':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sanderson2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Scherag2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Schoneweck2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Schuenemann2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Scicluna2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Seymour2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Simner2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Singer2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sironi2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sorensen1988':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Stammler2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sweeney2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Sweeney2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Tang2017':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Tang2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Thaiss2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Thompson2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Tsalik2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Vincent2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wagner2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wang2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wang2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Werdan2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wilson2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Woese1987':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wong2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wright2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wu2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Wylie2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Zhang2015a':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Zhang2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Zhang2015':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 118.
+Package biblatex Info: Reference segment=0 on input line 118.
 \c__siunitx_mathsf_int=\count393
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 115
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 118
 .
-(/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 115
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 118
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 115
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 118
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 115
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 118
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for TS1+jkp on input line 115.
+LaTeX Font Info:    Try loading font information for TS1+jkp on input line 118.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
 LaTeX Font Info:    Try loading font information for OT1+jkpss on input line 11
-5.
+8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ot1jkpss.fd
 File: ot1jkpss.fd 2007/07/16 Fontinst v1.928 font definitions for OT1/jkpss.
 )
 \c__siunitx_mathtt_int=\count394
 LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 11
-5.
+8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
@@ -1538,7 +2190,7 @@ File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
 
 
 (./Preamble.tex
-<./oxford_logo-eps-converted-to.pdf, id=126, 561.09625pt x 651.43375pt>
+<./oxford_logo-eps-converted-to.pdf, id=198, 561.09625pt x 651.43375pt>
 File: ./oxford_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./oxford_logo-eps-converted-to.pdf>
@@ -1554,47 +2206,284 @@ d_logo-eps-converted-to.pdf>]
 
 ] [2
 
-] [3
+]
+Underfull \hbox (badness 1888) in paragraph at lines 101--102
+[]\OT1/jkp/b/n/12 Gene ex-pres-sion\OT1/jkp/m/n/12 : RNA sam-ple pro-cess-ing w
+as per-formed by Yuxin Mi,
+ []
+
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
+
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 120--123
+[]\OT1/jkp/b/n/12 Using \OT1/jkp/b/it/12 in vivo \OT1/jkp/b/n/12 eQTL in-ter-ac
+-tions to iden-tify the ge-netic drivers of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 98--102
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+
+Overfull \hbox (16.94426pt too wide) in paragraph at lines 138--141
+[]\OT1/jkp/b/n/12 Epstein-Barr virus re-ac-ti-va-tion in sep-sis is as-so-ci-at
+ed with an im-muno-sup-pressed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
 
  []
 
 [5
 
-] (./MainFile.toc)
+] (./MainFile.toc [6
+
+]
+Overfull \hbox (1.40764pt too wide) detected at line 115
+ []\OT1/jkp/m/n/12 125
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 120
+ []\OT1/jkp/m/n/12 131
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 122
+ []\OT1/jkp/m/n/12 132
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 123
+ []\OT1/jkp/m/n/12 132
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 124
+ []\OT1/jkp/m/n/12 132
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `MainFile.toc'.
 
- [6
+ [7] (./MainFile.lof
+Overfull \hbox (1.40764pt too wide) detected at line 26
+ []\OT1/jkp/m/n/12 100
+ []
 
-] (./MainFile.lof)
+
+Overfull \hbox (1.40764pt too wide) detected at line 27
+ []\OT1/jkp/m/n/12 101
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 28
+ []\OT1/jkp/m/n/12 102
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 29
+ []\OT1/jkp/m/n/12 104
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 30
+ []\OT1/jkp/m/n/12 105
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 31
+ []\OT1/jkp/m/n/12 108
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 32
+ []\OT1/jkp/m/n/12 110
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 33
+ []\OT1/jkp/m/n/12 111
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 34
+ []\OT1/jkp/m/n/12 112
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 35
+ []\OT1/jkp/m/n/12 114
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 36
+ []\OT1/jkp/m/n/12 115
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 37
+ []\OT1/jkp/m/n/12 116
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 38
+ []\OT1/jkp/m/n/12 117
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 39
+ []\OT1/jkp/m/n/12 119
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 40
+ []\OT1/jkp/m/n/12 120
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 41
+ []\OT1/jkp/m/n/12 121
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 42
+ []\OT1/jkp/m/n/12 122
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 43
+ []\OT1/jkp/m/n/12 124
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `MainFile.lof'.
 
- [7
+ [8
 
-] (./MainFile.lot)
+] (./MainFile.lot
+Overfull \hbox (1.40764pt too wide) detected at line 22
+ []\OT1/jkp/m/n/12 107
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 23
+ []\OT1/jkp/m/n/12 107
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 24
+ []\OT1/jkp/m/n/12 109
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 25
+ []\OT1/jkp/m/n/12 129
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 28
+ []\OT1/jkp/m/n/12 134
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 30
+ []\OT1/jkp/m/n/12 136
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 31
+ []\OT1/jkp/m/n/12 137
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 32
+ []\OT1/jkp/m/n/12 138
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 34
+ []\OT1/jkp/m/n/12 140
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 35
+ []\OT1/jkp/m/n/12 140
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 36
+ []\OT1/jkp/m/n/12 141
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 37
+ []\OT1/jkp/m/n/12 142
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `MainFile.lot'.
 
- [8
-
-]) [9
+ [9
 
 ]
+Overfull \hbox (134.59213pt too wide) in alignment at lines 158--179
+[] [] 
+ []
+
+
+Overfull \hbox (134.59213pt too wide) in alignment at lines 179--199
+[] [] 
+ []
+
+
+Overfull \hbox (134.59213pt too wide) in alignment at lines 199--219
+[] [] 
+ []
+
+
+Overfull \hbox (134.59213pt too wide) in alignment at lines 219--239
+[] [] 
+ []
+
+[10
+
+]
+Overfull \hbox (134.59213pt too wide) in alignment at lines 239--253
+[] [] 
+ []
+
+) [11]
 \openout2 = `./Introduction/Introduction.aux'.
 
-
-(./Introduction/Introduction.tex
+ (./Introduction/Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OT1+put on input line 1.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1put.fd
@@ -1602,115 +2491,1254 @@ File: ot1put.fd 2001/06/04 font definitions for OT1/put.
 )
 \c@ttl@toc@chapters=\count395
  (./MainFile.ptc)
+Underfull \hbox (badness 1596) in paragraph at lines 11--12
+\OT1/jkp/m/n/12 ae-ti-ol-ogy in con-tribut-ing to the ob-served het-ero-ge-neou
+s host re-sponse in
+ []
 
-LaTeX Warning: Citation 'Collins2003' on page 1 undefined on input line 17.
+
+Underfull \hbox (badness 2326) in paragraph at lines 13--14
+\OT1/jkp/m/n/12 suit-able for the metage-nomic se-quenc-ing of both RNA- and DN
+A-based
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 
+l.14 
       [1
 
 
 
-]) [2]
+] [2]
+<./Introduction/Images/heterogeneity.pdf, id=473, 484.06647pt x 406.25978pt>
+File: ./Introduction/Images/heterogeneity.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation 'Bonsall2015' on page 3 undefined on input line 125.
+<use ./Introduction/Images/heterogeneity.pdf>
+Package pdftex.def Info: ./Introduction/Images/heterogeneity.pdf used on input 
+line 25.
+(pdftex.def)             Requested size: 387.2537pt x 325.00827pt.
 
-[3
+Underfull \hbox (badness 1024) in paragraph at lines 31--33
+\OT1/jkp/m/n/12 There has been over-whelm-ing fail-ure of over 100 Phase II and
+ Phase III
+ []
 
-]
+[3 <./Introduction/Images/heterogeneity.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]\OT1/jkp/m/n/12 Non-selectively tar-get in-flam-ma-tory me-di-a-tors (e.g. in
+-tra-venous
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 41--42
+[]\OT1/jkp/m/n/12 Given the sub-stan-tial het-ero-gene-ity seen in sep-sis at b
+oth molec-u-lar and
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 46--47
+\OT1/jkp/m/n/12 drotreco-gin alfa iden-ti-fied sev-eral sin-gle nu-cleotide pol
+y-mor-phism (SNP)
+ []
+
+[4] [5]
+Underfull \hbox (badness 1668) in paragraph at lines 52--53
+\OT1/jkp/m/n/12 Omics-based meth-ods have ap-plied high-throughput tech-niques 
+to en-able
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 52--53
+\OT1/jkp/m/n/12 un-der-stand-ing of the molec-u-lar mech-a-nisms of sep-sis fro
+m gene level to
+ []
+
+[6]
+Underfull \hbox (badness 1997) in paragraph at lines 59--60
+\OT1/jkp/m/n/12 when bac-te-rial cases of pneu-mo-nia were anal-ysed sep-a-rate
+ly (odds ra-tio
+ []
+
+[7]
+Overfull \hbox (13.7402pt too wide) in paragraph at lines 66--67
+[]\OT1/jkp/m/n/12 Studies com-par-ing host tran-scrip-tomic sig-na-tures be-twe
+en dif-fer-ent mi-cro-bi-o-log-i-cal
+ []
+
+[8]
+Underfull \hbox (badness 2359) in paragraph at lines 74--75
+[]\OT1/jkp/m/n/12 All these stud-ies high-light the im-por-tance of ac-count-in
+g for un-der-ly-ing
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 77--78
+\OT1/jkp/m/n/12 Regulation of gene ex-pres-sion is dy-namic, in-volv-ing highly
+ co-or-di-nated
+ []
+
+[9]
+Underfull \hbox (badness 1107) in paragraph at lines 83--84
+\OT1/jkp/m/n/12 in-di-vid-u-als ([]Wang et al. []2012[]). In a third study ([]B
+enz et al. []2015[]), no
+ []
+
+[10]
+Underfull \hbox (badness 1028) in paragraph at lines 88--89
+\OT1/jkp/m/n/12 II scores. In-ter-est-ingly, no sub-stan-tial dif-fer-ences wer
+e seen be-tween the
+ []
+
+[11] [12]
+Underfull \hbox (badness 1173) in paragraph at lines 95--96
+\OT1/jkp/m/n/12 cor-rob-o-ra-tive ev-i-dence to sup-port epi-ge-net-ics as a pr
+omis-ing ap-proach to
+ []
+
+[13]
+Underfull \hbox (badness 1142) in paragraph at lines 99--100
+[]\OT1/jkp/m/n/12 In sum-mary, re-sults from stud-ies in an-i-mal mod-els and i
+n hu-mans with
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 104--105
+\OT1/jkp/m/n/12 the in-ter-ac-tion of an-other mi-croor-gan-ism with the host. 
+This syn-er-gism
+ []
+
+[14]
+Underfull \hbox (badness 4429) in paragraph at lines 106--107
+[]\OT1/jkp/m/n/12 Mucosal sur-faces rep-re-sent a crit-i-cal in-ter-face for th
+e microbiome-host
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 106--107
+\OT1/jkp/m/n/12 in-ter-ac-tion; mi-croor-gan-isms pre-vi-ously con-sid-ered to 
+be pure com-men-sals
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 108--109
+[]\OT1/jkp/m/n/12 Large-scale en-deav-ours such as the Na-tional In-sti-tutes o
+f Health Hu-man
+ []
+
+[15]
+Underfull \hbox (badness 1184) in paragraph at lines 110--111
+\OT1/jkp/m/n/12 the mi-cro-biome rep-re-sents an at-trac-tive ther-a-peu-tic ta
+r-get in sep-sis, with
+ []
+
+[16]
+Underfull \hbox (badness 2980) in paragraph at lines 116--117
+\OT1/jkp/m/n/12 Multiplex PCR plat-forms en-able the si-mul-ta-ne-ous de-tec-ti
+on of mul-ti-ple
+ []
+
+[17]
+Underfull \hbox (badness 5274) in paragraph at lines 123--124
+\OT1/jkp/m/n/12 test-ing: matrix-assisted laser des-orp-tion ionisation-time of
+ flight mass
+ []
+
+[18]
+Underfull \hbox (badness 4193) in paragraph at lines 125--126
+\OT1/jkp/m/n/12 team (AST) in-ter-ven-tion with rou-tine clin-i-cal care in in-
+di-vid-u-als with
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 125--126
+\OT1/jkp/m/n/12 based an-timi-cro-bial rec-om-men-da-tions af-ter re-ceiv-ing a
+ pos-i-tive re-sult.
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 125--126
+\OT1/jkp/m/n/12 The in-ter-ven-tion group showed sig-nif-i-cantly de-creased ti
+me to or-gan-ism
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 125--126
+\OT1/jkp/m/n/12 iden-ti-fi-ca-tion, de-creased time to ef-fec-tive an-timi-cro-
+bial ther-apy, de-creased
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 130--131
+\OT1/jkp/m/n/12 See next sec-tion (Sec-tion []1.4[]) for a de-scrip-tion of sho
+rt-read nu-cleic acid
+ []
+
+[19]
+Underfull \hbox (badness 1082) in paragraph at lines 135--136
+\OT1/jkp/m/n/12 et al. []2018[]), and lower res-pi-ra-tory in-fec-tions ([]Char
+-alampous et al. []2019[]).
+ []
+
+[20]
+Underfull \hbox (badness 1019) in paragraph at lines 145--146
+[]\OT1/jkp/b/n/12 Clinical mi-cro-biome anal-y-sis. \OT1/jkp/m/n/12 There is in
+-creas-ing aware-ness of the role
+ []
+
+[21]
+Underfull \hbox (badness 4531) in paragraph at lines 149--150
+\OT1/jkp/m/n/12 metage-nomic NGS en-abled the iden-ti-fi-ca-tion of a pre-vi-ou
+sly un-known
+ []
+
+[22]
+Underfull \hbox (badness 1668) in paragraph at lines 152--153
+\OT1/jkp/m/n/12 capture based tech-nique is the most ver-sa-tile as it does not
+ de-pend on
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 152--153
+\OT1/jkp/m/n/12 the speci-ficity of highly con-served primers for PCR am-pli-fi
+-ca-tion. The
+ []
+
+[23]
+Underfull \hbox (badness 1721) in paragraph at lines 158--159
+\OT1/jkp/m/n/12 a study which tar-geted three full length her-pesvirus genomes 
+(Varicella-
+ []
+
+[24]
+Underfull \hbox (badness 5064) in paragraph at lines 167--168
+\OT1/jkp/m/n/12 Amend-ments cer-ti-fied and Col-lege of Amer-i-can Pathol-o-gis
+ts ac-cred-ited
+ []
+
+[25] [26]
+Underfull \hbox (badness 1052) in paragraph at lines 182--183
+\OT1/jkp/m/n/12 Gru-maz and col-leagues ([]Gru-maz et al. []2016[]) as-signed a
+ sep-sis in-di-cat-ing
+ []
+
+[27]
+Underfull \hbox (badness 1024) in paragraph at lines 196--198
+[]\OT1/jkp/b/n/12 Develop a li-brary prepa-ra-tion method for metage-nomic se-q
+uenc-ing of
+ []
+
+[28]
+Underfull \hbox (badness 2547) in paragraph at lines 200--201
+[]\OT1/jkp/m/n/12 Use probe-based en-rich-ment to in-crease sen-si-tiv-ity for 
+se-quenc-ing
+ []
+
+
+Overfull \hbox (9.36717pt too wide) in paragraph at lines 205--207
+[]\OT1/jkp/b/n/12 Improve def-i-ni-tion of mi-cro-bi-o-log-i-cal ae-ti-ol-ogy u
+s-ing tar-geted metage-nomics,
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 214--217
+[]\OT1/jkp/b/n/12 Improve char-ac-ter-i-sa-tion of dis-ease het-ero-gene-ity in
+ pa-tients with no
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 214--217
+\OT1/jkp/b/n/12 pre-vi-ous mi-cro-bi-o-log-i-cal di-ag-no-sis through in-te-gra
+ted ap-pli-ca-tion of
+ []
+
+[29]
+Underfull \hbox (badness 1270) in paragraph at lines 219--220
+[]\OT1/jkp/m/n/12 Describe host tran-scrip-tomic sig-na-tures of vi-ral in-fec-
+tion, in-fluenza
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 220--221
+[]\OT1/jkp/m/n/12 Investigate the as-so-ci-a-tion be-tween host geno-type (HLA 
+type) and
+ []
+
+) [30]
 \openout2 = `./Materials_and_Methods/Materials_and_Methods.aux'.
 
  (./Materials_and_Methods/Materials_and_Methods.tex
 Chapter 2.
-(./MainFile.ptc) [4
+(./MainFile.ptc) [31
+
 
 
 ]
-Underfull \hbox (badness 3930) in paragraph at lines 20--20
+Underfull \hbox (badness 1668) in paragraph at lines 14--15
+\OT1/jkp/m/n/12 ICUs be-tween 2005 and 2019. Pa-tients were re-cruited if they 
+met the
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 14--15
+\OT1/jkp/m/n/12 di-ag-nos-tic cri-te-ria for se-vere sep-sis in use at the time
+ of study ini-ti-a-tion
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 14--15
+\OT1/jkp/m/n/12 (Sepsis-2, 1992 Amer-i-can Col-lege of Chest Physi-cians/Societ
+y of Crit-i-cal
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 19--19
 |[]\OT1/jkp/b/n/14.4 Hepatitis C virus in-fec-tion pa-tient re-cruit-ment and
  []
 
-
-Underfull \hbox (badness 1215) in paragraph at lines 24--25
-\OT1/jkp/m/n/12 Pa-tients were ex-cluded if they were im-muno-com-pro-mised, un
--der-go-ing an
- []
-
-[5]
+[32]
 Missing character: There is no ‚ in font jkpmn7t!
 Missing character: There is no Ä in font jkpmn7t!
 Missing character: There is no ô in font jkpmn7t!
 
-Underfull \hbox (badness 2035) in paragraph at lines 35--36
+Underfull \hbox (badness 2035) in paragraph at lines 34--35
 \OT1/jkp/m/n/12 guide-lines in-clud-ing: frag-men-ta-tion for 4 min-utes at 94$
 []$C, omis-sion of
  []
 
-
-Underfull \hbox (badness 1292) in paragraph at lines 37--38
+[33]
+Underfull \hbox (badness 1292) in paragraph at lines 36--37
 []\OT1/jkp/m/n/12 2: DNA: The Nex-tera DNA Li-brary Prepa-ra-tion Kit (Il-lu-mi
 na) was used
  []
 
-[6]
 
-LaTeX Warning: Citation 'Rna2005' on page 7 undefined on input line 44.
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 46--47
+Underfull \hbox (badness 1377) in paragraph at lines 45--46
 []\OT1/jkp/m/n/12 DNA: Mul-ti-ple re-stric-tion en-zyme di-gest of three syn-th
 etic plas-mids was
  []
 
 
-Overfull \hbox (20.94826pt too wide) in paragraph at lines 50--59
+Overfull \hbox (20.94826pt too wide) in paragraph at lines 49--58
  [] 
  []
 
-[7]
-Underfull \hbox (badness 5288) in paragraph at lines 75--76
+[34]
+Underfull \hbox (badness 5288) in paragraph at lines 76--77
 \OT1/jkp/m/n/12 Digital droplet PCR (ddPCR) was per-formed for tar-gets from se
 v-eral
  []
 
-[8]
-
-LaTeX Warning: Citation 'Huber2002' on page 9 undefined on input line 92.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 98.
-
-
-Overfull \hbox (56.8682pt too wide) in paragraph at lines 99--110
-[][]
+[35]
+Underfull \hbox (badness 1953) in paragraph at lines 78--79
+\OT1/jkp/m/n/12 Prime-Time (IDT) primer/probe sets tar-get-ing the \OT1/jkp/m/i
+t/12 S. pneu-mo-niae \OT1/jkp/m/n/12 cap-su-lar
  []
 
-[9]) [10]
+
+Underfull \hbox (badness 1057) in paragraph at lines 81--82
+\OT1/jkp/m/n/12 pro-pri-etary kits (Ab-cam). The man-u-fac-turer's in-struc-tio
+ns were fol-lowed.
+ []
+
+[36]
+Underfull \hbox (badness 1231) in paragraph at lines 89--90
+\OT1/jkp/m/n/12 blood leuko-cyte pop-u-la-tion. The fil-tered leuko-cytes were 
+sta-bilised with
+ []
+
+[37]
+Underfull \hbox (badness 1194) in paragraph at lines 95--96
+\OT1/jkp/m/n/12 Il-lu-mina Human-HT-12 v4 Ex-pres-sion Bead-Chip gene ex-pres-s
+ion plat-form
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 95--96
+\OT1/jkp/m/n/12 Genomes-tu-dio soft-ware. The four mi-croar-ray datasets were g
+en-er-ated by
+ []
+
+
+LaTeX Font Warning: Font shape `OML/jkp/m/n' undefined
+(Font)              using `OML/jkp/m/it' instead
+(Font)              for symbol `textless' on input line 97.
+
+[38] [39]
+Underfull \hbox (badness 1472) in paragraph at lines 108--109
+[]\OT1/jkp/m/n/12 PLINK was used for the geno-typ-ing QC. Sam-ples were ex-clud
+ed on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\OT1/jkp/m/n/12 Each of the geno-typ-ing datasets was im-puted in-de-pen-dently
+ against
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 111--112
+\OT1/jkp/m/n/12 the Hap-lo-type Ref-er-ence Con-sor-tium (HRC) re-lease 1.1 pan
+el us-ing the
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 111--112
+\OT1/jkp/m/n/12 were car-ried out us-ing the HRC Im-pu-ta-tion Tool (Will Rayne
+r, WCHG;
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 114--115
+\OT1/jkp/m/n/12 127 li-braries pre-vi-ously pre-pared for metage-nomic se-quenc
+-ing us-ing the
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 114--115
+\OT1/jkp/m/n/12 com-bined no frag-men-ta-tion pro-to-col de-scribed above were 
+en-riched for
+ []
+
+[40]
+Underfull \hbox (badness 1742) in paragraph at lines 117--118
+\OT1/jkp/m/n/12 For pa-tients with geno-typ-ing data, HLA al-le-les were im-put
+ed us-ing the
+ []
+
+) [41]
 \openout2 = `./Results1/Results1.aux'.
 
  (./Results1/Results1.tex
 Chapter 3.
+
+Underfull \hbox (badness 2903) in paragraph at lines 3--4
+\OT1/jkp/m/it/12 This chap-ter de-scribes the de-vel-op-ment of an enrichment-b
+ased metage-nomic
+ []
+
+(./MainFile.ptc) [42
+
+
+
+] [43]
+Underfull \hbox (badness 1253) in paragraph at lines 28--29
+\OT1/jkp/m/n/12 acid ex-trac-tion, cDNA syn-the-sis, frag-men-ta-tion us-ing ul
+-tra-son-i-ca-tion, and
+ []
+
+[44] [45] [46] [47] [48]
+<./Results1/Images/libprep.png, id=1074, 1638.3609pt x 963.8409pt>
+File: ./Results1/Images/libprep.png Graphic file (type png)
+
+<use ./Results1/Images/libprep.png>
+Package pdftex.def Info: ./Results1/Images/libprep.png used on input line 66.
+(pdftex.def)             Requested size: 1474.51122pt x 867.4488pt.
+ [49 <./Results1/Images/libprep.png (PNG copy)>]
+Overfull \hbox (38.72029pt too wide) in paragraph at lines 80--91
+ [] 
+ []
+
+<./Results1/Images/Exp2.pdf, id=1082, 722.7pt x 542.025pt>
+File: ./Results1/Images/Exp2.pdf Graphic file (type pdf)
+
+<use ./Results1/Images/Exp2.pdf>
+Package pdftex.def Info: ./Results1/Images/Exp2.pdf used on input line 104.
+(pdftex.def)             Requested size: 426.79134pt x 152.06755pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 111.
+
+[50
+
+] <./Results1/Images/spike-ins-1.png, id=1091, 1638.12pt x 963.6pt>
+File: ./Results1/Images/spike-ins-1.png Graphic file (type png)
+
+<use ./Results1/Images/spike-ins-1.png>
+Package pdftex.def Info: ./Results1/Images/spike-ins-1.png used on input line 1
+29.
+(pdftex.def)             Requested size: 341.43306pt x 200.83282pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 136.
+
+[51 <./Results1/Images/Exp2.pdf> <./Results1/Images/spike-ins-1.png>]
+<./Results1/Images/1b_control_length.pdf, id=1141, 722.7pt x 542.025pt>
+File: ./Results1/Images/1b_control_length.pdf Graphic file (type pdf)
+
+<use ./Results1/Images/1b_control_length.pdf>
+Package pdftex.def Info: ./Results1/Images/1b_control_length.pdf used on input 
+line 154.
+(pdftex.def)             Requested size: 426.79134pt x 152.06755pt.
+
+<./Results1/Images/1b_control_conc.pdf, id=1145, 722.7pt x 542.025pt>
+File: ./Results1/Images/1b_control_conc.pdf Graphic file (type pdf)
+
+<use ./Results1/Images/1b_control_conc.pdf>
+Package pdftex.def Info: ./Results1/Images/1b_control_conc.pdf used on input li
+ne 167.
+(pdftex.def)             Requested size: 426.79134pt x 185.67365pt.
+ [52 <./Results1/Images/1b_control_length.pdf>]
+Underfull \hbox (badness 5175) in paragraph at lines 178--178
+|[]\OT1/jkp/b/n/14.4 Evaluation of per-for-mance us-ing a Vi-ral Mul-ti-plex
+ []
+
+[53 <./Results1/Images/1b_control_conc.pdf>]
+<./Results1/Images/vmr-heatmap.png, id=1198, 627.0627pt x 426.393pt>
+File: ./Results1/Images/vmr-heatmap.png Graphic file (type png)
+
+<use ./Results1/Images/vmr-heatmap.png>
+Package pdftex.def Info: ./Results1/Images/vmr-heatmap.png used on input line 1
+85.
+(pdftex.def)             Requested size: 426.79134pt x 290.22316pt.
+
+Underfull \hbox (badness 1102) in paragraph at lines 186--186
+[]\OT1/jkp/b/n/10.95 Figure 3.6: |Com-par-i-son of Cas-tanet with 15 other lab-
+o-ra-to-ries for se-quenc-ing
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 190--191
+[]\OT1/jkp/m/n/12 For in-di-vid-ual mi-croor-gan-isms, we ob-served a lin-ear r
+e-la-tion-ship be-tween
+ []
+
+<./Results1/Images/vmr-1.png, id=1201, 1638.12pt x 963.6pt>
+File: ./Results1/Images/vmr-1.png Graphic file (type png)
+
+<use ./Results1/Images/vmr-1.png>
+Package pdftex.def Info: ./Results1/Images/vmr-1.png used on input line 195.
+(pdftex.def)             Requested size: 426.79134pt x 251.04471pt.
+ [54 <./Results1/Images/vmr-heatmap.png (PNG copy)>] <./Results1/Images/vmr-enr
+ichment.pdf, id=1206, 578.16pt x 433.62pt>
+File: ./Results1/Images/vmr-enrichment.pdf Graphic file (type pdf)
+
+<use ./Results1/Images/vmr-enrichment.pdf>
+Package pdftex.def Info: ./Results1/Images/vmr-enrichment.pdf used on input lin
+e 206.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [55 <./Results1/Images/vmr-1.png>]
+[56 <./Results1/Images/vmr-enrichment.pdf>]
+<./Results1/Images/data-processing.png, id=1224, 114.9093pt x 198.7425pt>
+File: ./Results1/Images/data-processing.png Graphic file (type png)
+
+<use ./Results1/Images/data-processing.png>
+Package pdftex.def Info: ./Results1/Images/data-processing.png used on input li
+ne 218.
+(pdftex.def)             Requested size: 213.39566pt x 369.08708pt.
+Missing character: There is no ‚ in font jkpmn7t!
+Missing character: There is no Ä in font jkpmn7t!
+Missing character: There is no ú in font jkpmn7t!
+Missing character: There is no ‚ in font jkpmn7t!
+Missing character: There is no Ä in font jkpmn7t!
+Missing character: There is no ù in font jkpmn7t!
+
+Underfull \hbox (badness 1478) in paragraph at lines 224--225
+\OT1/jkp/m/n/12 Trim-mo-matic v0.36, with the IL-LU-MI-NA-CLIP op-tions set to 
+2:10:7:1:true
+ []
+
+[57
+
+ <./Results1/Images/data-processing.png (PNG copy)>]
+Overfull \hbox (7.5026pt too wide) in paragraph at lines 226--227
+[]\OT1/jkp/m/n/12 Following align-ment, we cor-rected our se-quenc-ing re-sults
+ for in-dex mis-as-sign-ment
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 226--227
+\OT1/jkp/m/n/12 (in-dex hop-ping). This well-recognised phe-nomenon oc-curs whe
+n a small
+ []
+
+[58]
+Underfull \hbox (badness 1348) in paragraph at lines 234--235
+\OT1/jkp/m/n/12 RNA and DNA work-flows in a sin-gle stream-lined pro-to-col, en
+-abling the
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 238--239
+\OT1/jkp/m/n/12 a lack of bias to-wards par-tic-u-lar frag-ment sizes, which co
+uld in the-ory
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 240--241
+\OT1/jkp/m/n/12 in the en-riched (ge-nomic) se-quence length, the ef-fi-ciency 
+of se-quenc-ing
+ []
+
+[59]
+Underfull \hbox (badness 1028) in paragraph at lines 245--246
+\OT1/jkp/m/n/12 Other ex-am-ples of probe pan-els in-clude the sep-a-rate bac-t
+e-rial Bac-CapSeq
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 252--253
+\OT1/jkp/m/n/12 con-tain-ing $\OML/jkp/m/n/12 >$\OT1/jkp/m/n/12 95% hu-man read
+s. We dealt with this by us-ing kraken for
+ []
+
+[60]) [61]
+\openout2 = `./Results2/Results2.aux'.
+
+ (./Results2/Results2.tex
+Chapter 4.
 (./MainFile.ptc)
-<./Results1/CohortOverview.pdf, id=311, 556.0775pt x 599.23875pt>
-File: ./Results1/CohortOverview.pdf Graphic file (type pdf)
 
-<use ./Results1/CohortOverview.pdf>
-Package pdftex.def Info: ./Results1/CohortOverview.pdf used on input line 30.
-(pdftex.def)             Requested size: 426.79134pt x 459.92485pt.
- [11
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 15.
+
+[62
 
 
 
-]) [12] [13 <./Results1/CohortOverview.pdf>]
+]
+Underfull \hbox (badness 1584) in paragraph at lines 43--44
+\OT1/jkp/m/n/12 suf-fi-cient res-o-lu-tion to en-able de-tailed mi-cro-bi-o-log
+-i-cal phe-no-typ-ing. For
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\OT1/jkp/m/n/12 (http://www.encephuk.org/studies/ukchimes) is a UK-based multi-
+centre
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 49--50
+\OT1/jkp/m/n/12 which par-ti-tions a 20$\OML/jkp/m/n/12 ^^V$\OT1/jkp/m/n/12 l s
+am-ple into ap-prox-i-mately 20,000 nanolitre-sized
+ []
+
+[64]
+Underfull \hbox (badness 2126) in paragraph at lines 51--52
+\OT1/jkp/m/n/12 could have arisen from a dif-fer-ent spec-i-men type and also b
+e-cause the
+ []
+
+[65] [66]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 75.
+
+[67] [68]
+<./Results2/Images/strep-threshold.png, id=1315, 524.4393pt x 157.7895pt>
+File: ./Results2/Images/strep-threshold.png Graphic file (type png)
+
+<use ./Results2/Images/strep-threshold.png>
+Package pdftex.def Info: ./Results2/Images/strep-threshold.png used on input li
+ne 98.
+(pdftex.def)             Requested size: 419.552pt x 126.23177pt.
+ [69 <./Results2/Images/strep-threshold.png (PNG copy)>]
+<./Results2/Images/rf-roc.pdf, id=1322, 578.16pt x 433.62pt>
+File: ./Results2/Images/rf-roc.pdf Graphic file (type pdf)
+
+<use ./Results2/Images/rf-roc.pdf>
+Package pdftex.def Info: ./Results2/Images/rf-roc.pdf used on input line 114.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<./Results2/Images/rf-test.png, id=1323, 498.1812pt x 619.8357pt>
+File: ./Results2/Images/rf-test.png Graphic file (type png)
+
+<use ./Results2/Images/rf-test.png>
+Package pdftex.def Info: ./Results2/Images/rf-test.png used on input line 121.
+(pdftex.def)             Requested size: 448.35893pt x 557.84697pt.
+
+Overfull \hbox (21.5676pt too wide) in paragraph at lines 121--122
+ [][] 
+ []
+
+[70] [71 <./Results2/Images/rf-roc.pdf>] [72 <./Results2/Images/rf-test.png (PN
+G copy)>]
+Underfull \hbox (badness 1571) in paragraph at lines 127--129
+[]\OT1/jkp/b/n/12 Application to sam-ples with no pre-vi-ous mi-cro-bi-ol-ogy d
+i-ag-no-sis. \OT1/jkp/m/n/12 The
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 127--129
+\OT1/jkp/m/n/12 iden-ti-fied one or more pathogens in 37% of sam-ples in sep-si
+s (n=165),
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 127--129
+\OT1/jkp/m/n/12 been causative (Fig-ure  []4.4[]). Among such pathogens, in-sta
+nces of EBV,
+ []
+
+<./Results2/Images/rf-gains-unknown.pdf, id=1347, 578.16pt x 442.65375pt>
+File: ./Results2/Images/rf-gains-unknown.pdf Graphic file (type pdf)
+
+<use ./Results2/Images/rf-gains-unknown.pdf>
+Package pdftex.def Info: ./Results2/Images/rf-gains-unknown.pdf used on input l
+ine 132.
+(pdftex.def)             Requested size: 462.52863pt x 354.12346pt.
+
+Overfull \hbox (35.73729pt too wide) in paragraph at lines 132--133
+ [][] 
+ []
+
+[73
+
+] [74 <./Results2/Images/rf-gains-unknown.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 138.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 166.
+
+
+Overfull \hbox (13.52026pt too wide) in paragraph at lines 168--178
+ [] 
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 185--187
+\OT1/jkp/b/it/12 Streptococcus pneu-mo-niae\OT1/jkp/b/n/12 . \OT1/jkp/m/n/12 dd
+PCR for the \OT1/jkp/m/it/12 S. pneu-mo-niae cpsA \OT1/jkp/m/n/12 gene was
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 194--195
+\OT1/jkp/m/n/12 con-sid-ered as the gold stan-dard re-sult, this would mean Cas
+-tanet has a
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 196.
+
+[75] [76] <./Results2/Images/ddPCR.pdf, id=1391, 578.16pt x 433.62pt>
+File: ./Results2/Images/ddPCR.pdf Graphic file (type pdf)
+
+<use ./Results2/Images/ddPCR.pdf>
+Package pdftex.def Info: ./Results2/Images/ddPCR.pdf used on input line 221.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [77 <./Results2/Images/ddPCR.pdf>]
+<./Results2/Images/Axiom.pdf, id=1407, 811.03pt x 433.62pt>
+File: ./Results2/Images/Axiom.pdf Graphic file (type pdf)
+
+<use ./Results2/Images/Axiom.pdf>
+Package pdftex.def Info: ./Results2/Images/Axiom.pdf used on input line 234.
+(pdftex.def)             Requested size: 486.62175pt x 260.17401pt.
+
+Overfull \hbox (59.83041pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 242--243
+\OT1/jkp/m/n/12 metage-nomics re-duced the num-ber of in-di-vid-u-als with no m
+i-cro-bi-ol-ogy
+ []
+
+[78 <./Results2/Images/Axiom.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 245.
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 264--265
+[]\OT1/jkp/m/n/12 Despite this high sen-si-tiv-ity of de-tec-tion, a causative 
+or-gan-ism was only
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 264--265
+\OT1/jkp/m/n/12 iden-ti-fied in 11% of plasma sam-ples from pa-tients who had n
+o pos-i-tive
+ []
+
+[79]
+Underfull \hbox (badness 2158) in paragraph at lines 268--269
+\OT1/jkp/m/n/12 Cur-rently, \OT1/jkp/m/it/12 Cas-tanet \OT1/jkp/m/n/12 is un-ab
+le to dif-fer-en-ti-ate be-tween species within the
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 271--272
+\OT1/jkp/m/n/12 from the re-cruit-ing cen-tres. Other dis-ad-van-tages in-clude
+ the ab-sence of
+ []
+
+[80]) [81]
+\openout2 = `./Results3/Results3.aux'.
+
+ (./Results3/Results3.tex
+Chapter 5.
+(./MainFile.ptc
+Overfull \hbox (1.40764pt too wide) detected at line 124
+ []\OT1/jkp/m/n/12 125
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 129
+ []\OT1/jkp/m/n/12 131
+ []
+
+)
+Underfull \hbox (badness 1087) in paragraph at lines 11--12
+\OT1/jkp/m/n/12 dys-reg-u-lated host im-mune re-sponse to in-fec-tion in sep-si
+s. How-ever, the
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 11--12
+\OT1/jkp/m/n/12 fre-quently elu-sive na-ture of the in-fect-ing or-gan-ism has 
+lim-ited ef-forts to
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 14--15
+\OT1/jkp/m/n/12 def-i-ni-tions cen-tred around the Sys-temic In-flam-ma-tory Re
+-sponse Syn-drome
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 14--15
+\OT1/jkp/m/n/12 (SIRS) and the cor-re-spond-ing hy-per-in-flam-ma-tory and im-m
+une ac-ti-vat-ing
+ []
+
+[82
+
+
+
+]
+Underfull \hbox (badness 5417) in paragraph at lines 18--19
+[]\OT1/jkp/m/n/12 More re-cently, tran-scrip-tomic stud-ies de-scrib-ing sep-si
+s en-do-types have
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 18--19
+\OT1/jkp/m/n/12 high-lighted fea-tures of im-muno-sup-pres-sion as im-por-tant 
+in dis-tin-guish-ing
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 21--22
+\OT1/jkp/m/n/12 Previous work in the Knight lab-o-ra-tory ([]Dav-en-port et al.
+ []2016[]) de-scribes
+ []
+
+[83]
+Underfull \hbox (badness 4940) in paragraph at lines 28--29
+[]\OT1/jkp/m/n/12 Reactivated viruses in-clude the her-pesviruses Epstein-Barr 
+virus (EBV),
+ []
+
+[84] [85]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 41.
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 54--54
+[]\OT1/jkp/b/n/10.95 Table 5.1: |Pre-vi-ous work: dif-fer-en-tially ex-pressed 
+probes for mi-cro-bi-ol-ogy.
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 63--64
+[]\OT1/jkp/m/n/12 Limitations of this anal-y-sis in-clude the lack of ac-cu-rat
+e mi-cro-bi-o-log-i-cal
+ []
+
+[86]
+Underfull \hbox (badness 1184) in paragraph at lines 67--68
+\OT1/jkp/m/n/12 re-gion is be-lieved to have arisen due to human-viral co-evolu
+tion. It is
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 69--70
+\OT1/jkp/m/n/12 with dis-ease pro-gres-sion in Cau-casians. In HBV in-fec-tion,
+ Nishida and
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 71--72
+\OT1/jkp/m/n/12 stud-ies (GWLS) have iden-ti-fied poly-mor-phisms in the HLA re
+-gions to be
+ []
+
+[87]
+Underfull \hbox (badness 3168) in paragraph at lines 73--74
+\OT1/jkp/m/n/12 in-ter-est to in-ves-ti-gate the as-so-ci-a-tion be-tween spe-c
+ific HLA al-le-les and
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 78--79
+[]\OT1/jkp/m/n/12 To char-ac-terise the ex-tent and im-pli-ca-tions of EBV re-a
+c-ti-va-tion and
+ []
+
+[88]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 92.
+
+
+Overfull \hbox (23.91626pt too wide) in paragraph at lines 94--103
+ [] 
+ []
+
+[89]
+<./Results3/Images/PCA_Radhakrishnan2010.pdf, id=1541, 578.16pt x 860.67549pt>
+File: ./Results3/Images/PCA_Radhakrishnan2010.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/PCA_Radhakrishnan2010.pdf>
+Package pdftex.def Info: ./Results3/Images/PCA_Radhakrishnan2010.pdf used on in
+put line 117.
+(pdftex.def)             Requested size: 404.70924pt x 602.46873pt.
+
+Underfull \hbox (badness 1184) in paragraph at lines 118--118
+[]\OT1/jkp/b/n/10.95 Figure 5.1: |Prin-ci-pal Com-po-nent Anal-y-sis: Rad-hakr-
+ish-nan 2010 \OT1/jkp/m/n/10.95 The first two
+ []
+
+[90] [91 <./Results3/Images/PCA_Radhakrishnan2010.pdf>]
+<./Results3/Images/PCA_Davenport2011.pdf, id=1578, 578.16pt x 867.47084pt>
+File: ./Results3/Images/PCA_Davenport2011.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/PCA_Davenport2011.pdf>
+Package pdftex.def Info: ./Results3/Images/PCA_Davenport2011.pdf used on input 
+line 130.
+(pdftex.def)             Requested size: 404.70924pt x 607.22545pt.
+
+
+LaTeX Warning: Reference `:' on page 92 undefined on input line 142.
+
+[92] [93 <./Results3/Images/PCA_Davenport2011.pdf>]
+<./Results3/Images/PCA_alldata.pdf, id=1616, 588.1975pt x 855.195pt>
+File: ./Results3/Images/PCA_alldata.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/PCA_alldata.pdf>
+Package pdftex.def Info: ./Results3/Images/PCA_alldata.pdf used on input line 1
+47.
+(pdftex.def)             Requested size: 411.73544pt x 598.63243pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 155.
+
+[94] [95 <./Results3/Images/PCA_alldata.pdf>] [96]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 184.
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 199--201
+\OT1/jkp/m/n/12 (n=460) and EBV-positive (n=271) in-di-vid-u-als (Ta-ble  []5.5
+[]); pa-tients were
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 202.
+
+[97]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 224.
+
+[98] <./Results3/Images/PC1.pdf, id=1671, 578.16pt x 433.62pt>
+File: ./Results3/Images/PC1.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/PC1.pdf>
+Package pdftex.def Info: ./Results3/Images/PC1.pdf used on input line 249.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<./Results3/Images/SRS_jitter.pdf, id=1672, 578.16pt x 433.62pt>
+File: ./Results3/Images/SRS_jitter.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/SRS_jitter.pdf>
+Package pdftex.def Info: ./Results3/Images/SRS_jitter.pdf used on input line 25
+7.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [99 <./Results3/Images/PC1.pdf>]
+<./Results3/Images/ebvload.pdf, id=1683, 578.16pt x 433.62pt>
+File: ./Results3/Images/ebvload.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/ebvload.pdf>
+Package pdftex.def Info: ./Results3/Images/ebvload.pdf used on input line 269.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [100 <./Results3/Images/SRS_jitter.pdf>]
+[101 <./Results3/Images/ebvload.pdf>]
+Underfull \hbox (badness 1337) in paragraph at lines 277--279
+[]\OT1/jkp/b/n/12 Gene ex-pres-sion sig-na-ture. \OT1/jkp/m/n/12 Global gene ex
+-pres-sion from the pe-riph-eral
+ []
+
+<./Results3/Images/ebvsig1.pdf, id=1710, 578.16pt x 433.62pt>
+File: ./Results3/Images/ebvsig1.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/ebvsig1.pdf>
+Package pdftex.def Info: ./Results3/Images/ebvsig1.pdf used on input line 287.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+<./Results3/Images/ebvsig2.pdf, id=1711, 578.16pt x 433.62pt>
+File: ./Results3/Images/ebvsig2.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/ebvsig2.pdf>
+Package pdftex.def Info: ./Results3/Images/ebvsig2.pdf used on input line 296.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [102] [103 <./Results3/Images/ebvsig1.pdf>] [104 <./Results3/Images/ebvsig2.pd
+f>]
+Overfull \hbox (20.15524pt too wide) in paragraph at lines 304--304
+|[]\OT1/jkp/b/n/14.4 Evidence for im-muno-sup-pres-sion: \OT1/jkp/b/it/14.4 Str
+ep-to-coc-cus pneu-mo-niae| 
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 306--307
+\OT1/jkp/m/n/12 Of the 573 in-di-vid-u-als in the metage-nomic co-hort, 109 had
+ ev-i-dence of
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 309.
+
+[105]
+Underfull \hbox (badness 2057) in paragraph at lines 334--335
+[]\OT1/jkp/m/n/12 In ad-di-tion, in-di-vid-u-als with a high \OT1/jkp/m/it/12 S
+. pneu-mo-niae \OT1/jkp/m/n/12 bac-te-rial load ($\OMS/jkp/m/n/12 ^^U$\OT1/jkp/
+m/n/12 10$[]$
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 337.
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 351--352
+[]\OT1/jkp/m/n/12 Given the find-ings with EBV, it was pos-si-ble that lev-els 
+of \OT1/jkp/m/it/12 Strep-to-coc-cus
+ []
+
+[106] <./Results3/Images/strepsrs.png, id=1754, 1638.12pt x 963.6pt>
+File: ./Results3/Images/strepsrs.png Graphic file (type png)
+
+<use ./Results3/Images/strepsrs.png>
+Package pdftex.def Info: ./Results3/Images/strepsrs.png used on input line 356.
+
+(pdftex.def)             Requested size: 426.79134pt x 251.04471pt.
+ [107 <./Results3/Images/strepsrs.png>]
+Underfull \hbox (badness 6047) in paragraph at lines 367--368
+[]\OT1/jkp/b/n/12 Clinical char-ac-ter-is-tics and out-come. \OT1/jkp/m/n/12 Ta
+-ble []5.9[] de-tails the clin-i-cal
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 369.
+
+<./Results3/Images/viralSRS2.pdf, id=1763, 578.16pt x 433.62pt>
+File: ./Results3/Images/viralSRS2.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/viralSRS2.pdf>
+Package pdftex.def Info: ./Results3/Images/viralSRS2.pdf used on input line 392
+.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+Underfull \hbox (badness 2343) in paragraph at lines 393--393
+\OT1/jkp/m/n/10.95 The val-ues for prin-ci-pal com-po-nent 1 (PC1) pro-vide a c
+on-tin-u-ous mea-sure of
+ []
+
+[108] [109 <./Results3/Images/viralSRS2.pdf>]
+<./Results3/Images/vp-viral-bacterial.pdf, id=1780, 578.16pt x 433.62pt>
+File: ./Results3/Images/vp-viral-bacterial.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/vp-viral-bacterial.pdf>
+Package pdftex.def Info: ./Results3/Images/vp-viral-bacterial.pdf used on input
+ line 403.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+<./Results3/Images/xgr-viral.pdf, id=1785, 578.16pt x 433.62pt>
+File: ./Results3/Images/xgr-viral.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/xgr-viral.pdf>
+Package pdftex.def Info: ./Results3/Images/xgr-viral.pdf used on input line 414
+.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [110 <./Results3/Images/vp-viral-bacterial.pdf>] [111 <./Results3/Images/xgr-v
+iral.pdf>]
+Underfull \hbox (badness 1400) in paragraph at lines 426--427
+\OT1/jkp/m/n/12 in Sep-tic Shock (VAN-ISH) co-hort in-cluded 24 adults with pre
+-dom-i-nantly
+ []
+
+[112]
+<./Results3/Images/boxplot-viral-signature.pdf, id=1819, 578.16pt x 433.62pt>
+File: ./Results3/Images/boxplot-viral-signature.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/boxplot-viral-signature.pdf>
+Package pdftex.def Info: ./Results3/Images/boxplot-viral-signature.pdf used on 
+input line 433.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+<./Results3/Images/bv-roc-combined.png, id=1820, 616.4631pt x 293.1753pt>
+File: ./Results3/Images/bv-roc-combined.png Graphic file (type png)
+
+<use ./Results3/Images/bv-roc-combined.png>
+Package pdftex.def Info: ./Results3/Images/bv-roc-combined.png used on input li
+ne 443.
+(pdftex.def)             Requested size: 426.79134pt x 202.97562pt.
+
+Underfull \hbox (badness 1122) in paragraph at lines 444--444
+[]\OT1/jkp/b/n/10.95 Figure 5.14: |ROC anal-y-sis for vi-ral vs bac-te-rial sig
+-na-ture. \OT1/jkp/m/n/10.95 The thresh-old for
+ []
+
+[113 <./Results3/Images/boxplot-viral-signature.pdf>]
+<./Results3/Images/vp-flu.pdf, id=1832, 578.16pt x 433.62pt>
+File: ./Results3/Images/vp-flu.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/vp-flu.pdf>
+Package pdftex.def Info: ./Results3/Images/vp-flu.pdf used on input line 455.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [114 <./Results3/Images/bv-roc-combined.png (PNG copy)>] [115 <./Results3/Imag
+es/vp-flu.pdf>]
+<./Results3/Images/xgr-flu.pdf, id=1854, 578.16pt x 433.62pt>
+File: ./Results3/Images/xgr-flu.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/xgr-flu.pdf>
+Package pdftex.def Info: ./Results3/Images/xgr-flu.pdf used on input line 466.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [116 <./Results3/Images/xgr-flu.pdf>]
+<./Results3/Images/boxplot-influenza-signature.pdf, id=1870, 578.16pt x 433.62p
+t>
+File: ./Results3/Images/boxplot-influenza-signature.pdf Graphic file (type pdf)
+
+ <use ./Results3/Images/boxplot-influenza-signature.pdf>
+Package pdftex.def Info: ./Results3/Images/boxplot-influenza-signature.pdf used
+ on input line 485.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [117] [118 <./Results3/Images/boxplot-influenza-signature.pdf>]
+<./Results3/Images/roc-flu-both.png, id=1884, 642.4803pt x 264.2673pt>
+File: ./Results3/Images/roc-flu-both.png Graphic file (type png)
+
+<use ./Results3/Images/roc-flu-both.png>
+Package pdftex.def Info: ./Results3/Images/roc-flu-both.png used on input line 
+495.
+(pdftex.def)             Requested size: 426.79134pt x 175.55005pt.
+
+<./Results3/Images/vp-flu-viral.pdf, id=1886, 578.16pt x 433.62pt>
+File: ./Results3/Images/vp-flu-viral.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/vp-flu-viral.pdf>
+Package pdftex.def Info: ./Results3/Images/vp-flu-viral.pdf used on input line 
+507.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [119 <./Results3/Images/roc-flu-both.png (PNG copy)>] [120 <./Results3/Images/
+vp-flu-viral.pdf>]
+Underfull \hbox (badness 1406) in paragraph at lines 513--513
+|[]\OT1/jkp/b/n/14.4 Transcriptomic sig-na-ture of \OT1/jkp/b/it/14.4 Strep-to-
+coc-cus pneu-mo-niae
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 514--515
+\OT1/jkp/m/n/12 Total leuko-cyte gene ex-pres-sion was com-pared be-tween in-di
+-vid-u-als with
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 514--515
+\OT1/jkp/m/it/12 S. pneu-mo-niae \OT1/jkp/m/n/12 in-fec-tion (n=50) di-ag-nosed
+ by ei-ther clin-i-cal mi-cro-bi-ol-ogy
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 516--517
+[]\OT1/jkp/m/n/12 Differential ex-pres-sion anal-y-sis re-vealed no dif-fer-en-
+tially ex-pressed genes
+ []
+
+<./Results3/Images/vp-strep.pdf, id=1901, 578.16pt x 433.62pt>
+File: ./Results3/Images/vp-strep.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/vp-strep.pdf>
+Package pdftex.def Info: ./Results3/Images/vp-strep.pdf used on input line 521.
+
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [121 <./Results3/Images/vp-strep.pdf>]
+<./Results3/Images/bar_hla_b35.pdf, id=1915, 578.16pt x 433.62pt>
+File: ./Results3/Images/bar_hla_b35.pdf Graphic file (type pdf)
+
+<use ./Results3/Images/bar_hla_b35.pdf>
+Package pdftex.def Info: ./Results3/Images/bar_hla_b35.pdf used on input line 5
+40.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [122] [123 <./Results3/Images/bar_hla_b35.pdf>]
+Underfull \hbox (badness 1454) in paragraph at lines 558--559
+[]\OT1/jkp/m/n/12 In pre-vi-ously pub-lished work, the SRS en-do-type have been
+ de-scribed as
+ []
+
+[124] [125]
+Underfull \hbox (badness 1418) in paragraph at lines 566--567
+[]\OT1/jkp/m/n/12 Finally, im-mune ther-a-pies for sep-sis have been and con-ti
+nue to un-dergo
+ []
+
+[126]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 584.
+
+[127]
+
+LaTeX Warning: Reference `sssec:emmaDEgenes' on page 128 undefined on input lin
+e 609.
+
+[128] [129])
+Underfull \hbox (badness 2680) in paragraph at lines 619--131
+\OT1/jkp/m/n/12 Improved mi-cro-bi-o-log-i-cal phe-no-typ-ing has the po-ten-ti
+al to en-hance our
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 619--131
+\OT1/jkp/m/n/12 un-der-stand-ing of the host re-sponse in sep-sis. In this chap
+-ter, I have
+ []
+
+[130]
 \openout2 = `./Discussion/Discussion.aux'.
 
  (./Discussion/Discussion.tex
-Chapter 4.
-(./MainFile.ptc)) [14
+Chapter 6.
+(./MainFile.ptc
+Overfull \hbox (1.40764pt too wide) detected at line 133
+ []\OT1/jkp/m/n/12 132
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 134
+ []\OT1/jkp/m/n/12 132
+ []
+
+
+Overfull \hbox (1.40764pt too wide) detected at line 135
+ []\OT1/jkp/m/n/12 132
+ []
+
+)) [131
 
 
 
@@ -1719,338 +3747,285 @@ Chapter 4.
 
  (./Appendices/Appendices.tex
 Appendix A.
-[15
+[132
 
 
 
 ]
-Overfull \hbox (0.58922pt too wide) in paragraph at lines 110--157
+Overfull \hbox (18.1185pt too wide) in paragraph at lines 11--20
 [][]
  []
 
-[16] [17]
-Underfull \hbox (badness 2503) in paragraph at lines 165--165
-[]\OT1/jkp/b/n/10.95 Table A.4: |Sum-mary of genes dif-fer-en-tially ex-pressed
- be-tween CAP and FP
- []
-
-[18
+[133
 
 ]
 Appendix B.
-[19
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 35.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 61.
+
+[134
+
+
+] [135] [136]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 102.
+
+[137]
+Appendix C.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 150.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 169.
+
+
+LaTeX Warning: Float too large for page by 12.42381pt on input line 254.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 256.
+
+
+LaTeX Warning: Float too large for page by 12.42381pt on input line 315.
+
+) [138
+
+
+
+
+] [139] [140] [141]
+Underfull \hbox (badness 1881) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 Method for Quan-ti-ta-tive Tran-scrip-tional Anal-y-sis of Path
+ogens In Vivo
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Barreiro, L. B., Tailleux, L., Pai, A. A., et al. (2012). `
+`De-ci-pher-ing the
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Bomsztyk, K., Mar, D., An, D., et al. (2015). ``Ex-per-i-me
+n-tal acute lung
+ []
+
+[142
+
 
 ]
-Overfull \hbox (9.5662pt too wide) in paragraph at lines 240--241
-[]|\OT1/jkp/m/n/12 Accession| 
+Underfull \hbox (badness 1178) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 anal-y-sis of Plas-mod-ium vi-vax us-ing whole genome cap-ture.
+'' eng. \OT1/jkp/m/it/12 BMC
  []
 
 
-LaTeX Warning: Citation 'Foster2007' on page 20 undefined on input line 242.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]|\OT1/jkp/m/n/12 Mouse macrophages (n=2):
+Underfull \hbox (badness 3168) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Burnham, K. L. (2017). ``Func-tional Ge-nomics of the Sep-s
+is Re-sponse''.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]|\OT1/jkp/m/n/12 Affymetrix
+Underfull \hbox (badness 2894) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Charalampous, T., Kay, G. L., Richard-son, H., et al. (2019
+). ``Nanopore
+ []
+
+[143]
+Underfull \hbox (badness 1158) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Cuomo, C. A. (2017). ``Har-ness-ing Whole Genome Se-quenc-i
+ng in Med-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]|\OT1/jkp/m/n/12 Only LPS-induced genes con-sid-ered.
+Underfull \hbox (badness 2269) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 metage-nomic deep se-quenc-ing iden-ti-fies com-mon and rare pa
+thogens''.
+ []
+
+[144]
+Underfull \hbox (badness 1194) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Fang, H., Kneze-vic, B., Burn-ham, K. L., et al. (2016). ``
+XGR soft-ware for
  []
 
 
-Overfull \hbox (6.14622pt too wide) in paragraph at lines 242--243
-[]|\OT1/jkp/m/n/12 GSE7348| 
+Underfull \hbox (badness 5548) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Feezor, R. J., Ober-holzer, C., Baker, H. V., et al. (2003)
+. ``Molec-u-lar
  []
 
 
-LaTeX Warning: Citation 'Mages2007' on page 20 undefined on input line 246.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\OT1/jkp/m/n/12 Mouse bone mar-row
+Underfull \hbox (badness 2469) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Feng, H., Shuda, M., Chang, Y., et al. (2008). ``Clonal in-
+te-gra-tion of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\OT1/jkp/m/n/12 de-rived macrophages (n=3):
+Underfull \hbox (badness 2846) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 Wider Im-ple-men-ta-tion.'' eng. \OT1/jkp/m/it/12 Com-pu-ta-tio
+nal and struc-tural biotech-nol-ogy
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 246--246
-\OT1/jkp/m/n/12 for 18h, 2h rest, cells ei-ther
+Underfull \hbox (badness 1092) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Gao, L., Zhong, J.-C., Huang, W.-T., et al. (2017). ``In-te
+-gra-tive anal-y-sis of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\OT1/jkp/m/n/12 Affymetrix
+Underfull \hbox (badness 1286) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 throughput gene ex-pres-sion data.'' eng. \OT1/jkp/m/it/12 Amer
+-i-can jour-nal of trans-la-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\OT1/jkp/m/n/12 GeneChip
+Overfull \hbox (161.05725pt too wide) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Goh C Gol-ubchik T, A. M.d.C.M.T.A.E.I.B.D.P.P.B.A.S.H.M.N.
+D.S.G.M.B.J.M.M.H.P.H.C.S.T.B.E.P.A.S.M.K.J.B. R.
  []
 
 
-Overfull \hbox (6.14622pt too wide) in paragraph at lines 246--247
-[]|\OT1/jkp/m/n/12 GSE8621| 
+Underfull \hbox (badness 3895) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Gosiewski, T., Ludwig-Galezowska, A. H., Humin-ska, K., et 
+al. (2017).
  []
 
 
-LaTeX Warning: Citation 'Fresno2009' on page 20 undefined on input line 250.
+Underfull \hbox (badness 1406) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 re-mod-el-ing dur-ing bac-te-rial in-fec-tions.'' eng. \OT1/jkp
+/m/it/12 Cell host & mi-crobe \OT1/jkp/m/n/12 4 (2):
+ []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]|\OT1/jkp/m/n/12 Human mono-cytes (n=2):
+[145]
+Underfull \hbox (badness 1558) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 and func-tional im-pli-ca-tions of genome-wide as-so-ci-a-tion 
+loci for hu-man
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-\OT1/jkp/m/n/12 un-stim-u-lated, stim-u-lated,
+Underfull \hbox (badness 1077) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Jameson, J. L. and Longo, D. L. (2015). ``Pre-ci-sion medic
+ine--personalized,
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 250--250
-\OT1/jkp/m/n/12 and tol-er-ant cells with three
+Underfull \hbox (badness 2020) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Jilek, S., Schluep, M., Harari, A., et al. (2012). ``HLA-B7
+-restricted EBV-
+ []
+
+[146]
+Underfull \hbox (badness 1033) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 mi-cro-biome cor-re-lates with metabolic mark-ers.'' eng. \OT1/
+jkp/m/it/12 Na-ture \OT1/jkp/m/n/12 500 (7464):
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]|\OT1/jkp/m/n/12 Illumina
+Underfull \hbox (badness 2564) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Libert, N., Bi-gail-lon, C., Char-gari, C., et al. (2015). 
+``Epstein-Barr virus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-\OT1/jkp/m/n/12 Sen-trix
+Underfull \hbox (badness 1412) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 re-ac-ti-va-tion in crit-i-cally ill im-muno-com-pe-tent pa-tie
+nts.'' eng. \OT1/jkp/m/it/12 Biomed-i-cal
+ []
+
+[147]
+Underfull \hbox (badness 1365) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Neumann-Haefelin, C., McK-ier-nan, S., Ward, S., et al. (20
+06). ``Dom-i-nant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-\OT1/jkp/m/n/12 HumanRef-
+Underfull \hbox (badness 3302) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 conferred sus-cep-ti-bil-ity to chronic hep-ati-tis B in-fec-ti
+on re-quires HLA
+ []
+
+[148]
+Underfull \hbox (badness 1092) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Peltola, V. T., Murti, K. G., and Mc-Cullers, J. A. (2005).
+ ``In-fluenza virus
  []
 
 
-Overfull \hbox (12.68622pt too wide) in paragraph at lines 250--251
-[]|\OT1/jkp/m/n/12 GSE15219| 
+Underfull \hbox (badness 1701) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 neu-raminidase con-tributes to sec-ondary bac-te-rial pneu-mo-n
+ia.'' eng. \OT1/jkp/m/it/12 The
+ []
+
+[149]
+Underfull \hbox (badness 7030) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Satoh JK N; Ya-mamoto, Y. (2013). ``Molec-u-lar net-work of
+ chro-matin
  []
 
 
-LaTeX Warning: Citation 'Pena2011' on page 20 undefined on input line 254.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]|\OT1/jkp/m/n/12 Human PBMCs (n=4):
+Underfull \hbox (badness 4024) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 Barr virus nu-clear anti-gen 1-target cel-lu-lar genes sup-port
+s bi-o-log-i-cal
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 254--254
-\OT1/jkp/m/n/12 un-treated or chal-lenged with
+Underfull \hbox (badness 3291) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Schuenemann, V. J., Ku-mar Lanka-palli, A., Bar-quera, R., 
+et al. (2018).
+ []
+
+[150]
+Underfull \hbox (badness 1635) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Vincent, J. L., Brealey, D., Lib-ert, N., et al. (2015). ``
+Rapid Di-ag-no-sis of
+ []
+
+[151]
+Underfull \hbox (badness 1721) in paragraph at lines 141--141
+[][]\OT1/jkp/m/n/12 Wu, H.-J., Ivanov, I. I., Darce, J., et al. (2010). ``Gut-r
+esiding seg-mented
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 254--254
-\OT1/jkp/m/n/12 LPS (10 ng/ml) in a sin-gle
+Underfull \hbox (badness 1895) in paragraph at lines 141--141
+\OT1/jkp/m/n/12 study of lep-rosy.'' eng. \OT1/jkp/m/it/12 The New Eng-land jou
+r-nal of medicine \OT1/jkp/m/n/12 361 (27):
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\OT1/jkp/m/n/12 24h in-ter-val (LPS/LPS) and
- []
-
-
-Overfull \hbox (10.79895pt too wide) in paragraph at lines 254--254
-[]|\OT1/jkp/m/n/12 Illumina/Genome
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 254--254
-\OT1/jkp/m/n/12 BC Mi-croar-ray
- []
-
-
-Overfull \hbox (12.68622pt too wide) in paragraph at lines 254--255
-[]|\OT1/jkp/m/n/12 GSE22248| 
- []
-
-
-LaTeX Warning: Citation 'Yang2012' on page 20 undefined on input line 258.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\OT1/jkp/m/n/12 Human PBMCs (n=3) left
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 258--258
-\OT1/jkp/m/n/12 for 16h (T), washed and 2h
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\OT1/jkp/m/n/12 NimbleGen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/jkp/m/n/12 ar-ray and
- []
-
-
-LaTeX Warning: Citation 'Allantaz-Frager2013' on page 20 undefined on input lin
-e 262.
-
-
-Overfull \hbox (49.23976pt too wide) in paragraph at lines 262--262
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]|\OT1/jkp/m/n/12 Healthy PBMCs (n=6):
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 un-stim-u-lated (medium), 1
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 dose LPS (LPS un-primed), 2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]|\OT1/jkp/m/n/12 GeneChip
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 Hu-man
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 Genome U133
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 Plus 2.0 Ar-ray
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 LPS primed, 70 be-tween medium and LPS
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 un-primed - split into to-ler-ize-able and non-
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 262--262
-\OT1/jkp/m/n/12 tolerizeable. Se-lected tran-scripts as-so-ci-ated
- []
-
-
-Overfull \hbox (12.68622pt too wide) in paragraph at lines 262--263
-[]|\OT1/jkp/m/n/12 GSE46914| 
- []
-
-
-LaTeX Warning: Citation 'OCarroll2014' on page 20 undefined on input line 266.
-
-
-Overfull \hbox (11.61986pt too wide) in paragraph at lines 266--266
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 266--266
-[]|\OT1/jkp/m/n/12 Mouse bone mar-row de-rived
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|\OT1/jkp/m/n/12 Agilent mouse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|\OT1/jkp/m/it/12 k\OT1/jkp/m/n/12 -means clus-ter-ing showed unique
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 266--266
-\OT1/jkp/m/n/12 tran-scrip-tional sig-na-ture for each treat-ment
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 266--266
-\OT1/jkp/m/n/12 group, 10 gene ex-pres-sion pro-files across
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 266--266
-\OT1/jkp/m/n/12 groups. 30 up and down-reg-u-lated genes
- []
-
-Missing character: There is no ‚ in font jkpmn7t!
-Missing character: There is no Ä in font jkpmn7t!
-Missing character: There is no ì in font jkpmn7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-[]|\OT1/jkp/m/n/12 GEO
- []
-
-
-Overfull \hbox (6.7942pt too wide) in paragraph at lines 266--267
-\OT1/jkp/m/n/12 ac-ces-sion
- []
-
-
-Overfull \hbox (2.28221pt too wide) in paragraph at lines 266--267
-\OT1/jkp/m/n/12 num-ber:
- []
-
-
-Overfull \hbox (12.68622pt too wide) in paragraph at lines 266--267
-\OT1/jkp/m/n/12 GSE47783
- []
-
-
-Overfull \hbox (9.59018pt too wide) in paragraph at lines 266--267
-\OT1/jkp/m/n/12 pro-cessed
- []
-
-[20
-
-] [21])
-
-LaTeX Warning: Empty bibliography on input line 136.
-
+[152]
 \tf@ptc=\write9
 \openout9 = `MainFile.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
-(./MainFile.aux (./Preamble.aux) (./Introduction/Introduction.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+ [153]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+ (./MainFile.aux (./Preamble.aux) (./Introduction/Introduction.aux)
 (./Materials_and_Methods/Materials_and_Methods.aux) (./Results1/Results1.aux)
+(./Results2/Results2.aux) (./Results3/Results3.aux)
 (./Discussion/Discussion.aux) (./Appendices/Appendices.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 64DC65903A264057FD39E40D4F6B1787;1760.
+(rerunfilecheck)             Checksum: EA1BB8CEA7DBB5CDC033C7D526C15E65;3081.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2060,32 +4035,35 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'MainFile.run.xml'.
 \openout1 = `MainFile.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 27296 strings out of 492995
- 498975 string characters out of 6132705
- 749862 words of memory out of 5000000
- 30348 multiletter control sequences out of 15000+600000
- 50986 words of font info for 100 fonts, out of 8000000 for 9000
+ 30033 strings out of 492995
+ 573684 string characters out of 6132705
+ 1331928 words of memory out of 5000000
+ 32541 multiletter control sequences out of 15000+600000
+ 73702 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,51p,10359b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,17n,66p,10359b,1660s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adob
-e/utopia/putb8a.pfb>
-Output written on MainFile.pdf (31 pages, 339274 bytes).
+exlive/2017/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/kpfonts/jkpmite.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/kpfonts/jkpsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/kpfo
+nts/jkpttmn8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/
+putb8a.pfb>
+Output written on MainFile.pdf (165 pages, 10574136 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2274 PDF objects out of 2487 (max. 8388607)
+ 1924 compressed objects within 20 object streams
+ 562 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,6 +42,9 @@
 %SI units
 \usepackage{siunitx}
 
+%FloatBarriers
+\usepackage{placeins}
+
 % Line settings
 \usepackage{setspace}
 \usepackage{parskip}
@@ -104,7 +107,7 @@
 \usepackage{nameref} %Allows you to name chapter in reference rather than number
 \usepackage[colorlinks=false, hidelinks]{hyperref} %Citations are turned into hypertext links
 \usepackage[backend=bibtex, style=authoryear, maxcitenames=2, mincitenames=1, minbibnames=3, maxbibnames=3, dashed=false, firstinits=true, doi=false, url=false, isbn=false, uniquename=init]{biblatex}
-\addbibresource{./ThesisBibliography} %Location of references
+\addbibresource{./ThesisBibliography.bib} %Location of references
 \renewbibmacro{in:}{} %Suppress the use of "`in"' before the journal title in bibliography
 \DeclareNameAlias{sortname}{last-first} %Display all authors in bibliography as last name followed by first
 \renewcommand*{\bibpagespunct}{\addcolon\space} %colon instead of comma before pages in bibliography
@@ -122,9 +125,10 @@
 
 %List the subfolders and .tex files for each of the chapters to be included
 \include{./Introduction/Introduction}										
-\cite{Bonsall2015}
 \include{./Materials_and_Methods/Materials_and_Methods}		
 \include{./Results1/Results1}
+\include{./Results2/Results2}
+\include{./Results3/Results3}
 \include{./Discussion/Discussion}
 \include{./Appendices/Appendices}
 

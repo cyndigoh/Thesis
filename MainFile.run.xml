@@ -83,7 +83,7 @@
       <file>MainFile-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>./ThesisBibliography</file>
+      <file>./ThesisBibliography.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

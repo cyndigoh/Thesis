@@ -3,274 +3,313 @@
 
 \singlespacing
 
-\chapter{Results1}\label{app:Results1}
-
+\chapter{Materials and Methods}\label{app:Methods}
 \begin{center}
+\begin{landscape}
 
 \begin{table}[htbp]
-\begin{tabular}{@{} l r r r r l}
-\toprule
-\textbf{Clinical covariate} & \textbf{P Value}  & \textbf{FDR}  & \textbf{CAP} & \textbf{FP} & \\
-\midrule
-Sex                         & 0.523 & 0.777 & 0.51 & 0.44 & NS \\
-Activated protein C         & 0.239 & 0.495 & 0.10 & 0.03 & NS \\
-Corticosteroid              & 0.216 & 0.490 & 0.16 & 0.27 & NS \\
-Renal failure               & 0.929 & 0.963 & 0.21 & 0.19 & NS \\
-Renal replacement therapy   & 1.000 & 1.000 & 0.08 & 0.08 & NS \\
-Ventilation                 & 0.051 & 0.164 & 0.70 & 0.53 & NS \\
-Inotropes                   & 0.735 & 0.867 & 0.48 & 0.45 & NS \\
-Comorbidities: Cardiac      & 0.797 & 0.867 & 0.40 & 0.48 & NS \\
-Comorbidities: Respiratory  & 0.160 & 0.403 & 0.34 & 0.25 & NS \\
-Comorbidities: Renal        & 0.366 & 0.496 & 0.05 & 0.11 & NS \\
-Comorbidities: Neurological & 0.796 & 0.867 & 0.10 & 0.13 & NS \\
-Comorbidities: GI           & 0.002 & 0.020 & 0.04 & 0.27 & ** \\
-Comorbidities: Immune       & 0.103 & 0.297 & 0.11 & 0.25 & NS \\
-Comorbidities: Infection    & 0.706 & 0.867 & 0.05 & 0.05 & NS \\
-Comorbidities: Endocrine    & 0.178 & 0.434 & 0.18 & 0.11 & NS \\
-\bottomrule
+\begin{tabular}{|l|l|l|l|}
+\hline
+Organism               & Amplicon & Primer/probe                                                                           & Nucleotide sequence                                                                                                                                                               \\ \hline
+\textit{S. pneumoniae} & 67 bp         & \begin{tabular}[c]{@{}l@{}}Taqman probe\\ Forward primer\\ Reverse primer\end{tabular} & \begin{tabular}[c]{@{}l@{}}5'-/5HEX/AAT GTT ACG/ZEN/CAA CTG ACG AG/3IABkFQ/-3'\\ 5'-GCT GTT TTA GCA GAT AGT GAG ATC GA-3'\\ 5'-TCC CAG TCG GTG CTG TCA-3'\end{tabular}            \\ \hline
+Influenza A            & 185 bp        & \begin{tabular}[c]{@{}l@{}}Taqman probe\\ Forward primer\\ Reverse primer\end{tabular} & \begin{tabular}[c]{@{}l@{}}5'-/56-FAM/TGC AGT CCT/ZEN/CGC TCA CTG GGC ACG /3IABkFQ/-3'\\ 5'-AGG GCA TTY TGG ACA AAK CGT CTA-3'\\ 5'-GAC CRA TCC TGT CAC CTC TGA C-3'\end{tabular} \\ \hline
+Epstein-Barr virus     & 75 bp         & \begin{tabular}[c]{@{}l@{}}Taqman probe\\ Forward primer\\ Reverse primer\end{tabular} & \begin{tabular}[c]{@{}l@{}}5'-/56-FAM/AGG GAG ACA/ZEN/CAT CTG GAC CAG AAG GC/3IABkFQ/-3'\\ 5'-TCT TTG AGG TCC ACT GCC G-3'\\ 5'-TAC AGG ACC TGG AAA TGG CC-3'\end{tabular}       \\ \hline
+Cytomegalovirus        & 66 bp         & \begin{tabular}[c]{@{}l@{}}Taqman probe\\ Forward primer\\ Reverse primer\end{tabular} & \begin{tabular}[c]{@{}l@{}}5'-/56-FAM/TG GGC AAC C/ZEN/A CCG CAC TGA GG/3IABkFQ/-3'\\ 5'-TGG GCG AGG ACA ACG AA-3'\\ 5'-TGA GGC TGG GAA GCT GAC AT-3'\end{tabular}                \\ \hline
 \end{tabular}
 \medskip
-\caption[Comparison of clinical covariates between CAP and FP]{\textbf{Comparison of discrete clinical covariates between CAP and FP.} \\ 
-Discrete variables were compared by Chi-square test. The proportion for each is given for CAP and FP.}
-\label{tab:CAPvsFPCovChi}
+\caption[Primer/probe sets used for the digital droplet PCR experiments]{\textbf{Primer/probe sets used for the digital droplet PCR experiments}}
+\label{tab:ddPCRprobes}
 \end{table}
+\end{landscape}
 \bigskip
-
 \newpage
 
-\begin{longtable}[p]{ l r r r r }
-\caption[Differentially expressed genes by source of infection]{\textbf{Summary of genes differentially expressed between CAP and FP.} \\ 
-40 most significantly differentially expressed probes.}
-\label{tab:CAPvsFPDE}\\
 
-\toprule
-\textbf{Gene Symbol} & \textbf{Log$_{2}$ fold change} & \textbf{Mean CAP} & \textbf{Mean FP} & \textbf{FDR} \\
-\midrule
-\endfirsthead
 
-\multicolumn{5}{@{}l}{Table \ref{tab:CAPvsFPDE} \emph{ - continued from previous page}}\\
-\addlinespace
-\toprule
-\textbf{Gene Symbol} & \textbf{Log$_{2}$ fold change} & \textbf{Mean CAP} & \textbf{Mean FP} & \textbf{FDR} \\
-\midrule
-\endhead
 
-% footer information
-\midrule
-\multicolumn{5}{r@{}}{\emph{Continued on following page}}\\
-\endfoot
 
-\bottomrule
-\endlastfoot
+\chapter{Application of Metagenomic Sequencing to Sepsis Samples}
+\label{app:Results1}
 
-\textit{EPSTI1} & 2.25  & 10.17 & 7.91  & 2.97x10$^{-8}$ \\
-\textit{XAF1} & 1.70  & 9.71  & 8.00  & 2.12x10$^{-7}$ \\
-\textit{IFIH1} & 1.20  & 9.03  & 7.83  & 2.12x10$^{-7}$ \\
-\textit{HERC5} & 1.82  & 10.33 & 8.51  & 2.12x10$^{-7}$ \\
-\textit{LYSMD2} & 1.06  & 10.82 & 9.76  & 2.12x10$^{-7}$ \\
-\textit{OAS2} & 1.58  & 10.04 & 8.46  & 2.12x10$^{-7}$ \\
-\textit{TDRD9} & -1.30 & 8.80  & 10.10 & 2.12x10$^{-7}$ \\
-\textit{LY6E} & 1.56  & 10.56 & 8.99  & 4.12x10$^{-7}$ \\
-\textit{MSRA}     & -0.83 & 9.02  & 9.85  & 4.12x10$^{-7}$ \\
-\textit{IFIT1}    & 2.35  & 10.02 & 7.67  & 4.12x10$^{-7}$ \\
-\textit{IFIT3}    & 1.96  & 9.91  & 7.95  & 4.12x10$^{-7}$ \\
-\textit{FLJ31222} & -0.62 & 6.22  & 6.84  & 4.12x10$^{-7}$ \\
-\textit{C20ORF3}  & -0.65 & 11.05 & 11.71 & 4.50x10$^{-7}$ \\
-\textit{FBXW2}    & -0.76 & 7.86  & 8.62  & 4.50x10$^{-7}$ \\
-\textit{ATP9A}    & -1.11 & 9.80  & 10.91 & 5.45x10$^{-7}$ \\
-\textit{TDRD9}    & -1.25 & 8.88  & 10.13 & 6.71x10$^{-7}$ \\
-\textit{BTN3A3}   & 0.84  & 7.40  & 6.56  & 6.71x10$^{-7}$ \\
-\textit{IFIT2}    & 1.56  & 11.90 & 10.34 & 6.71x10$^{-7}$ \\
-\textit{NQO2}     & -0.84 & 9.94  & 10.78 & 7.40x10$^{-7}$ \\
-\textit{PARP14}   & 0.99  & 9.58  & 8.59  & 8.28x10$^{-7}$ \\
-\textit{FAM101B}  & -0.75 & 9.08  & 9.83  & 8.80x10$^{-7}$ \\
-\textit{BTN3A1}   & 1.01  & 8.74  & 7.73  & 8.85x10$^{-7}$ \\
-\textit{GADD45A}  & -1.10 & 10.08 & 11.18 & 8.85x10$^{-7}$ \\
-\textit{PSME2}    & 0.68  & 10.71 & 10.03 & 8.88x10$^{-7}$ \\
-\textit{REC8}     & 0.59  & 8.94  & 8.35  & 1.34x10$^{-6}$ \\
-\textit{CKAP4}    & -0.72 & 11.72 & 12.44 & 1.59x10$^{-6}$ \\
-\textit{LILRA6}   & -0.74 & 11.10 & 11.84 & 1.93x10$^{-6}$ \\
-\textit{PFKFB2}   & -1.41 & 8.45  & 9.86  & 1.93x10$^{-6}$ \\
-\textit{IFI44L}   & 2.13  & 8.65  & 6.52  & 1.93x10$^{-6}$ \\
-\textit{ZDHHC19}  & -2.09 & 9.84  & 11.93 & 1.94x10$^{-6}$ \\
-\textit{BIRC3}    & 0.75  & 9.12  & 8.37  & 2.32x10$^{-6}$ \\
-\textit{CA4}      & -0.96 & 10.98 & 11.94 & 2.32x10$^{-6}$ \\
-\textit{EPHB1}    & 0.86  & 6.84  & 5.98  & 2.32x10$^{-6}$ \\
-\textit{MMP9}     & -0.91 & 13.37 & 14.27 & 2.40x10$^{-6}$ \\
-\textit{WIPI1}    & -0.65 & 8.67  & 9.31  & 2.40x10$^{-6}$ \\
-\textit{KIF3C}    & -0.62 & 6.08  & 6.70  & 2.40x10$^{-6}$ \\
-\textit{ISG15}    & 1.63  & 9.76  & 8.13  & 2.58x10$^{-6}$ \\
-\textit{PFKFB2}   & -1.03 & 7.48  & 8.51  & 2.59x10$^{-6}$ \\
-\textit{IFI44}    & 1.58  & 9.94  & 8.36  & 3.01x10$^{-6}$ \\
-\textit{EFCBP1}   & -1.32 & 5.82  & 7.15  & 3.19x10$^{-6}$ \\
-\end{longtable}
-\bigskip
 
-\begin{table}[htbp]
-\begin{tabular}{@{} l r r r r}
-\toprule
-\textbf{Gene Symbol} & \textbf{Log$_{2}$ fold Change} & \textbf{Mean Viral} & \textbf{Mean Non-Viral} & \textbf{FDR} \\
-\midrule
-\textit{IFI27}       & 3.47                      & 9.22     & 5.77         & 7.14x10$^{-5}$     \\
-\textit{XAF1}        & 1.59                      & 9.18     & 7.60         & 0.014        \\
-\textit{SPATS2L}     & 1.20                      & 6.84     & 5.66         & 0.014        \\
-\textit{LOC389386}   & 0.86                      & 5.88     & 5.02         & 0.014        \\
-\textit{JUP}         & 1.65                      & 6.43     & 4.77         & 0.018        \\
-\textit{LGALS3BP}    & 1.11                      & 4.87     & 3.77         & 0.020        \\
-\textit{BTN2A2}      & 0.74                      & 4.94     & 4.21         & 0.020        \\
-\textit{SERPING1}    & 1.92                      & 7.50     & 5.60         & 0.026        \\
-\textit{GALM}        & 0.93                      & 8.37     & 7.46         & 0.026        \\
-\textit{MOV10}       & 0.88                      & 7.60     & 6.73         & 0.026        \\
-\textit{EPSTI1}      & 1.89                      & 11.10    & 9.23         & 0.029        \\
-\textit{TGIF2}       & 0.86                      & 6.81     & 5.96         & 0.031        \\
-\textit{LY6E}        & 1.49                      & 11.07    & 9.60         & 0.033        \\
-\textit{Hs.125087}   & 1.23                      & 6.82     & 5.60         & 0.033        \\
-\textit{OAS1}        & 1.20                      & 9.25     & 8.06         & 0.033        \\
-\textit{Hs.72010}    & 0.82                      & 5.74     & 4.93         & 0.033        \\
-\textit{CD2AP}       & 0.76                      & 4.93     & 4.18         & 0.033        \\
-\textit{IFI44L}      & 2.39                      & 9.77     & 7.40         & 0.033        \\
-\textit{IFI44}       & 1.49                      & 10.54    & 9.06         & 0.033        \\
-\textit{BATF2}       & 1.48                      & 5.91     & 4.45         & 0.033        \\
-\textit{OAS2}        & 1.39                      & 5.72     & 4.34         & 0.033        \\
-\textit{TIMM10}      & 1.35                      & 8.89     & 7.56         & 0.033        \\
-\textit{PARP12}      & 0.91                      & 9.81     & 8.90         & 0.033        \\
-\textit{HERC6}       & 0.83                      & 7.70     & 6.88         & 0.033        \\
-\textit{SCO2}        & 0.79                      & 10.44    & 9.66         & 0.033        \\
-\textit{SP140}       & 0.74                      & 8.30     & 7.57         & 0.033        \\
-\textit{ZCCHC2}      & 0.68                      & 3.76     & 3.08         & 0.033        \\
-\textit{PSME2}       & 0.58                      & 11.07    & 10.49        & 0.033        \\
-\textit{OAS3}        & 1.64                      & 8.76     & 7.14         & 0.033        \\
-\textit{LAP3}        & 0.81                      & 9.21     & 8.41         & 0.035        \\
-\textit{LOC652694}   & 1.28                      & 8.48     & 7.20         & 0.040        \\
-\textit{HES4}        & 0.98                      & 7.68     & 6.70         & 0.041        \\
-\textit{RSAD2}       & 1.74                      & 8.24     & 6.52         & 0.043        \\
-\textit{OTOF}        & 1.37                      & 6.06     & 4.71         & 0.043        \\
-\textit{IFIH1}       & 0.96                      & 9.11     & 8.16         & 0.043        \\
-\textit{LAMP3}       & 0.81                      & 5.24     & 4.44         & 0.043        \\
-\textit{RTP4}        & 1.37                      & 7.30     & 5.94         & 0.044        \\
-\textit{ISG15}       & 1.49                      & 10.45    & 8.97         & 0.049        \\
-\textit{C19orf12}    & 0.63                      & 7.92     & 7.29         & 0.049        \\
-\textit{ECHDC3}      & -1.15                     & 7.40     & 8.55         & 0.049       \\
-\bottomrule
+\begin{table}[]
+\scalebox{0.7}{
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Virus family} & \textbf{Virus species}                                                                                                                                                                                                                                                                                   \\ \hline
+Adenoviridae          & Human adenovirus                                                                                                                                                                                                                                                                                         \\ \hline
+Arenaviridae          & \begin{tabular}[c]{@{}l@{}}Lassa virus\\ Lymphocytic choriomeningitis virus\end{tabular}                                                                                                                                                                                                                 \\ \hline
+Coronaviridae         & \begin{tabular}[c]{@{}l@{}}Human coronavirus HKU1, NL63, OC43, 229E\\ Middle East respiratory syndrome coronavirus\\ Severe acute respiratory syndrome coronavirus\end{tabular}                                                                                                                          \\ \hline
+Flaviviridae          & \begin{tabular}[c]{@{}l@{}}Dengue virus\\ Japanese encephalitis virus\\ Murray Valley encephalitis virus\\ St Louis encephalitis virus\\ Tick-borne encephalitis virus\\ West Nile virus\\ Yellow fever virus\\ Zika virus\end{tabular}                                                                  \\ \hline
+Herpesviridae         & \begin{tabular}[c]{@{}l@{}}Human herpesvirus 3 (Varicella zoster virus)\\ Human herpesvirus 4 (Epstein Barrvirus)\\ Human herpesvirus 5 (Cytomegalovirus)\\ Human herpesvirus 6-7 (Roseolovirus)\\ Human herpesvirus 8 (Kaposi's sarcoma-associated herpesvirus)\\ Herpes simplex virus 1-2\end{tabular} \\ \hline
+Orthomyxoviridae      & Influenza virus A-C                                                                                                                                                                                                                                                                                      \\ \hline
+Paramyxoviridae       & \begin{tabular}[c]{@{}l@{}}Hendra henipavirus\\ Human metapneumovirus \\ Humanparainfluenzavirus1-5\\ Measles morbilivirus\\ Mumps rubulavirus\\ Nipah henipavirus\\ Respiratory syncytial virus \\ Sosugavirus\end{tabular}                                                                             \\ \hline
+Parvoviridae          & \begin{tabular}[c]{@{}l@{}}Human bocavirus\\ Human parvovirus B19\\ Human parvovirus 4\\ Primate erythroparvovirus 1\\ Primate tetraparvovirus 1\end{tabular}                                                                                                                                            \\ \hline
+Peribunyaviridae      & California encephalitis virus                                                                                                                                                                                                                                                                            \\ \hline
+Phenuiviridae         & \begin{tabular}[c]{@{}l@{}}Rift valley fever virus\\ Sandfly fever Naples virus\\ Sandfly fever Sicilian virus\end{tabular}                                                                                                                                                                              \\ \hline
+Picornaviridae        & \begin{tabular}[c]{@{}l@{}}Cardiovirus A-B\\ Coxsackie A virus\\ ECHO virus\\ Enterovirus A, B, D\\ Hepatitis A virus\\ Parechovirus A-B \\ Rhinovirus A-C\\ Rosavirus A\\ Salivivirus\end{tabular}                                                                                                      \\ \hline
+Polyomaviridae        & \begin{tabular}[c]{@{}l@{}}BK virus\\ JC polyomavirus\end{tabular}                                                                                                                                                                                                                                       \\ \hline
+Reoviridae            & Rotavirus A-C                                                                                                                                                                                                                                                                                            \\ \hline
+Rhabdovirus           & \begin{tabular}[c]{@{}l@{}}Australian bat lyssavirus\\ Duvenhage lyssavirus\\ European bat lyssavirus 1-2\\ Lagos bat lyssavirus\\ Mokola lyssavirus\\ Rabies lyssavirus\end{tabular}                                                                                                                    \\ \hline
+Togaviridae           & \begin{tabular}[c]{@{}l@{}}Chikungunya virus\\ Eastern equine encephalitis virus\\ Rubella virus\\ Venezuelan equine encephalitis virus\\ Western equine encephalitis virus\end{tabular}                                                                                                                 \\ \hline
 \end{tabular}
-\medskip
-\caption[Differentially expressed genes for viral infections]{\textbf{Summary of genes differentially expressed between viral and non-viral patients.}}
-\label{tab:ViralDE}
+}
+\caption[Enrichment Probe Set Viruses]{\textbf{Viruses included in enrichment probe set}}
+\label{tab:ProbeSetViruses}
 \end{table}
-\bigskip
 
-\clearpage
-\begin{longtable}[h]{ l r r r r }
-\caption[Differentially expressed genes by source of infection (validation)]{\textbf{Summary of genes differentially expressed between CAP and FP (validation).} \\ 
-40 most significantly differentially expressed probes.}
-\label{tab:CAPvsFPDEValid}\\
+\begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Bacterial genus}  & \textbf{Bacterial species}                                                             \\ \hline
+\textit{Acinetobacter}    & \textit{\begin{tabular}[c]{@{}l@{}}baumanii\\ calcoaceticus\end{tabular}}              \\ \hline
+\textit{Bartonella}       & \textit{henselae}                                                                      \\ \hline
+\textit{Bordetella}       & \textit{pertussis}                                                                     \\ \hline
+\textit{Borrelia}         & \textit{burgdorferi}                                                                   \\ \hline
+\textit{Brucella}         & \textit{}                                                                              \\ \hline
+\textit{Burkholderia}     & \textit{cepacia}                                                                       \\ \hline
+\textit{Chlamydophila}    & \textit{\begin{tabular}[c]{@{}l@{}}pneumoniae\\ psittaci\end{tabular}}                 \\ \hline
+\textit{Coxiella}         & \textit{burnetii}                                                                      \\ \hline
+\textit{Enterobacter}     & \textit{\begin{tabular}[c]{@{}l@{}}aerogenes\\ cloacae\end{tabular}}                   \\ \hline
+\textit{Escherichia}      & \textit{coli}                                                                          \\ \hline
+\textit{Haemophilus}      & \textit{\begin{tabular}[c]{@{}l@{}}influenzae\\ parainfluenzae\end{tabular}}           \\ \hline
+\textit{Klebsiella}       & \textit{\begin{tabular}[c]{@{}l@{}}pneumoniae\\ oxytoca\end{tabular}}                  \\ \hline
+\textit{Legionella}       & \textit{pneumophila}                                                                   \\ \hline
+\textit{Leptospira}       & \textit{}                                                                              \\ \hline
+\textit{Listeria}         & \textit{monocytogenes}                                                                 \\ \hline
+\textit{Moraxella}        & \textit{catarrhalis}                                                                   \\ \hline
+\textit{Mycobacterium}    & \textit{\begin{tabular}[c]{@{}l@{}}avium\\ intracellulare\\ tuberculosis\end{tabular}} \\ \hline
+\textit{Mycoplasma}       & \textit{pneumoniae}                                                                    \\ \hline
+\textit{Neisseria}        & \textit{meningitidis}                                                                  \\ \hline
+\textit{Nocardia}         & \textit{}                                                                              \\ \hline
+\textit{Pseudomonas}      & \textit{aeruginosa}                                                                    \\ \hline
+\textit{Serratia}         & \textit{marcescens}                                                                    \\ \hline
+\textit{Staphylococcus}   & \textit{aureus}                                                                        \\ \hline
+\textit{Stenotrophomonas} & \textit{maltophilia}                                                                   \\ \hline
+\textit{Streptococcus}    & \textit{\begin{tabular}[c]{@{}l@{}}agalactiae\\ pneumoniae\\ pyogenes\end{tabular}}    \\ \hline
+\textit{Treponema}        & \textit{pallidum}                                                                      \\ \hline
+\end{tabular}
+\caption[Enrichment Probe Set Bacteria]{\textbf{Bacteria included in enrichment probe set}}
+\label{tab:ProbeSetBacteria}
+\end{table}
 
-\toprule
-\textbf{Gene Symbol} & \textbf{Log$_{2}$ fold change} & \textbf{Mean CAP} & \textbf{Mean FP} & \textbf{FDR} \\
-\midrule
-\endfirsthead
 
-\multicolumn{5}{@{}l}{Table \ref{tab:CAPvsFPDEValid} \emph{ - continued from previous page}}\\
-\addlinespace
-\toprule
-\textbf{Gene Symbol} & \textbf{Log$_{2}$ fold change} & \textbf{Mean CAP} & \textbf{Mean FP} & \textbf{FDR} \\
-\midrule
-\endhead
 
-% footer information
-\midrule
-\multicolumn{5}{r@{}}{\emph{Continued on following page}}\\
-\endfoot
-
-\bottomrule
-\endlastfoot
-
-\textit{PATL2} & 1.12 & 8.15 & 7.04 & 2.93x10$^{-11}$ \\
-\textit{LOC197135} & 0.96 & 7.62 & 6.66 & 2.35x10$^{-10}$ \\
-\textit{BTN3A1} & 1.38 & 9.12 & 7.74 & 2.35x10$^{-10}$ \\
-\textit{CA4} & -1.12 & 11.04 & 12.17 & 7.92x10$^{-10}$ \\
-\textit{IFIT3} & 2.28 & 10.14 & 7.86 & 1.22x10$^{-9}$ \\
-\textit{HERC5} & 1.78 & 10.14 & 8.36 & 6.54x10$^{-9}$ \\
-\textit{TAP2} & 1.00 & 9.04 & 8.04 & 6.54x10$^{-9}$ \\
-\textit{IFIT1} & 2.44 & 9.52 & 7.08 & 1.18x10$^{-8}$ \\
-\textit{HS.573264} & 0.48 & 7.38 & 6.91 & 1.27x10$^{-8}$ \\
-\textit{GFOD2} & -0.57 & 7.92 & 8.49 & 1.33x10$^{-8}$ \\
-\textit{IFIT2} & 1.78 & 11.88 & 10.10 & 1.72x10$^{-8}$ \\
-\textit{ODF3B} & 0.93 & 7.93 & 7.01 & 2.27x10$^{-8}$ \\
-\textit{EPSTI1} & 2.15 & 9.74 & 7.59 & 2.53x10$^{-8}$ \\
-\textit{IFIH1} & 1.21 & 8.71 & 7.50 & 2.95x10$^{-8}$ \\
-\textit{PARP14} & 1.11 & 9.73 & 8.62 & 4.25x10$^{-8}$ \\
-\textit{POLB} & 0.84 & 9.41 & 8.57 & 6.18x10$^{-8}$ \\
-\textit{XAF1} & 1.66 & 9.66 & 8.00 & 6.95x10$^{-8}$ \\
-\textit{PDE4B} & 0.99 & 9.30 & 8.31 & 8.53x10$^{-8}$ \\
-\textit{TCTN1} & 0.57 & 6.79 & 6.23 & 8.53x10$^{-8}$ \\
-\textit{PSMB9} & 0.68 & 8.11 & 7.43 & 1.84x10$^{-7}$ \\
-\textit{PECR} & -1.02 & 8.53 & 9.55 & 1.84x10$^{-7}$ \\
-\textit{TDRD9} & -1.49 & 8.94 & 10.43 & 2.86x10$^{-7}$ \\
-\textit{ZNF282} & -0.54 & 7.37 & 7.91 & 5.20x10$^{-7}$ \\
-\textit{GBP1} & 1.53 & 8.84 & 7.32 & 5.65x10$^{-7}$ \\
-\textit{MMP9} & -0.99 & 13.19 & 14.18 & 5.65x10$^{-7}$ \\
-\textit{LYSMD2} & 1.04 & 10.69 & 9.65 & 5.65x10$^{-7}$ \\
-\textit{TDRD9} & -1.51 & 8.74 & 10.25 & 6.65x10$^{-7}$ \\
-\textit{SCO2} & 1.02 & 10.33 & 9.32 & 8.58x10$^{-7}$ \\
-\textit{GBP1} & 1.49 & 9.65 & 8.16 & 9.76x10$^{-7}$ \\
-\textit{UBE2L6} & 0.87 & 11.91 & 11.04 & 1.02x10$^{-6}$ \\
-\textit{PCMT1} & -0.48 & 11.56 & 12.04 & 1.15x10$^{-6}$ \\
-\textit{BTN3A3} & 0.78 & 7.56 & 6.77 & 1.23x10$^{-6}$ \\
-\textit{GBP5} & 1.39 & 9.81 & 8.41 & 1.24x10$^{-6}$ \\
-\textit{STAT1} & 1.02 & 9.87 & 8.84 & 1.35x10$^{-6}$ \\
-\textit{ABCG1} & 1.25 & 9.00 & 7.75 & 1.42x10$^{-6}$ \\
-\textit{ABCG1} & 0.93 & 7.21 & 6.28 & 1.57x10$^{-6}$ \\
-\textit{IER5} & 0.65 & 8.73 & 8.08 & 1.57x10$^{-6}$ \\
-\textit{PSME1} & 0.48 & 12.52 & 12.04 & 1.57x10$^{-6}$ \\
-\textit{HS.445414} & 0.68 & 8.51 & 7.83 & 1.82x10$^{-6}$ \\
-\textit{LOC282997} & 0.68 & 7.41 & 6.74 & 1.82x10$^{-6}$ \\
-\end{longtable}
-\bigskip
-
-\chapter{Results2}
-\label{app:Results2}
 
 \begin{landscape}
-\begin{center}
-\begin{longtable}[ht]{p{.15\textheight} p{.40\textheight} p{.20\textheight} p{.60\textheight} p{.10\textheight}}
-\caption{In vitro studies of the transcriptomic endotoxin tolerance response.}
-\label{tab:ETDatasets}\\
-\toprule
-Study & Samples & Platform & ET Analysis Approach & Accession \\
-\midrule
-\textcite{Foster2007} & Mouse macrophages (n=2): untreated (N), stimulated once (N+L) or twice (T+L) with LPS & Affymetrix Mouse Genome 430 2.0 arrays & Only LPS-induced genes considered. Tolerizeable genes defined as (N+L)/(T+L) $>$3. Non-tolerizeable genes defined as (N+L)/(T+L) $\geq$ 1 & GSE7348 \\
 
-& & & & \\
 
-\textcite{Mages2007} & Mouse bone marrow derived macrophages (n=3): prestimulated (1\_X) or not (0\_X) for 18h, 2h rest, cells either restimulated (X\_1) or not (X\_0) & Affymetrix GeneChip MOE430 2.0 & All pairwise comparisons between treatments, presented as comparisons with untreated cells & GSE8621\\
+\begin{table}[]
+\centering
+\caption[Viral Multiplex Reference]{Viral Multiplex Reference reagent 11/242 (UK NIBSC). This reference set included 25 viruses of various nucleic acid types, envelope types and genome sizes. 21/25 viruses had corresponding enrichment probes in our probe panel. (Adapted from Mee et al.)
+\label{tab:VMR}\\
+{\bf }}
+\scalebox{0.85}{
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+Group                      & Family                            & Species/serotype               & Envelope             & Genome size & Included in probeset & Concentration (log10 copies/ml) \\ \hline
+\multirow{7}{*}{dsDNA}     & \multirow{2}{*}{Adenoviridae}     & Adenovirus 2                   & \multirow{2}{*}{No}  & 35.9        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Adenovirus 41                  &                      & 34.2        & Yes                  & NA                                           \\ \cline{2-7} 
+                           & \multirow{5}{*}{Herpesviridae}    & Human herpesvirus 1            & \multirow{5}{*}{Yes} & 151.2       & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Human herpesvirus 2            &                      & 154.7       & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Human herpesvirus 3 (VZV)      &                      & 124.8       & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Human herpesvirus 4 (EBV)      &                      & 171.7       & Yes                  & 3.88                                         \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Human herpesvirus 5 (CMV)      &                      & 233.7       & Yes                  & 4.66                                         \\ \hline
+dsRNA                      & Reoviridae                        & Rotavirus A                    & No                   & 18.5        & Yes                  & 6.76                                         \\ \hline
+\multirow{8}{*}{ssRNA (+)} & Astroviridae                      & Astrovirus                     & No                   & 6.8         & No                   & NA                                           \\ \cline{2-7} 
+                           & \multirow{3}{*}{Caliciviridae}    & Norovirus GI                   & \multirow{3}{*}{No}  & 7.6         & No                   & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Norovirus GII                  &                      & 7.5         & No                   & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Sapovirus C12                  &                      & 7.5         & No                   & NA                                           \\ \cline{2-7} 
+                           & Coronaviridae                     & Coronavirus 229E               & Yes                  & 27.2        & Yes                  & NA                                           \\ \cline{2-7} 
+                           & \multirow{3}{*}{Picornaviridae}   & Coxsackievirus B4              & \multirow{3}{*}{No}  & 7.4         & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Rhinovirus A39                 &                      & 7.1         & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Parechovirus 3                 &                      & 7.2         & Yes                  & 7.07                                         \\ \hline
+\multirow{9}{*}{ssRNA (-)} & \multirow{3}{*}{Orthomyxoviridae} & Influenza A virus H1N1         & \multirow{3}{*}{Yes} & 13.2        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Influenza A virus H3N2         &                      & 13.6        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Influenza B virus              &                      & 14.2        & Yes                  & NA                                           \\ \cline{2-7} 
+                           & \multirow{6}{*}{Paramyxoviridae}  & Metapneumovirus A              & \multirow{6}{*}{Yes} & 13.3        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Parainfluenzavirus 1           &                      & 15.5        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Parainfluenzavirus 2           &                      & 15.7        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Parainfluenzavirus 3           &                      & 15.4        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Parainfluenzavirus 4           &                      & 17.4        & Yes                  & NA                                           \\ \cline{3-3} \cline{5-7} 
+                           &                                   & Respiratory syncytial virus A2 &                      & 15.2        & Yes                  & 3.75                                         \\ \hline
+\small
+\end{tabular}
+}
+\end{table}
 
-& & & & \\
 
-\textcite{Fresno2009} & Human monocytes (n=2): unstimulated, stimulated, and tolerant cells with three different exposure times & Illumina Sentrix HumanRef-8\_V2 BeadChip & LPS-induced genes classified as tolerizeable and nontolerizeable in the ET phase, genes moving between these groups over time described & GSE15219 \\
-
-& & & & \\
-
-\textcite{Pena2011} & Human PBMCs (n=4): untreated or challenged with LPS (10 ng/ml) in a single dose (LPS) or two doses at a 24h interval (LPS/LPS) and incubated for 4h & Illumina/Genome BC Microarray Platform &ET: differentially expressed between LPS/LPS and untreated cells. & GSE22248 \\
-
-& & & & \\
-
-\textcite{Yang2012} & Human PBMCs (n=3) left untreated (N) or LPS stimulated for 16h (T), washed and 2h recovery; then given media (N, T) or LPS 6h (N+L, T+L) & NimbleGen array and GenePix Pro 6.0 & Gene expression compared between untreated, stimulated, restimulated. T vs N most changes, but 356 non-tolerizeable genes also identified and focussed on as potential regulators of TLR-induced inflammation. & NA \\
-
-& & & & \\
-
-\textcite{Allantaz-Frager2013} & Healthy PBMCs (n=6): unstimulated (medium), 1 dose LPS (LPS unprimed), 2 doses of LPS (LPS primed) or 2 doses of LPS and interferon gamma (LPS primed + IFNg) & GeneChip Human Genome U133 Plus 2.0 Array (Affymetrix) & 43 transcripts DE between LPS unprimed and LPS primed, 70 between medium and LPS unprimed - split into tolerizeable and non-tolerizeable. Selected transcripts associated with development of ET identified, expression restored after immunostimulation with IFN-$\gamma$. Validation by qRT-PCR in healthy donors and septic patients & GSE46914 \\
-
-& & & & \\
-
-\textcite{OCarroll2014} & Mouse bone marrow derived macrophages (n=3). Untreated (N), acute response to LPS (LPS activation group), LPS tolerance (T) and recovered (RM). & Agilent mouse 8x60K arrays & \emph{k}-means clustering showed unique transcriptional signature for each treatment group, 10 gene expression profiles across groups. 30 up and downregulated genes compared with recovered macrophages. Focus on recovery from endotoxin tolerance, no gene list for tolerance given. & GEO accession number: GSE47783 – raw and processed data \\
-
-\bottomrule
-\medskip
-\end{longtable}
-\end{center}
 \end{landscape}
 
 \clearpage
 
 \end{center}
+
+\chapter{Integration of Microbiology with the Host Response}\label{ch:AppResults3}
+
+\begin{table}[]
+\begin{center}
+\begin{tabular}{lll}
+\textbf{Gene}      & \textbf{log2(fold change)} & \textbf{FDR} \\
+\textit{IGLL1}     & 0.79                       & 4.02E-03     \\
+\textit{CDC20}     & 0.62                       & 4.51E-03     \\
+\textit{CACNA2D3}  & -0.63                      & 5.21E-03     \\
+\textit{TXNDC5}    & 0.75                       & 8.48E-03     \\
+\textit{IGKV3D-20} & 0.78                       & 9.23E-03     \\
+\textit{KIAA0101}  & 0.59                       & 1.28E-02     \\
+\textit{IGKV1D-33} & 0.61                       & 1.33E-02     \\
+\textit{IGJ}       & 0.83                       & 1.33E-02     \\
+\textit{PRTN3}     & 0.66                       & 4.68E-02    
+\end{tabular}
+\end{center}
+\caption[Differentially expressed genes in EBV reactivation]{\textbf{Summary of differentially expressed genes in EBV-positive vs EBV-negative individuals.} Nine genes were significant at fold-change $>$1.5 and FDR $<$0.05.} 
+\label{tab:ebv-de-genes}
+\end{table}
+
+\begin{table}[]
+\begin{center}
+\begin{tabular}{lll}
+\textbf{Gene}      & \textbf{log2(fold change)} & \textbf{FDR} \\
+\textit{IGLL1}     & 0.85                       & 1.15E-03     \\
+\textit{TXNDC5}    & 0.81                       & 2.43E-03     \\
+\textit{IGKV3D-20} & 0.84                       & 2.54E-03     \\
+\textit{IGKV1D-33} & 0.66                       & 3.38E-03     \\
+\textit{CDC20}     & 0.59                       & 3.98E-03     \\
+\textit{IGJ}       & 0.89                       & 4.06E-03     \\
+\textit{MGC29506}  & 0.61                       & 5.96E-03     \\
+\textit{TNFRSF17}  & 0.63                       & 1.32E-02     \\
+\textit{DEFA1B} & 0.82                       & 3.11E-02     \\
+\textit{PRTN3}     & 0.66                       & 3.87E-02     \\
+\textit{DEFA4}     & 0.75                       & 4.19E-02     \\
+\textit{CEACAM6}   & 0.63                       & 4.82E-02    
+\end{tabular}
+\end{center}
+\caption[Differentially expressed genes in EBV reactivation with SRS as a covariate]{\textbf{Summary of differentially expressed genes in EBV-positive vs EBV-negative individuals with SRS included as a covariate in the linear model.} Twelve genes were significant at fold-change $>$1.5 and FDR $<$0.05.} 
+\label{tab:ebv-de-genes-srs}
+\end{table}
+
+
+
+\begin{table}
+\begin{center}
+\scalebox{0.9}{
+\begin{tabular}{lll}
+\textbf{Gene}      & \textbf{log2(fold change)} & \textbf{FDR} \\
+\textit{IFI27}     & 3.10           & 6.88E-07           \\
+\textit{IMPA2}     & -0.64          & 1.86E-04           \\
+\textit{C3ORF54}   & 0.74           & 6.59E-04           \\
+\textit{SPATS2L}   & 1.02           & 6.59E-04           \\
+\textit{LOC554203} & 0.59           & 6.91E-04           \\
+\textit{HERC6}     & 0.94           & 8.17E-04           \\
+\textit{JUP}       & 1.28           & 9.63E-04           \\
+\textit{TIMM10}    & 1.33           & 1.03E-03           \\
+\textit{SRC}       & 0.77           & 1.03E-03           \\
+\textit{HES4}      & 1.04           & 1.03E-03           \\
+\textit{LGALS3BP}  & 0.82           & 1.03E-03           \\
+\textit{RASGRP3}   & 0.75           & 1.03E-03           \\
+\textit{TGIF2}     & 0.64           & 1.03E-03           \\
+\textit{MT1A}      & 0.89           & 1.03E-03           \\
+\textit{C9ORF91}   & 0.75           & 1.03E-03           \\
+\textit{OAS1}      & 1.42           & 1.08E-03           \\
+\textit{SCO2}      & 0.92           & 1.08E-03           \\
+\textit{HS.125087} & 1.21           & 1.08E-03           \\
+\textit{PARP12}    & 1.07           & 1.08E-03           \\
+\textit{EPSTI1}    & 2.02           & 1.08E-03           \\
+\textit{OAS2}      & 1.57           & 1.08E-03           \\
+\textit{IFI44L}    & 2.42           & 1.08E-03           \\
+\textit{SP140}     & 0.78           & 1.08E-03           \\
+\textit{LY6E}      & 1.69           & 1.11E-03           \\
+\textit{CXCL10}    & 0.78           & 1.16E-03           \\
+\textit{TMCO3}     & -0.70          & 1.21E-03           \\
+\textit{HS.72010}  & 0.63           & 1.28E-03           \\
+\textit{XAF1}      & 1.44           & 1.28E-03           \\
+\textit{IFI44}     & 1.68           & 1.33E-03           \\
+\textit{RNASE1}    & 0.94           & 1.36E-03           \\
+\textit{GALM}      & 0.85           & 1.45E-03           \\
+\textit{IFIT3}     & 1.57           & 1.45E-03           \\
+\textit{RSAD2}     & 1.81           & 1.84E-03           \\
+\textit{LAMP3}     & 0.72           & 1.99E-03           \\
+\textit{HS.386275} & 0.70           & 1.99E-03           \\
+\textit{PLB1}      & -0.74          & 2.02E-03           \\
+\textit{MT2A}      & 1.00           & 2.14E-03           \\
+\textit{SERPING1}  & 1.50           & 2.14E-03           \\
+\textit{OAS3}      & 1.66           & 2.14E-03           \\
+\textit{CDKN1A}    & 0.71           & 2.14E-03           \\
+\textit{LHFPL2}    & 0.68           & 2.30E-03           \\
+\textit{BTN3A3}    & 0.85           & 2.47E-03           \\
+\textit{PARP14}    & 0.95           & 2.52E-03           \\
+\textit{IFIT5}     & 0.97           & 2.57E-03           \\
+\textit{FHL2}      & 0.61           & 2.60E-03           \\
+\textit{CXCL16}    & -0.63          & 2.93E-03           \\
+\textit{SIGLEC10}  & -0.88          & 3.13E-03           \\
+\textit{NLRC4}     & -0.67          & 3.55E-03           \\
+\textit{ISG15}     & 1.68           & 3.59E-03           \\
+\textit{ZNF684}    & 0.60           & 3.63E-03                  
+
+
+\end{tabular}}
+\end{center}
+\caption[Differentially expressed genes in viral infection]{\textbf{Summary of differentially expressed genes in viral vs bacterial infection.} The top 50 most significantly differentially expressed genes are listed here.} 
+\label{tab:vb-de-genes}
+\end{table}
+
+\begin{table}[]
+\begin{center}
+\scalebox{0.9}{
+\begin{tabular}{lll}
+\textbf{Gene}      & \textbf{log2(fold change)} & \textbf{FDR} \\
+\textit{IFI27}     & 3.52                       & 1.3E-06      \\
+\textit{JUP}       & 1.68                       & 2.0E-04      \\
+\textit{C3ORF54}   & 0.90                       & 4.7E-04      \\
+\textit{NPL}       & -0.66                      & 7.9E-04      \\
+\textit{SPATS2L}   & 1.17                       & 1.1E-03      \\
+\textit{CBL}       & -0.68                      & 1.4E-03      \\
+\textit{IMPA2}     & -0.67                      & 1.7E-03      \\
+\textit{HERC6}     & 1.01                       & 4.8E-03      \\
+\textit{LGALS3BP}  & 0.89                       & 5.1E-03      \\
+\textit{HES4}      & 1.12                       & 6.0E-03      \\
+\textit{MT1A}      & 0.98                       & 6.2E-03      \\
+\textit{BCAT1}     & -1.20                      & 7.0E-03      \\
+\textit{RASGRP3}   & 0.80                       & 7.0E-03      \\
+\textit{ECHDC3}    & -1.25                      & 7.2E-03      \\
+\textit{CDC123}    & -0.62                      & 7.2E-03      \\
+\textit{MTE}       & 0.64                       & 7.2E-03      \\
+\textit{SCO2}      & 1.00                       & 7.2E-03      \\
+\textit{SP140}     & 0.83                       & 7.2E-03      \\
+\textit{LOC389386} & 0.66                       & 7.2E-03      \\
+\textit{GALM}      & 0.95                       & 7.2E-03      \\
+\textit{UBQLNL}    & 0.60                       & 7.2E-03      \\
+\textit{SOCS2}     & 0.82                       & 7.2E-03      \\
+\textit{LY6E}      & 1.83                       & 7.2E-03      \\
+\textit{HS.125087} & 1.25                       & 7.2E-03      \\
+\textit{OAS2}      & 1.69                       & 7.2E-03      \\
+\textit{NUDT5}     & -0.65                      & 7.5E-03      \\
+\textit{MT2A}      & 1.12                       & 8.0E-03      \\
+\textit{IFI44L}    & 2.55                       & 8.0E-03      \\
+\textit{OAS1}      & 1.48                       & 8.0E-03      \\
+\textit{ADARB1}    & 0.70                       & 8.0E-03      \\
+\textit{LAMP3}     & 0.79                       & 8.0E-03      \\
+\textit{LOC401845} & 0.62                       & 8.0E-03      \\
+\textit{PARP12}    & 1.11                       & 8.0E-03      \\
+\textit{CDKN1A}    & 0.80                       & 8.0E-03      \\
+\textit{SLC31A2}   & -0.73                      & 8.0E-03      \\
+\textit{CXCL10}    & 0.78                       & 8.0E-03      \\
+\textit{FHL2}      & 0.70                       & 8.0E-03      \\
+\textit{XAF1}      & 1.51                       & 8.0E-03      \\
+\textit{HIST1H4E}  & 0.59                       & 8.0E-03      \\
+\textit{DUSP5}     & 0.66                       & 8.1E-03      \\
+\textit{TGIF2}     & 0.65                       & 8.6E-03      \\
+\textit{PDE9A}     & 0.73                       & 8.9E-03      \\
+\textit{HS.72010}  & 0.66                       & 8.9E-03      \\
+\textit{IFI44}     & 1.77                       & 9.4E-03      \\
+\textit{TIMM10}    & 1.28                       & 9.4E-03      \\
+\textit{LOC652694} & 1.34                       & 9.8E-03      \\
+\textit{RAB11FIP3} & 0.60                       & 9.8E-03      \\
+\textit{CD69}      & 0.86                       & 1.0E-02      \\
+\textit{SRC}       & 0.74                       & 1.0E-02      \\
+\textit{OAS3}      & 1.79                       & 1.0E-02     
+\end{tabular}}
+\end{center}
+\caption[Differentially expressed genes in influenza infection]{\textbf{Summary of differentially expressed genes in influenza vs bacterial infection.} The top 50 most significantly differentially expressed genes are listed here.}
+\label{tab:flu-de-genes}
+\end{table}

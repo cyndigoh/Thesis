@@ -1,8 +1,47 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Heterogeneity in sepsis}}{3}{figure.caption.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of GAinS gene expression cohorts}}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of four library preparation methods}}{49}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Combined no fragmentation library preparation evaluation}}{51}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequencing of spike-in controls}}{51}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Relationship between read yield and fragment length}}{52}{figure.caption.18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Relationship between read yield and input concentration}}{53}{figure.caption.19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Viral Multiplex Reference Heatmap}}{54}{figure.caption.20}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Viral Multiplex Reference }}{55}{figure.caption.21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Viral Multiplex Reference Enrichment}}{56}{figure.caption.22}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Data Processing Pipeline}}{57}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {S. pneumoniae} detection thresholds}}{69}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Random forest ROC curve}}{71}{figure.caption.27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces GAinS/ChiMES test dataset}}{72}{figure.caption.28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces GAinS cases with no clinical microbiology diagnosis}}{74}{figure.caption.29}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Organism load and sequencing yield in sepsis samples}}{77}{figure.caption.33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Axiom Microbiome Array Results}}{78}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Principal Component Analysis: Radhakrishnan 2010}}{91}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Principal Component Analysis: Davenport 2011}}{93}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Principal Component Analysis: Combined dataset}}{95}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Principal Component 1}}{99}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces EBV-positivity and SRS status}}{100}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces EBV load and SRS status}}{101}{figure.caption.47}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces EBV signature}}{103}{figure.caption.48}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces EBV signature with SRS as covariate}}{104}{figure.caption.49}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {S. pneumoniae} load and SRS status}}{107}{figure.caption.52}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Microbiology and SRS status}}{109}{figure.caption.54}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Volcano plot of differentially expressed probes in viral infection}}{110}{figure.caption.55}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pathway analysis for viral infection}}{111}{figure.caption.56}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Boxplot of viral vs bacterial signature}}{113}{figure.caption.57}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces ROC analysis for viral vs bacterial signature}}{114}{figure.caption.58}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Volcano plot of differentially expressed probes in influenza infection}}{115}{figure.caption.59}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Pathway analysis for influenza infection}}{116}{figure.caption.60}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Boxplot of influenza vs bacterial signature}}{118}{figure.caption.61}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces ROC analysis for influenza vs bacterial signature}}{119}{figure.caption.62}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Volcano plot of differentially expressed probes in influenza vs viral infection}}{120}{figure.caption.63}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Volcano plot of differentially expressed probes in \textit {S. pneumoniae} infection}}{121}{figure.caption.64}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Bar graph of HLA-B*35 prevalence}}{123}{figure.caption.65}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

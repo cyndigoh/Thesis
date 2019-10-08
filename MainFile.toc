@@ -4,46 +4,127 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Submitted Abstracts}{iv}{chapter*.4}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Associated Publications}{v}{chapter*.5}
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Contents}{vi}{chapter*.5}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{vii}{chapter*.7}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{viii}{chapter*.8}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{ix}{chapter*.9}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Figures}{viii}{chapter*.7}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of Tables}{ix}{chapter*.8}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abbreviations}{x}{chapter*.9}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Genetics and gene expression}{1}{section.1.1}
-\contentsline {subsubsection}{Types of genetic variation}{1}{subsubsection*.10}
-\contentsline {section}{\numberline {1.2}Specific aims and objectives}{1}{section.1.2}
-\contentsline {chapter}{\numberline {2}Materials and Methods}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Genomic Advances in Sepsis}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}GAinS patient recruitment and exclusion criteria}{5}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Other cohorts}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Hepatitis C virus infection patient recruitment and exclusion criteria}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Cardiac surgery patient recruitment and exclusion criteria}{5}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Metagenomics}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Nucleic acid extraction}{6}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Library preparation methods}{6}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Spike ins}{7}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Probe-based enrichment}{7}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Data processing}{8}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}Digital droplet PCR}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Epstein Barr Virus Serology}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Transcriptomics}{9}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Sample collection}{9}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}RNA extraction}{9}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Microarray analysis}{9}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Data processing and analysis}{9}{subsection.2.6.4}
-\contentsline {chapter}{\numberline {3}Results1}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Difficulties in defining and diagnosing sepsis}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Aims}{11}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Results: sepsis}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Description of sepsis cohorts}{12}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Discussion}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Conclusions}{12}{section.3.4}
-\contentsline {chapter}{\numberline {4}General Discussion}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}A section}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Limitations and future work}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}Conclusion}{14}{section.4.3}
-\contentsline {chapter}{Appendices}{15}{section.4.3}
-\contentsline {chapter}{\numberline {A}Results1}{15}{appendix.A}
-\contentsline {chapter}{\numberline {B}Results2}{19}{appendix.B}
+\contentsline {section}{\numberline {1.1}Sepsis heterogeneity}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Factors influencing heterogeneity}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Failure of clinical trials}{4}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Precision medicine approaches}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Omics-based approaches and the importance of the pathogen}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Genomics}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Transcriptomics}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Regulation of gene expression}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Proteomics and metabolomics}{11}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Epigenetics}{13}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Metagenomics}{14}{subsection.1.2.6}
+\contentsline {section}{\numberline {1.3}New opportunities in clinical microbiology}{17}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Multiplex PCR}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Mass spectrometry}{18}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Nucleic acid sequencing}{19}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Nanopore sequencing}{19}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Clinical metagenomics}{20}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Applications}{21}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Hybrid-capture based techniques}{23}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Application to sepsis}{25}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Challenges}{26}{subsection.1.4.4}
+\contentsline {section}{\numberline {1.5}Specific aims and objectives}{28}{section.1.5}
+\contentsline {chapter}{\numberline {2}Materials and Methods}{31}{chapter.2}
+\contentsline {section}{\numberline {2.1}Genomic Advances in Sepsis}{31}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}GAinS patient recruitment and exclusion criteria}{32}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Additional cohorts}{32}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Hepatitis C virus infection patient recruitment and exclusion criteria}{32}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Cardiac surgery patient recruitment and exclusion criteria}{33}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Metagenomics}{33}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Nucleic acid extraction}{33}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Library preparation methods}{33}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Spike-ins}{34}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Probe-based enrichment}{35}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Data processing}{35}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Digital droplet PCR}{36}{section.2.4}
+\contentsline {section}{\numberline {2.5}Epstein Barr Virus Serology}{36}{section.2.5}
+\contentsline {section}{\numberline {2.6}Axiom Microbiome Array}{37}{section.2.6}
+\contentsline {section}{\numberline {2.7}Transcriptomics}{37}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Sample collection}{37}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}RNA extraction}{38}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Microarray data processing and analysis}{38}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}Genomics}{39}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}DNA extraction}{39}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Genotyping and data processing}{40}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Imputation}{40}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}HLA enrichment}{41}{subsection.2.8.4}
+\contentsline {subsection}{\numberline {2.8.5}HLA assignment}{41}{subsection.2.8.5}
+\contentsline {section}{\numberline {2.9}Statistical analysis}{41}{section.2.9}
+\contentsline {chapter}{\numberline {3}Development of Metagenomic Sequencing Workflow}{42}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{42}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Probe-based enrichment}{43}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Ribosomal multilocus sequence typing}{44}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Library preparation methods for metagenomics}{44}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Viral multiplex reference}{45}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Aims}{45}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Results}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Probe panel development}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Evaluation of four library prepration methods}{47}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Evaluation of the Combined no Fragmentation protocol}{50}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Evaluation of performance using a Viral Multiplex Reference control}{53}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Data processing}{57}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Discussion}{58}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Combined library preparation method}{59}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Enrichment for targets of interest}{60}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Data processing pipeline}{61}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Conclusions}{61}{section.3.4}
+\contentsline {chapter}{\numberline {4}Improved classification of microbiological aetiology in sepsis}{62}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Clinical microbiology of the GAinS CAP cohort}{62}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}GAinS electronic Case Record Form data}{63}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Childhood Meningitis and Encephalitis Study (ChiMES) cohort}{64}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Digital droplet PCR (ddPCR)}{64}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Random forests}{65}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Axiom Microbiome Array}{66}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}Aims}{66}{subsection.4.1.7}
+\contentsline {section}{\numberline {4.2}Results}{66}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Targeted metagenomics}{66}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Digital droplet PCR}{75}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Axiom Microbiome Array}{77}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Application to the GAinS cohort}{79}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Discussion}{79}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Targeted metagenomics and droplet digital PCR}{79}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Axiom Microbiome Array}{80}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Conclusions}{81}{section.4.4}
+\contentsline {chapter}{\numberline {5}Integration of Microbiology with the Host Response}{82}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{82}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Immunosuppression in sepsis}{83}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Sepsis Endotypes}{83}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Viral reactivation}{84}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Epstein-Barr virus}{85}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Transcriptomic signature of viral infection}{86}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}HLA}{87}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Aims}{88}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}Results}{88}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Combination of microarray datasets}{88}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Evidence for immunosuppression: viral reactivation}{94}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Evidence for immunosuppression: EBV}{96}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Evidence for immunosuppression: \textit {Streptococcus pneumoniae}}{105}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Transcriptomic signature of viral infection}{107}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Transcriptomic signature of influenza infection}{114}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Transcriptomic signature of influenza vs viral infection}{119}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Transcriptomic signature of \textit {Streptococcus pneumoniae} infection}{121}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Genomics: association with HLA}{122}{subsection.5.2.9}
+\contentsline {section}{\numberline {5.3}Discussion}{124}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}EBV reactivation and immunosuppression}{124}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}\textit {Streptococcus pneumoniae} infection and sepsis endotype}{126}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Transcriptomic signatures of infection}{127}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Genomics: association with HLA}{129}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Conclusions}{130}{section.5.4}
+\contentsline {chapter}{\numberline {6}General Discussion}{131}{chapter.6}
+\contentsline {section}{\numberline {6.1}A section}{131}{section.6.1}
+\contentsline {section}{\numberline {6.2}Limitations and future work}{131}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusion}{131}{section.6.3}
+\contentsline {chapter}{Appendices}{132}{section.6.3}
+\contentsline {chapter}{\numberline {A}Materials and Methods}{132}{appendix.A}
+\contentsline {chapter}{\numberline {B}Application of Metagenomic Sequencing to Sepsis Samples}{134}{appendix.B}
+\contentsline {chapter}{\numberline {C}Integration of Microbiology with the Host Response}{138}{appendix.C}
+\contentsline {chapter}{Bibliography}{142}{table.caption.74}
 \contentsfinish 
