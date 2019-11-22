@@ -1,6 +1,6 @@
 \chapter{Integration of Microbiology with the Host Response}
 \label{ch:Results3}
-\textit{This chapter explores the integration of metagenomic data with host transcriptomic and genomic data.}
+\textit{This chapter explores the integration of metagenomic data with host transcriptomic and genomic data in order to understand the host response in sepsis.}
 
 \startcontents[chapters]{\vspace{-1.4cm}}
 \singlespacing
@@ -25,7 +25,7 @@ Similar findings were made independently by the MARS consortium \parencite{Scicl
 \subsection{Viral reactivation}
 Studies describing a high frequency of viral reactivation in sepsis patients further support the concept that previously immunocompetent individuals can develop a varying degree of functional immunosuppression in response to severe infection. Walton and colleagues observed that 42.7\% of sepsis patients displayed viraemia with more than one reactivated virus \parencite{Walton2014}; the MARS consortium describe a 68\% frequency of herpesvirus viraemia amongst individuals with septic shock \parencite{Ong2017}. 
 
-Reactivated viruses include the herpesviruses Epstein-Barr virus (EBV), cytomegalovirus (CMV), herpes simplex virus (HSV), and human herpesvirus 6 (HHV-6), torque teno virus (TTV), and the polyomaviruses BK and JC virus. In ICU sepsis patients, EBV is the most commonly observed reactivated virus at a frequency of 32-48\% in plasma \parencite{Walton2014} \parencite{Ong2017}. Neither study observed an association with mortality for EBV reactivation alone although the MARS consortium identified a 3.17 HR (95\% CI 1.41-7.13) for mortality with concurrent CMV and EBV reactivation \parencite{Ong2017}. In addition, Walton and colleagues observed an increased incidence of fungal infections, mean SOFA score and ICU length of stay with EBV reactivation \parencite{Walton2014}.
+Reactivated viruses include the herpesviruses Epstein-Barr virus (EBV), cytomegalovirus (CMV), herpes simplex virus (HSV), and human herpesvirus 6 (HHV-6), torque teno virus (TTV), and the polyomaviruses BK and JC virus. In ICU sepsis patients, EBV is the most commonly observed reactivated virus at a frequency of 32-48\% in plasma \parencite{Walton2014} \parencite{Ong2017}. Neither study observed an association with mortality for EBV reactivation alone although the MARS consortium identified a 3.17 hazard ratio (HR) (95\% CI 1.41-7.13) for mortality with concurrent CMV and EBV reactivation \parencite{Ong2017}. In addition, Walton and colleagues observed an increased incidence of fungal infections, mean Sequential Orgain Failure Assessment (SOFA) score and ICU length of stay with EBV reactivation \parencite{Walton2014}. CMV is another commonly reactivated virus, observed at a frequency of approximately 18\% in the plasma of previously immunocompetent sepsis patients \parencite{Ong2017}. CMV reactivation has been observed to be associated with increased ICU and hospital length of stay as well as prolonged mechanical ventilation in critically ill sepsis patients \parencite{Heininger2011}.
 
 \subsection{Epstein-Barr virus}
 Like other herpesviruses, EBV is characterised by its ability to remain dormant in human cells after primary infection. Approximately 90\% of adults worldwide are EBV seropositive \parencite{Cohen2000}, the highest rate of any herpesvirus. 
@@ -34,8 +34,9 @@ Following B lymphocyte infection, latency is established with persistent infecti
 
 Whilst the viral genes and products characterising latency have been well-studied, triggers for the shift from latency to lytic replication and reactivation are not clearly defined. In general, reactivation disease is not believed to be a marked issue with EBV (unlike other herpesviruses, e.g. CMV) apart from in the context of post-transplant lymphoproliferative disorders.
 
-\subsection{Transcriptomic signature of viral infection}
-Previous work done in the Knight laboratory by Dr Emma Davenport included the definition of gene expression signatures for different infection types in the GAinS CAP cohort. Four contrasts were made with differentially expressed probes defined as those with a FDR $<$0.05 and a modest fold change $>$1.2. The contrasts made are summarised in Table \ref{tab:emmaDEgenes}. 
+\subsection{Transcriptomic signatures of viral infection}
+\label{sssec:emmaDEgenes}
+\textbf{GAinS dataset.} Previous work done in the Knight laboratory by Dr Emma Davenport included the definition of gene expression signatures for different infection types in the GAinS CAP cohort /parencite{Davenport2014}. Four contrasts were made with differentially expressed probes defined as those with a FDR $<$0.05 and a modest fold change $>$1.2. The contrasts made are summarised in Table \ref{tab:emmaDEgenes}. 
 
 \FloatBarrier
 \begin{table}[]
@@ -51,7 +52,7 @@ Gram+ (47) vs Gram- (25)              & 72                & 0                   
 
 \end{center}
 \smallskip
-\caption[Previous work transcriptomic signatures for microbiology] {\textbf{Previous work: differentially expressed probes for microbiology.} Differentially expressed probes defined as those with FDR $<$0.05 and fold change $>$1.2.} 
+\caption[Previous work transcriptomic signatures for microbiology] {\textbf{Previous work: differential gene expression analysis for various classes of infection.} Genome-wide gene expression data from microarray was analysed in patients with sepsis due to CAP. Differential expression analysis was performed for different microbiological classes of infection. Differentially expressed probes are defined as those with FDR $<$0.05 and fold change $>$1.2.} 
 \label{tab:emmaDEgenes}
 \end{table}
 
@@ -62,28 +63,36 @@ A prediction model for viral infection was defined using the GeneRave R package 
 
 Limitations of this analysis include the lack of accurate microbiological phenotyping in the comparator "non-viral" group. The electronic case record forms (eCRF) only provides information where testing yields a positive result, thus we are unable to confirm cases where testing has yielded a negative result. As viral testing is typically only performed during influenza outbreaks, there is a high likelihood the "non-viral" group included cases of undiagnosed viral infection. This may explain why only 66 differentially expressed probes were identified at a modest fold change of 1.2. 
 
+\textbf{Other datasets.} A number of published studies have described gene signatures differentiating viral from bacterial infection. Two examples include the seven-gene set described by Sweeney \textit{et al} \parencite{Sweeney2016} and the two-gene disease risk score (DRS) described by Herberg \textit{et al} \parencite{Herberg2016}.
+
+Sweeney and colleagues \parencite{Sweeney2016} combined 8 datasets from adults and children with CAP, febrile illness and/or sepsis to form a discovery dataset of 426 individuals (n=142 viral; n=284 bacterial). Gene expression was analysed from whole blood or peripheral blood mononuclear cells. The authors performed differential expression analysis and identified 72 genes with a FC >2 and FDR <0.01. A greedy forward search method was then utilised to identify a set of seven genes which discriminated viral from bacterial infection. This included three "viral" genes (/textit{IFI27, JUP, LAX1}) and four "bacterial" genes (\textit{HK3, TNIP1, GPAA1, CTSB}). ROC analysis was performed with an AUC value of 97\% (95\% CI: 89\%-99\%) in the discovery cohort. The gene set was subsequently validated in a combined validation cohort consisting six datasets of 341 individuals (n=203 viral; n=138 bacterial). Here, it performed with an AUC value of 91\% (95\% CI 82\%-96\%). 
+
+Herberg and colleagues \parencite{Herberg2016} prospectively recruited febrile children presenting to hospital. Genome-wide gene expression analysis was performed on RNA extracted from whole blood. Differential gene expression analysis identified 285 probes differentially expressed at a FC >2 and FDR <0.05. The elastic net method \parencite{Zou2005} was used to identify 38 probes from initial gene set. Elastic net is a variable selection algorithm that is an alternative to standard linear regression with least squares fitting, particularly suited to cases where the number of predictors greatly exceeds the number of observations. Elastic net combines the lasso and ridge regression methods of shrinkage, minimising the number of variables included (lasso) whilst also making the model less dependent on any one variable (ridge).
+
+Subsequently, forward selection-partial least squares was used to eliminate highly correlated transcripts and a two transcript signature was identified. This involved a ratio of \textit{IFI44L} expression to \textit{FAM89A} expression, which the authors termed a disease risk score (DRS). ROC analysis was performed, yielding an AUC of 96.3\% (95\% CI 87.4\%-100\%) in the test dataset of 29 individuals and an AUC of 97.4\% (95\% CI 91.2\%-100\%) in the validation dataset of 51 individuals. 
 
 \subsection{HLA}
 The extreme variability seen in the Major Histocompatibility Complex (MHC) region is believed to have arisen due to human-viral co-evolution. It is unsurprising therefore, that associations are seen between specific HLA alleles and infectious disease susceptibility, progression and outcome. 
 
-Notable examples include human immunodeficiency virus 1 (HIV-1), hepatitis B virus (HBV) and hepatitis C virus (HCV) infection. In HIV-1 infection, Carrington and colleagues \parencite{Carrington1999} tested 63 alleles and found six (A*29, B*27, B*35, B*41, Cw*04 and Cw*12) to be significantly associated with disease progression in Caucasians. In HBV infection, Nishida and colleagues \parencite{Nishida2016} tested 144 alleles and found DQB1*06:01 to have the strongest association with susceptibility to chronic infection in Japanese individuals. Finally, in HCV infection, B*27 \parencite{Neumann-Haefelin2006} and B*57 \parencite{Kim2011} have both been found to be associated with a higher rate of viral clearance. 
+Notable examples include human immunodeficiency virus 1 (HIV-1), hepatitis B virus (HBV) and hepatitis C virus (HCV) infection. In HIV-1 infection, Carrington and colleagues \parencite{Carrington1999} tested 63 alleles and found six (A*29, B*27, B*35, B*41, Cw*04 and Cw*12) to be significantly associated with disease progression in Caucasians. In addition, elevated \textit{HLA-A} expression levels were found to be negatively correlated with control of HIV infection \parencite{Ramsuran2018}. In HBV infection, Nishida and colleagues \parencite{Nishida2016} tested 144 alleles and found DQB1*06:01 to have the strongest association with susceptibility to chronic infection in Japanese individuals. Finally, in HCV infection, B*27 \parencite{Neumann-Haefelin2006} and B*57 \parencite{Kim2011} have both been found to be associated with a higher rate of viral clearance. 
 
 In addition, genome-wide association studies (GWAS) and genome-wide linkage studies (GWLS) have identified polymorphisms in the HLA regions to be associated with viral (HIV, HBV, HCV), bacterial (leprosy, tuberculosis), and parasitic (malaria, leishmaniasis, and schistosomiasis) infections \parencite{Blackwell2009}. For example, the International HIV Controllers Study \parencite{Pereyra2010} identified over 300 genome-wide significant SNPs within the MHC to be associated with control of HIV-1 whilst the first GWAS of leprosy susceptibility reported associations with SNPs in six genetic loci, including the HLA-DR region \parencite{Zhang2009}.  
 
 In summary, these examples in the literature suggest it would be of particular interest to investigate the association between specific HLA alleles and susceptibility to different microbiological classes of sepsis. 
 
 \subsection{Aims}
+The overall aim of this chapter is to explore how improved resolution of microbiology in the sepsis cohort can be applied to transcriptomic and genomic-based approaches to understand the host response in sepsis. Specifically, the most commonly identified bacterial (\textit{Streptococcus pneumoniae}) and viral (influenza) infections will be studied as well as the most commonly reactivated virus (Epstein Barr virus). These will be related to Sepsis Response Signature endotype, total leukocyte gene expression and underlying host genotype (HLA type). Specific aims are as follows.
 
 \begin{enumerate}
 	\item To characterise the extent and implications of EBV reactivation and integrate this with host transcriptomic data.
 	\item To investigate the association between \textit{Streptococcus pneumoniae} bacterial load and sepsis endotype (SRS status).
-	\item To describe host transcriptomic signatures of viral infection, influenza infection, and \textit{Streptococcus pneumoniae} infection.
+	\item To describe host transcriptomic signatures of viral infection, influenza infection, and \textit{Streptococcus pneumoniae} infection and identify predictive gene sets for these infections.
 	\item To investigate the association between host genotype (HLA type) and susceptibility to different classes of infection.
 \end{enumerate}
 
 \section{Results}
-\subsection{Combination of microarray datasets}
-In this chapter, I analyse microarray gene expression data processed in four batches over a six year period. These include samples from patients with sepsis due to CAP or faecal peritonitis (FP) enrolled through the GAinS study, recruited from 34 participating ICUs between 2005 and 2016. Serial samples were obtained on the first, and/or third, and/or fifth day of ICU admission. The total peripheral blood leukocyte population was isolated from whole blood for RNA extraction using the LeukoLOCK system (Invitrogen).
+\subsection{QC, normalisation and combination of microarray datasets}
+In this chapter, I analyse microarray gene expression data from the GAinS study processed in four batches over a six year period. These include samples from patients with sepsis due to CAP or faecal peritonitis (FP) enrolled through the GAinS study, recruited from 34 participating ICUs between 2005 and 2016. Serial samples were obtained on the first, and/or third, and/or fifth day of ICU admission. The total peripheral blood leukocyte population was isolated from whole blood for RNA extraction using the LeukoLOCK system (Invitrogen).
 
 All four of these datasets were generated by former DPhil students in the Knight lab: Radhakrishnan 2010, Dr Jayachandran Radhakrishnan; Davenport 2011, Dr Emma Davenport; Burnham 2014, Dr Katie Burnham; Burnham 2016, Dr Katie Burnham. Samples from cardiac surgery patients (sepsis control patients) were taken prior to and after their operation, and included in the two earlier cohorts. These samples were processed by Dr Eduardo Svoren (Barts and the London).
 
@@ -127,7 +136,7 @@ Eight outlying samples were identified through PCA and other QC measures (Figure
 \FloatBarrier
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.7]{./Results3/Images/PCA_Davenport2011.pdf}
+\includegraphics[scale=0.75]{./Results3/Images/PCA_Davenport2011.pdf}
 \caption[Principal Component Analysis: Davenport 2011]{\textbf{Principal Component Analysis: Davenport 2011} The first two principal components of the gene expression data are plotted, with the amount of variance explained by each noted; (a) when all samples are included in the analysis, and (b) after the removal of eight outliers. Samples are coloured according to beadchip and outlying samples are circled in red.}
 \label{fig:PCAEmma}
 \end{figure}
@@ -139,18 +148,18 @@ Data QC and normalisation was carried out by Dr Katie Burnham \parencite{Burnham
 Data QC and normalisation was carried out by Dr Katie Burnham \parencite{Burnham2017}. Post-QC, this dataset was comprised of 143 samples (72 CAP, 71 FP) from 48 patients (24 CAP, 24 FP).
 
 \textbf{Combination of datasets}
-Following separate QC and normalisation, the four datasets were combined. There were 92 additional probes in the two more recent datasets, which were removed. In addition, there were 61 samples that were repeated in the Davenport 2011 dataset following initial analysis in the Radhakrishnan dataset. Given that the SRS endotypes were defined and published for the Davenport 2011 dataset, the samples in this dataset were retained and duplicates in the Radhakrishnan 2010 dataset removed. Probes that did not have a detection p-value $<$0.05 in at least 5\% of samples were removed (19,003 probes). Data was then normalised before the ComBat function from the R package sva applied to remove known batch effects (Figure \ref:fig{combat}). In this combined dataset, expression data was available for 28,228 probes for 816 samples (509 CAP, 218 FP, 89 cardiac surgery) from 591 patients (408 CAP, 141 FP, 42 cardiac surgery).
+Following separate QC and normalisation, the four datasets were combined. There were 92 additional probes in the two more recent datasets, which were removed. In addition, there were 61 samples that were repeated in the Davenport 2011 dataset following initial analysis in the Radhakrishnan dataset. Given that the SRS endotypes were defined and published for the Davenport 2011 dataset, the samples in this dataset were retained and duplicates in the Radhakrishnan 2010 dataset removed. Probes that did not have a detection p-value $<$0.05 in at least 5\% of samples were removed (19,003 probes). Data was then normalised before the ComBat function from the R package sva applied to remove known batch effects (Figure \ref{fig:combat}). In this combined dataset, expression data was available for 28,228 probes for 816 samples (509 CAP, 218 FP, 89 cardiac surgery) from 591 patients (408 CAP, 141 FP, 42 cardiac surgery).
 
 \FloatBarrier
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.7]{./Results3/Images/PCA_alldata.pdf}
-\caption[Principal Component Analysis: Combined dataset]{\textbf{Principal Component Analysis: Combined dataset} The first two principal components of the gene expression data are plotted, with the amount of variance explained by each noted; (a) prior to batch effects being removed (b) after removal of batch effects by ComBat. Samples are coloured according to dataset.}
+\caption[Principal Component Analysis: Combined dataset]{\textbf{Principal Component Analysis: Combined dataset of 816 samples from GAinS CAP and FP patients.} The first two principal components of the gene expression data are plotted, with the amount of variance explained by each noted; (a) prior to batch effects being removed (b) after removal of batch effects by ComBat. Samples are coloured according to the four datasets: Radhakrishnan (n=175), Davenport (n=339), Burnham-2014 (n=159), Burnham-2016 (n=143).}
 \label{fig:combat}
 \end{figure}
 
 \subsection{Evidence for immunosuppression: viral reactivation}
-Amongst 757 samples from 573 patients undergoing metagenomic sequencing (the metagenomic cohort), viral reactivation was observed in 24\% of individuals, with EBV the most commonly observed virus (Table ~\ref{tab:viralreactivation}). Notably, this was observed despite there being an enrichment for earlier time points from ICU admission (Day 1=302; Day 3=284; Day 5=171). Six individuals showed simultaneous reactivation of EBV and a second virus. 
+Immunosuppression is a key pathophysiological process in sepsis, with viral reactivation seen as a consequence. Amongst 757 samples from 573 GAinS patients with CAP undergoing metagenomic sequencing (defined here as the metagenomic cohort), viral reactivation was observed in 24\% of individuals, with EBV the most commonly observed virus (Table ~\ref{tab:viralreactivation}). Notably, this was observed despite there being an enrichment for earlier time points from ICU admission (Day 1=302; Day 3=284; Day 5=171). Six individuals showed simultaneous reactivation of EBV and a second virus. 
 
 \begin{table}[]
 \begin{center}
@@ -192,7 +201,7 @@ Combining both cohorts, a total of 1042 unique samples (731 patients) from days 
 \end{tabular}
 \end{center}
 \smallskip
-\caption[EBV status by day of sampling]{\textbf{EBV status by day of sampling after ICU admission}}
+\caption[EBV status by day of sampling]{\textbf{EBV status by day of sampling after ICU admission.} GAinS patients with sepsis due to CAP had their EBV status evaluated by targeted metagenomic analysis or ddPCR of plasma samples obtained on days 1, 3 and/or 5 of ICU admission.}
 \label{tab:ebvincidence}
 \end{table}
 
@@ -213,7 +222,7 @@ SOFA score (maximum)*       & 6.7 & 7.9                                         
 \end{tabular}
 \end{center}
 \smallskip
-\caption[EBV and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between EBV-negative and EBV-positive individuals (total n=731).}ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).} 
+\caption[EBV and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between EBV-negative and EBV-positive GAinS patients with sepsis due to CAP (total n=731).} ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).} 
 \label{tab:ebvoutcome}
 \end{table}
 \FloatBarrier
@@ -236,7 +245,7 @@ SOFA score (maximum)*                         & 7.1                             
 \end{tabular}
 \end{center}
 \smallskip
-\caption[EBV and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between EBV-negative and EBV-positive individuals with gene expression data.}ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).} 
+\caption[EBV and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between EBV-negative and EBV-positive GAinS patients with sepsis due to CAP with gene expression data available.}ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).} 
 \label{tab:ebv-gex}
 \end{table}
 \FloatBarrier
@@ -247,7 +256,7 @@ The difference in gene expression between SRS1 and SRS2 individuals can be obser
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.6]{./Results3/Images/PC1.pdf}
-\caption[Principal Component 1]{\textbf{Principal Component 1} First principal component (PC1) from principal component analysis of the top 10\% most variable genes expressed by peripheral blood leukocytes, plotted by SRS endotype.}
+\caption[Principal Component 1]{\textbf{Principal Component 1} Principal component analysis was performed on the top 10\% most variable genes expressed by peripheral blood leukocytes in GAinS patients with sepsis due to CAP. Individuals with both gene expression data and known EBV status (n=391) are included here with the first principal component (PC1) plotted against SRS endotype.}
 \label{fig:pc1}
 \end{figure}
 
@@ -255,7 +264,7 @@ The difference in gene expression between SRS1 and SRS2 individuals can be obser
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.6]{./Results3/Images/SRS_jitter.pdf}
-\caption[EBV-positivity and SRS status]{\textbf{Boxplot of first available SRS as a continuous trait against EBV status over the first five days of ICU admission.} The values for principal component 1 (PC1) provide a continuous measure of SRS endotype with higher values representing an SRS2 endotype and lower values representing an SRS1 endotype. }
+\caption[EBV-positivity and SRS status]{\textbf{Boxplot of first available SRS as a continuous trait against EBV status over the first five days of ICU admission.} GAinS patients with sepsis due to CAP for whom gene expression data and EBV status are avaiable are included here (n=391). The values for principal component 1 (PC1) provide a continuous measure of SRS endotype with higher values representing an SRS2 endotype and lower values representing an SRS1 endotype. }
 \label{fig:ebvsrs}
 \end{figure}
 \FloatBarrier
@@ -267,7 +276,7 @@ Digital droplet PCR was used to assay EBV in plasma samples (619 samples; 565 pa
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/ebvload.pdf}
-\caption[EBV load and SRS status]{\textbf{Boxplot of maximum EBV load over the first 5 days of ICU admission (ddPCR) against first available SRS status after ICU admission.} SRS=Sepsis Response Signature. ddPCR=digital droplet PCR}
+\caption[EBV load and SRS status]{\textbf{Boxplot of maximum EBV load over the first 5 days of ICU admission (ddPCR) against first available SRS status after ICU admission.} GAinS patients with sepsis due to CAP were analysed with respect to EBV viral load by ddPCR and SRS endotype by genome-wide gene expression microarray analysis from peripheral blood leukocytes.}
 \label{fig:ebvload}
 
 
@@ -285,7 +294,7 @@ Of the seven overlapping genes, there were several with a known role in EBV path
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/ebvsig1.pdf}
-\caption[EBV signature]{\textbf{Volcano plot showing differentially expressed probes between EBV-positive and EBV-negative individuals.} Probes in red (labelled) are differentially expressed at a fold-change of 1.5 and p-value of 0.05. Positive fold change corresponds to upregulation in Epstein-Barr Virus-positive individuals.}
+\caption[EBV signature]{\textbf{Volcano plot showing differentially expressed probes between EBV-positive and EBV-negative GAinS patients with sepsis due to CAP.} Probes in red (labelled) are differentially expressed at a fold-change of 1.5 and p-value of 0.05. Positive fold change corresponds to upregulation in Epstein-Barr Virus-positive individuals.}
 \label{fig:ebvsig1}
 
 
@@ -294,7 +303,7 @@ Of the seven overlapping genes, there were several with a known role in EBV path
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/ebvsig2.pdf}
-\caption[EBV signature with SRS as covariate]{\textbf{Volcano plot showing differentially expressed probes between EBV-positive and EBV-negative individuals with SRS included in the linear model.} Probes in red (labelled) are differentially expressed at a fold-change of 1.5 and p-value of 0.05. Positive fold change corresponds to upregulation in Epstein-Barr Virus-positive individuals.}
+\caption[EBV signature with SRS as covariate]{\textbf{Volcano plot showing differentially expressed probes between EBV-positive and EBV-negative GAinS patients with sepsis due to CAP, with SRS endotype included in the linear model.} Probes in red (labelled) are differentially expressed at a fold-change of 1.5 and p-value of 0.05. Positive fold change corresponds to upregulation in Epstein-Barr Virus-positive individuals.}
 \label{fig:ebvsig2}
 
 
@@ -324,7 +333,7 @@ Vasopressors\textasciicircum{}                                        & 20 (33\%
 \end{tabular}
 \end{center}
 \smallskip
-\caption[\textit{S. pneumoniae} positivity and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between ddPCR \textit{S. pneumoniae}-negative and \textit{S. pneumoniae}-positive individuals.} ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test). SRS=Sepsis Response Signature; SOFA=Sequential Organ Failure Assessment} 
+\caption[\textit{S. pneumoniae} positivity and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between ddPCR \textit{S. pneumoniae}-negative and \textit{S. pneumoniae}-positive GAinS patients with sepsis due to CAP.} ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).} 
 \label{tab:strepclin}
 \end{table}
 \FloatBarrier
@@ -344,7 +353,7 @@ Mechanical ventilation\textasciicircum{} & 0 (0\%)                              
 Vasopressors\textasciicircum{}           & 62 (70\%)                                                                                    & 7 (70\%)                                                                             & 1                \\ \hline
 \end{tabular}
 \end{center}
-\caption[High \textit{S. pneumoniae} load and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between ddPCR \textit{S. pneumoniae}-low/negative and ddPCR \textit{S. pneumoniae}-high individuals.} Individuals with a bacterial load of $\geq$10$^3$ were classified as having a high \textit{S. pneumoniae} bacterial load. (\textasciicircum{}Chi-squared test; `Log-rank test). } 
+\caption[High \textit{S. pneumoniae} load and clinical outcomes]{\textbf{Clinical characteristics and outcome data compared between ddPCR \textit{S. pneumoniae}-low/negative and ddPCR \textit{S. pneumoniae}-high GAinS patients with sepsis due to CAP.} Individuals with a bacterial load of $\geq$10$^3$ were classified as having a high \textit{S. pneumoniae} bacterial load. (\textasciicircum{}Chi-squared test; `Log-rank test). } 
 \label{tab:strephighclin}
 \end{table}
 
@@ -354,7 +363,7 @@ Given the findings with EBV, it was possible that levels of \textit{Streptococcu
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/strepsrs.png}
-\caption[\textit{S. pneumoniae} load and SRS status]{\textbf{Boxplot of \textit{Streptococcus pneumoniae} load and SRS status.} SRS=Sepsis Response Signature}
+\caption[\textit{S. pneumoniae} load and SRS status]{\textbf{Boxplot of \textit{Streptococcus pneumoniae} load and SRS status in GAinS patients with sepsis due to CAP.} Bacterial load is assessed by ddPCR and SRS status is determined from genome-wide gene expression analysis of peripheral blood leukocytes by microarray. The highest bacterial load over the first five days of ICU admission is plotted against the SRS endotype from the first available time point after ICU admission.}
 \label{fig:strepsrs}
 
 
@@ -382,7 +391,7 @@ SOFA score (maximum)*       & 7.3                                               
 \end{tabular}
 \end{center}
 \smallskip
-\caption[Viral vs bacterial infection]{\textbf{Viral vs bacterial infection: clinical characteristics and outcome data.} ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).}
+\caption[Viral vs bacterial infection]{\textbf{Viral vs bacterial infection: clinical characteristics and outcome data in GAinS patients with sepsis due to CAP.} ICU length of stay analysis only includes patients surviving to ICU discharge. T-test performed except where indicated (\textasciicircum{}Chi-squared test; *Mann-Whitney U-test; `Log-rank test).}
 \label{tab:viralclinical}
 \end{table}
 
@@ -390,7 +399,7 @@ SOFA score (maximum)*       & 7.3                                               
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/viralSRS2.pdf}
-\caption[Microbiology and SRS status]{\textbf{Boxplot of first available SRS as a continuous trait against microbiology.} The values for principal component 1 (PC1) provide a continuous measure of SRS endotype with higher values representing an SRS2 endotype and lower values representing an SRS1 endotype. SRS=Sepsis Response Signature}
+\caption[Microbiology and SRS status]{\textbf{Boxplot of first available SRS as a continuous trait against microbiology in GAinS patients with sepsis due to CAP.} SRS endotype is determined from genome-wide gene expression analysis of peripheral blood leukocytes by microarray. The values for principal component 1 (PC1) are derived from PCA of the top 10\% most variable genes and provide a continuous measure of SRS endotype with higher values representing an SRS2 endotype and lower values representing an SRS1 endotype.}
 \label{fig:viralsrs2}
 \end{figure}
 \FloatBarrier
@@ -401,7 +410,7 @@ SOFA score (maximum)*       & 7.3                                               
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/vp-viral-bacterial.pdf}
-\caption[Volcano plot of differentially expressed probes in viral infection]{\textbf{Volcano plot of differentially expressed probes in viral vs bacterial infection.} Probes in red are differentially expressed at a FDR $<$0.05 and fold change $>$1.5. Positive fold change corresponds to upregulation in individuals with viral infection. Top 20 significantly differentially expressed probes are labelled.}
+\caption[Volcano plot of differentially expressed probes in viral infection]{\textbf{Volcano plot of differentially expressed probes in viral vs bacterial infection in GAinS patients with sepsis due to CAP.} Probes in red are differentially expressed at a FDR $<$0.05 and fold change $>$1.5. Positive fold change corresponds to upregulation in individuals with viral infection. Top 20 significantly differentially expressed probes are labelled.}
 \label{fig:vp-viral-bacterial}
 \end{figure}
 \FloatBarrier
@@ -412,14 +421,14 @@ SOFA score (maximum)*       & 7.3                                               
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/xgr-viral.pdf}
-\caption[Pathway analysis for viral infection]{\textbf{Pathway enrichment for viral infection.} The differentially expressed probes between patients with viral and bacterial infection were used to determine pathway enrichment with XGR. The top ten most enriched pathways using the Gene Ontology database are shown.}
+\caption[Pathway analysis for viral infection]{\textbf{Pathway enrichment for viral infection in GAinS patients with sepsis due to CAP.} The differentially expressed probes between patients with viral and bacterial infection were used to determine pathway enrichment with XGR. The top ten most enriched pathways using the Gene Ontology database are shown.}
 \label{fig:xgr-viral}
 \end{figure}
 \FloatBarrier
  
  \textbf{Predictive gene signature.} Differentiating viral from bacterial CAP remains a challenge in the clinical setting. Therefore, a subset of genes was selected for a prediction model from the 206 probes differentially expressed between individuals with viral and bacterial infection. 
  
-The 166 individuals with bacterial (n=136) or viral (n=30) infection formed the training cohort for the model. Logistic regression with variable selection was applied to the 206 differentially expressed probes (FDR $<$0.05, fold change $>$1.5) using the elastic net method \parencite{Zou2005} \parencite{Herberg2016}. This is a variable selection algorithm that is an alternative to standard linear regression with least squares fitting, particularly suited to cases where the number of predictors greatly exceeds the number of observations. Elastic net combines the lasso and ridge regression methods of shrinkage, minimising the number of variables included (lasso) whilst also making the model less dependent on any one variable (ridge).
+The 166 individuals with bacterial (n=136) or viral (n=30) infection formed the training cohort for the model. Logistic regression with variable selection was applied to the 206 differentially expressed probes (FDR $<$0.05, fold change $>$1.5) using the elastic net method \parencite{Zou2005} \parencite{Herberg2016}. 
  
 Ten probes, corresponding to ten genes were selected by the model: \textit{BTBD11, C3ORF54, IFI27, IMPA2, MT1A, RNASE1, SIGLEC10, SRC, TIMM10, TSPAN13}. In the training dataset, the signature had an AUC of 88.6\% (95\% CI 80.7\%-96.5\%) (Figure ~\ref{fig:roc-vb}). Youden's method was used to select a threshold (0.2017) for discriminating bacterial from viral infection. At this threshold, 114/136 bacterial infections were correctly predicted (specificity 83.8\% [95\% CI 77.2\%-89.7\%]) whilst 25/30 viral infections were correctly predicted (sensitivity 83.3\% [95\% CI 70.0\%-96.7\%]) (Figure ~\ref{fig:boxplot-vb}). This equated to a misclassification rate of 16.3\%.
  
@@ -431,7 +440,7 @@ For the combined validation cohort, the signature had an AUC of 97.1\% (95\% CI 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/boxplot-viral-signature.pdf}
-\caption[Boxplot of viral vs bacterial signature]{\textbf{Boxplot of predictions from viral vs bacterial gene signature.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. The MOSAIC groupings correspond to influenza virus types. Threshold for discriminating bacterial from viral infection is denoted by the dashed line. The elastic net prediction value (y-axis) can range from 0 (indicating bacterial infection) to 1 (indicating viral infection).}
+\caption[Boxplot of viral vs bacterial signature]{\textbf{Boxplot of predictions from viral vs bacterial gene signature in GAinS patients with sepsis due to CAP.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. The MOSAIC groupings correspond to influenza virus types. Threshold for discriminating bacterial from viral infection is denoted by the dashed line. The elastic net prediction value (y-axis) can range from 0 (indicating bacterial infection) to 1 (indicating viral infection).}
 \label{fig:boxplot-vb}
 \end{figure}
 \FloatBarrier
@@ -441,8 +450,47 @@ For the combined validation cohort, the signature had an AUC of 97.1\% (95\% CI 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/bv-roc-combined.png}
-\caption[ROC analysis for viral vs bacterial signature]{\textbf{ROC analysis for viral vs bacterial signature.} The threshold for discriminating bacterial from viral infection is noted (0.202), together with the specificity and sensitivity at that threshold in brackets. AUC for the training cohort was 88.6\% (95\% CI 80.7\%-96.5\%) whilst AUC for the combined validation cohort was 97.1\% (95\% CI 94.6\%-99.5\%). MR was 16.3\% for the training cohort and 9.8\% for the validation cohort.}
+\caption[ROC analysis for viral vs bacterial signature]{\textbf{ROC analysis for viral vs bacterial signature in GAinS patients with sepsis due to CAP.} The threshold for discriminating bacterial from viral infection is noted (0.202), together with the specificity and sensitivity at that threshold in brackets. AUC for the training cohort was 88.6\% (95\% CI 80.7\%-96.5\%) whilst AUC for the combined validation cohort was 97.1\% (95\% CI 94.6\%-99.5\%). MR was 16.3\% for the training cohort and 9.8\% for the validation cohort.}
 \label{fig:roc-vb}
+\end{figure}
+\FloatBarrier
+
+\subsection{Previously derived transcriptomic signatures of viral infection}
+\textbf{Sweeney seven-gene set.} The previously described seven-gene set derived by Sweeney and colleagues \parencite{Sweeney2016} was applied to 166 GAinS patients (n=136 with bacterial infection; n=30 with viral infection). This involved calculating a composite score for each individual derived from the geometric mean of viral genes minus the geometric mean of bacterial genes, multiplied by the ratio of viral genes to bacterial genes (3/4). ROC analysis was performed, with an AUC of 81\% (95\% CI 71\%-90\%). Youden's method was used to select a threshold for discriminating viral from bacterial infection (Figure \ref{fig:roc-sweeney}). At the selected threshold of -1.76, 130/136 bacterial infections were correctly predicted (specificity 95.6\% [95\% CI 91.9\%-98.5\%]) whilst 18/30 viral infections were correctly predicted (sensitivity 60.0\% [95\% CI 43.3\%-76.7\%) (Figure \ref{fig:boxplot-sweeney}). This equated to a misclassification rate of 10.8\% .
+
+\FloatBarrier
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{./Results3/Images/Sweeney-ROC.pdf}
+\caption[ROC analysis for Sweeney seven-gene set]{\textbf{ROC analysis for Sweeney seven-gene set.} The threshold for discriminating bacterial from viral infection is noted (-1.76), together with the specificity and sensitivity at that threshold in brackets. AUC for the GAinS cohort was 81\% (95\% CI 71\%-90\%).}
+\label{fig:roc-sweeney}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.5]{./Results3/Images/Sweeney-boxplot.pdf}
+\caption[Boxplot for Sweeney seven-gene set]{\textbf{Boxplot of predictions from Sweeney seven-gene set.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. Threshold for discriminating bacterial from viral infection (-1.76) is denoted by the dashed line. The composite score (y-axis) is derived from calculating the geometric mean of viral genes minus the gemoetric mean of bacterial genes, multiplied by the ratio of viral genes to bacterial genes (3/4).}
+\label{fig:boxplot-sweeney}
+\end{figure}
+\FloatBarrier
+
+\textbf{Herberg two-transcript disease risk score.} This previously described two-transcript ratio of \textit{IFI44L} to \textit{FAM89A} expression was applied to the same group of 166 GAinS patients (n=136 with bacterial infection; n=30 with viral infection). ROC analysis was performed with an AUC of 79.0\% (95\% CI 70.0\%-88.0\%). Youden's method was used to select a threshold for discriminating viral from bacterial infection (Figure \ref{fig:roc-herberg}). At the selected threshold of -4.49, 117/136 bacterial infections were correctly predicted (specificity 86.0\% [95\% CI 80.2\%-91.2\%]) whilst 20/30 viral infections were correctly predicted (sensitivity 66.7\% [95\% CI 50.0\%-83.3\%]) (Figure \ref{fig:boxplot-herberg}). This equated to a misclassification rate of 17.5\%.
+
+\FloatBarrier
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{./Results3/Images/Herberg-ROC.pdf}
+\caption[ROC analysis for Herberg disease risk score]{\textbf{ROC analysis for Herberg disease risk score.} The threshold for discriminating bacterial from viral infection is noted (-4.49), together with the specificity and sensitivity at that threshold in brackets. AUC for the GAinS cohort was 79\% (95\% CI 70\%-88\%).}
+\label{fig:roc-herberg}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.5]{./Results3/Images/Herberg-boxplot.pdf}
+\caption[Boxplot for Herberg disease risk score]{\textbf{Boxplot of predictions from Herberg disease risk score.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. Threshold for discriminating bacterial from viral infection (-4.49) is denoted by the dashed line. The composite score (y-axis) is derived from the disease risk score of \textit{FAM89A} expression minus \textit{IFI44L} expression. DRS=disease risk score}
+\label{fig:boxplot-herberg}
 \end{figure}
 \FloatBarrier
 
@@ -453,7 +501,7 @@ For the combined validation cohort, the signature had an AUC of 97.1\% (95\% CI 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/vp-flu.pdf}
-\caption[Volcano plot of differentially expressed probes in influenza infection]{\textbf{Volcano plot of differentially expressed probes in influenza vs bacterial infection.} Probes in red are differentially expressed at a FDR $<$0.05 and fold change $>$1.5. Positive fold change corresponds to upregulation in influenza-positive individuals. Top 20 significantly differentially expressed probes are labelled.}
+\caption[Volcano plot of differentially expressed probes in influenza infection]{\textbf{Volcano plot of differentially expressed probes in influenza vs bacterial infection for GAinS patients with sepsis due to CAP.} Probes in red are differentially expressed at a FDR $<$0.05 and fold change $>$1.5. Positive fold change corresponds to upregulation in influenza-positive individuals. Top 20 significantly differentially expressed probes are labelled.}
 \label{fig:vp-flu}
 \end{figure}
 \FloatBarrier
@@ -464,7 +512,7 @@ For the combined validation cohort, the signature had an AUC of 97.1\% (95\% CI 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/xgr-flu.pdf}
-\caption[Pathway analysis for influenza infection]{\textbf{Pathway enrichment for influenza infection.} The differentially expressed probes between patients with influenza and bacterial infection were used to determine pathway enrichment with XGR. The top ten most enriched pathways using the Gene Ontology database are shown.}
+\caption[Pathway analysis for influenza infection]{\textbf{Pathway enrichment for influenza infection in GAinS patients with sepsis due to CAP.} The differentially expressed probes between patients with influenza and bacterial infection were used to determine pathway enrichment with XGR. The top ten most enriched pathways using the Gene Ontology database are shown.}
 \label{fig:xgr-flu}
 \end{figure}
 \FloatBarrier
@@ -483,7 +531,7 @@ For the combined validation cohort, the signature had an AUC of 92.9\% (95\% CI 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/boxplot-influenza-signature.pdf}
-\caption[Boxplot of influenza vs bacterial signature]{\textbf{Boxplot of predictions from influenza vs bacterial gene signature.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. The MOSAIC groupings correspond to influenza virus types. Threshold for discriminating bacterial from influenza infection is denoted by the dashed line. The elastic net prediction value (y-axis) can range from 0 (indicating bacterial infection) to 1 (indicating influenza infection).}
+\caption[Boxplot of influenza vs bacterial signature]{\textbf{Boxplot of predictions from influenza vs bacterial gene signature in GAinS patients with sepsis due to CAP.} Each point corresponds to a patient. Actual microbiological groups are plotted on the x-axis whilst predicted classifications are denoted by point colour. The MOSAIC groupings correspond to influenza virus types. Threshold for discriminating bacterial from influenza infection is denoted by the dashed line. The elastic net prediction value (y-axis) can range from 0 (indicating bacterial infection) to 1 (indicating influenza infection).}
 \label{fig:boxplot-flu}
 \end{figure}
 \FloatBarrier
@@ -499,16 +547,7 @@ For the combined validation cohort, the signature had an AUC of 92.9\% (95\% CI 
 \FloatBarrier
  
 \subsection{Transcriptomic signature of influenza vs viral infection}
-Gene expression of individuals with influenza infection (n=20) was contrasted with that of individuals with non-influenza viral infection (n=10). There were no differentially expressed probes at FDR $<$0.05 and fold change $>$1.5 (Figure ~\ref{fig:vp-flu-viral}).
-
-\FloatBarrier
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{./Results3/Images/vp-flu-viral.pdf}
-\caption[Volcano plot of differentially expressed probes in influenza vs viral infection]{\textbf{Volcano plot of differentially expressed probes in influenza vs viral infection.} There are no differentially expressed probes at an FDR $<$0.05 and fold change $>$1.5.}
-\label{fig:vp-flu-viral}
-\end{figure}
-\FloatBarrier
+Gene expression of individuals with influenza infection (n=20) was contrasted with that of individuals with non-influenza viral infection (n=10). There were no differentially expressed probes at FDR $<$0.05 and fold change $>$1.5.
 
 \subsection{Transcriptomic signature of \textit{Streptococcus pneumoniae} infection}
 Total leukocyte gene expression was compared between individuals with \textit{S. pneumoniae} infection (n=50) diagnosed by either clinical microbiology or metagenomics and individuals without \textit{S. pneumoniae} infection (n=113). The comparator group included individuals with viral infections and non-pneumococcal bacterial infections. Three patients co-infected with \textit{S. pneumoniae} and another organism were excluded from the analysis.
@@ -519,14 +558,32 @@ Differential expression analysis revealed no differentially expressed genes betw
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./Results3/Images/vp-strep.pdf}
-\caption[Volcano plot of differentially expressed probes in \textit{S. pneumoniae} infection]{\textbf{Volcano plot of differentially expressed probes in \textit{S. pneumoniae} vs non-\textit{S. pneumoniae} infection.} There are no differentially expressed probes at an FDR $<$0.05 and fold change $>$1.5.}
+\caption[Volcano plot of differentially expressed probes in \textit{S. pneumoniae} infection]{\textbf{Volcano plot of differentially expressed probes in \textit{S. pneumoniae} vs non-\textit{S. pneumoniae} infection for GAinS patients with sepsis due to CAP.} There are no differentially expressed probes at an FDR $<$0.05 and fold change $>$1.5.}
 \label{fig:vp-viral-bacterial}
 \end{figure}
 \FloatBarrier
 
+\subsection{Summary of differential expression analyses}
+The differential gene expression analyses described in the previous sections are summarised in the following table (Table ~\ref{tab:dex-summary}).
+\FloatBarrier
+\begin{table}[]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Comparison (no. of patients)                                                             & Patients & \begin{tabular}[c]{@{}c@{}}Differentially \\ expressed probes\end{tabular} \\ \hline
+Viral (30) vs bacterial (136)                                                            & 166      & 206                                                                        \\ \hline
+Influenza (20) vs bacterial (136)                                                        & 156      & 139                                                                        \\ \hline
+Influenza (20) vs viral (10)                                                             & 30       & 0                                                                          \\ \hline
+\begin{tabular}[c]{@{}c@{}}S. pneumoniae (50) vs \\ non-S. pneumoniae (113)\end{tabular} & 163      & 0                                                                          \\ \hline
+\end{tabular}
+\end{center}
+
+\caption[Summary of differential expression analysis]{\textbf{Summary of differential expression analysis.} Differentially expressed probes defined as those with FDR $<$0.05 and fold change $>$1.5.}
+\label{tab:dex-summary}
+\end{table}
 
 \subsection{Genomics: association with HLA}
-For this section, the training dataset included 613 individuals with HLA imputed from genotyping data or HLA typing from sequencing data whilst the validation dataset included 274 individuals genotyped separately from the training cohort, with HLA imputation from the genotyping data. Alleles were tested for association with the phenotype of interest if they were present in the training cohort at a prevalence of $\geq$2\%.
+For this section, the training dataset included 613 GAinS patients with sepsis due to CAP with HLA imputed from genotyping data or HLA typing from sequencing data whilst the validation dataset included 274 individuals genotyped separately from the training cohort, with HLA imputation from the genotyping data. Alleles were tested for association with the phenotype of interest if they were present in the training cohort at a prevalence of $\geq$2\%.
 
 \textbf{Influenza.} In the training cohort (n=613), there were 30 individuals with and 583 individuals without a diagnosis of influenza sepsis. Sixty-two HLA class I (HLA-A, HLA-B, HLA-C) and class II (HLA-DQA1, HLA-DQB1, HLA-DRB1) alleles were tested for association at 2-digit resolution. After correction for multiple testing, two alleles (B*35 and C*12) had a statistically significant association with influenza sepsis (Chi-squared test; adjusted p=0.00152 and adjusted p=0.00214 respectively). 
 
@@ -537,8 +594,8 @@ HLA-B*35 is present in the England Leeds cohort (n=5024) at a prevalence of 12.7
 \FloatBarrier
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.5]{./Results3/Images/bar_hla_b35.pdf}
-\caption[Bar graph of HLA-B*35 prevalence]{\textbf{Bar graph of HLA-B*35 prevalence.} The percentage of individuals with at least one HLA-B*35 allele is plotted on the y-axis.}
+\includegraphics[scale=0.6]{./Results3/Images/bar_hla_b35.pdf}
+\caption[Bar graph of HLA-B*35 prevalence]{\textbf{Bar graph of HLA-B*35 prevalence in GAinS patients with sepsis due to CAP.} The percentage of individuals with at least one HLA-B*35 allele is plotted on the y-axis.}
 \label{fig:bar-hla-b35}
 \end{figure}
 \FloatBarrier
@@ -553,9 +610,9 @@ There were 166 individuals in the validation cohort for whom EBV reactivation da
 
 \section{Discussion}
 \subsection{EBV reactivation and immunosuppression}
-Viral reactivation in sepsis has not previously been described in the literature within the context of host gene expression. EBV reactivation in sepsis is common, increases over time and is associated with longer ICU stays and increased mortality. Consistent with the concept that viral reactivation in sepsis is a consequence of immune compromise, EBV reactivation was more frequent in those with the SRS1 immunocompromised sepsis transcriptomic endotype. Differences in the molecular response to EBV reactivation are also seen, in terms of total leukocyte gene expression profiles, with a small number of differentially expressed genes (n=13) between the EBV-positive and EBV-negative individuals. Although a number of these genes are of unknown function, \textit{CACNAD3, CDC20, KIAA0101} and \textit{PRTN3} are all implicated in EBV pathophysiology. In clinical practice, viral reactivation in the critically ill is generally considered to be an epiphenomenon and a marker of illness severity that is of little clinical significance. It remains unclear whether reactivated viruses contribute to the pathophysiology of the host response to sepsis and whether specific treatment is indicated. 
+Viral reactivation in sepsis has not previously been analysed in the literature within the context of host gene expression. EBV reactivation in sepsis is common, increases over time and is associated with longer ICU stays and increased mortality. Consistent with the concept that viral reactivation in sepsis is a consequence of immune compromise, EBV reactivation was more frequent in those with the SRS1 immunocompromised sepsis transcriptomic endotype. Differences in the molecular response to EBV reactivation are also seen, in terms of total leukocyte gene expression profiles, with a small number of differentially expressed genes (n=13) between the EBV-positive and EBV-negative individuals. Although a number of these genes are of unknown function, \textit{CACNAD3, CDC20, KIAA0101} and \textit{PRTN3} are all implicated in EBV pathophysiology. In clinical practice, viral reactivation in the critically ill is generally considered to be an epiphenomenon and a marker of illness severity that is of little clinical significance. It remains unclear whether reactivated viruses contribute to the pathophysiology of the host response to sepsis and whether specific treatment is indicated. 
 
-In previously published work, the SRS endotype have been described as categorical traits \parencite{Davenport2016}. Here, it is described for the first time as a continuous phenotype. By using the values of principal component 1, which separates patients with SRS1 from SRS2 in principal component analysis, it was shown that individuals with a more pronounced SRS1 phenotype are more likely to demonstrate reactivation of EBV, most likely as a consequence of decreased immune competence. One area for future work should therefore be to use immunophenotyping to determine whether higher levels of viraemia are associated with increased markers of immunosuppression.
+In previously published work, the SRS endotype have been described as a categorical trait \parencite{Davenport2016}. Here, it is described for the first time as a continuous phenotype. By using the values of principal component 1, which separates patients with SRS1 from SRS2 in principal component analysis, it was shown that individuals with a more pronounced SRS1 phenotype are more likely to demonstrate reactivation of EBV, most likely as a consequence of decreased immune competence. One area for future work should therefore be to use immunophenotyping to determine whether higher levels of viraemia are associated with increased markers of immunosuppression.
 
 The observed association between EBV reactivation and both morbidity and mortality highlights the clinical importance of this phenomenon. There was an increase in 28-day mortality in individuals with EBV reactivation compared to those without (27\% vs 20\%; p=0.04). This is in keeping with one small study of critically ill sepsis and non-sepsis patients \parencite{Libert2015} although two larger studies focusing on sepsis patients  \parencite{Walton2014} \parencite{Ong2017} did not find an association between EBV reactivation and mortality. EBV-positive patients also had increased levels of organ dysfunction compared with EBV-negative patients. This is in keeping with the findings of Walton and colleagues \parencite{Walton2014} who describe a similar association with SOFA score.
 
@@ -580,24 +637,6 @@ However, Rello and colleagues' results are still relevant in that they indicate 
 \subsection{Transcriptomic signatures of infection}
 The four contrasts made are summarised in Table ~\ref{tab:dex-summary}.
 
-\FloatBarrier
-\begin{table}[]
-\begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-Comparison (no. of patients)                                                             & Patients & \begin{tabular}[c]{@{}c@{}}Differentially \\ expressed probes\end{tabular} \\ \hline
-Viral (30) vs bacterial (136)                                                            & 166      & 206                                                                        \\ \hline
-Influenza (20) vs bacterial (136)                                                        & 156      & 139                                                                        \\ \hline
-Influenza (20) vs viral (10)                                                             & 30       & 0                                                                          \\ \hline
-\begin{tabular}[c]{@{}c@{}}S. pneumoniae (50) vs \\ non-S. pneumoniae (113)\end{tabular} & 163      & 0                                                                          \\ \hline
-\end{tabular}
-\end{center}
-
-\caption[Summary of differential expression analysis]{\textbf{Summary of differential expression analysis.} Differentially expressed probes defined as those with FDR $<$0.05 and fold change $>$1.5.}
-\label{tab:dex-summary}
-\end{table}
-
-
 Previous work had identified a six gene signature for differentiating viral from non-viral infection which performed with a reasonable MR (9.1\%). However, there were serious limitations to this analysis in that the "non-viral" comparator group was poorly defined, with approximately half lacking a microbiological diagnosis.
 
 This work was improved upon by better microbiological phenotyping (primarily through metagenomics and curation of clinical data) and an increase in cohort size with the addition of three further gene expression datasets. This resulted in the viral vs bacterial comparison yielding 206 differentially expressed genes at FDR $<$0.05 and fold change $>$1.5 (previous work had identified only 2 differentially expressed probes at FDR $<$0.05 and fold change $>$1.2). 
@@ -606,7 +645,7 @@ Two predictive gene expression signatures were identified using the elastic net 
 
 Of the 10 genes identified in the viral vs bacterial signature, a number are of particular relevance to viral infection, increasing our confidence in the predictive gene set. \textit{IFI27}, encodes an interferon alpha-inducible protein which has been described as a biomarker for differentiating influenza from bacterial respiratory infection \parencite{Tang2017}. \textit{SRC} encodes a non-receptor tyrosine kinase protein that interacts with viral proteins mediating key host-pathogen interactions \parencite{Pagano2013}.
 
-There were no differentially expressed genes identified in the influenza vs viral analysis or the \textit{S. pneumoniae} vs non-\textit{S. pneumoniae} analysis. This parallels the results from previous work (Subsection \ref{sssec:emmaDEgenes}) which identified only 2 differentially expressed genes in influenza vs viral infection and none in Gram-positive vs Gram-negative infections. It is possible that our modest patient numbers meant there was insufficient power to detect a difference between the different classes of infection. Alternatively, these results suggest that the transcriptomic response in sepsis may be attributable to the class of infection (i.e. viral or bacterial) rather than specific to individual organisms. This is supported by published work describing a lack of genes differentiating Gram-positive from Gram-negative sepsis \parencite{Tang2008}. 
+There were no differentially expressed genes identified in the influenza vs viral analysis or the \textit{S. pneumoniae} vs non-\textit{S. pneumoniae} analysis. This parallels the results from previous work (Section \ref{sssec:emmaDEgenes}) which identified only 2 differentially expressed genes in influenza vs viral infection and none in Gram-positive vs Gram-negative infections. It is possible that our modest patient numbers meant there was insufficient power to detect a difference between the different classes of infection. Alternatively, these results suggest that the transcriptomic response in sepsis may be attributable to the class of infection (i.e. viral or bacterial) rather than specific to individual organisms. This is supported by published work describing a lack of genes differentiating Gram-positive from Gram-negative sepsis \parencite{Tang2008}. 
 
 \subsection{Genomics: association with HLA}
 An association between HLA-B*35 positivity and influenza sepsis was detected in both training and validation cohorts. This finding has not previously been described in sepsis patients or in a Caucasian population. However, a case-control study (n=138 cases vs n=225 controls) of the influenza A H1N1/09 pandemic found that B*35:01:01-C*07:02:01 was one of two haplotypes observed at higher frequency in H1N1/09 influenza patients from a Mexican population \parencite{Falfan-Valencia2018}. Similarly, a case-control study of influenza A H1N1/09 pandemic patients in north-east India observed the frequency of HLA-B*35 to be higher in cases (n=35) versus controls (n=35). This preliminary finding in the GAinS cohort should be treated with caution and future work would include validating the finding in a cohort with larger numbers of influenza cases, restricting the analysis to Caucasian individuals and consideration of haplotype structure.

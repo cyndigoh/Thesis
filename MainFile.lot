@@ -1,38 +1,42 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces DNA plasmid spike-in controls}}{34}{table.caption.11}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Diagnostic criteria for sepsis}}{33}{table.caption.11}
+\contentsline {table}{\numberline {2.2}{\ignorespaces DNA plasmid spike-in controls}}{36}{table.caption.12}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Combined library preparations: plasmid to ERCC ratios}}{50}{table.caption.13}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Combined no fragmentation evaluation: summary}}{50}{table.caption.15}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Combined no fragmentation evaluation: plasmid to ERCC ratios}}{52}{table.caption.17}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Combined library preparations: plasmid to ERCC ratios}}{52}{table.caption.14}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Combined no fragmentation evaluation: summary}}{53}{table.caption.16}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Combined no fragmentation evaluation: plasmid to ERCC ratios}}{54}{table.caption.18}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Clinical microbiology classification}}{63}{table.caption.24}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Patient samples sequenced with \textit {Castanet}}}{67}{table.caption.25}
-\contentsline {table}{\numberline {4.3}{\ignorespaces New pathogens identified by \textit {Castanet}}}{76}{table.caption.30}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Pathogens identified in all sepsis cases}}{76}{table.caption.31}
-\contentsline {table}{\numberline {4.5}{\ignorespaces ddPCR and Castanet results for \textit {S. pneumoniae}}}{76}{table.caption.32}
+\contentsline {table}{\numberline {4.1}{\ignorespaces GAinS Clinical microbiology classification}}{68}{table.caption.25}
+\contentsline {table}{\numberline {4.2}{\ignorespaces ChiMES clinical microbiology classification}}{69}{table.caption.26}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Clinical characteristics of GAinS metagenomic cohort}}{75}{table.caption.28}
+\contentsline {table}{\numberline {4.4}{\ignorespaces New pathogens identified by \textit {Castanet}}}{83}{table.caption.33}
+\contentsline {table}{\numberline {4.5}{\ignorespaces ddPCR and Castanet results for \textit {S. pneumoniae}}}{83}{table.caption.34}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of microbiology in GAinS patients undergoing \textit {Castanet} sequencing}}{87}{table.caption.38}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Summary of microbiology in entire cohort of GAinS patients with sepsis due to CAP}}{88}{table.caption.39}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Previous work transcriptomic signatures for microbiology}}{86}{table.caption.36}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Summary of microarray datasets}}{89}{table.caption.37}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Incidence of viral reactivation}}{94}{table.caption.41}
-\contentsline {table}{\numberline {5.4}{\ignorespaces EBV status by day of sampling}}{97}{table.caption.42}
-\contentsline {table}{\numberline {5.5}{\ignorespaces EBV and clinical outcomes}}{98}{table.caption.43}
-\contentsline {table}{\numberline {5.6}{\ignorespaces EBV and clinical outcomes}}{98}{table.caption.44}
-\contentsline {table}{\numberline {5.7}{\ignorespaces \textit {S. pneumoniae} positivity and clinical outcomes}}{106}{table.caption.50}
-\contentsline {table}{\numberline {5.8}{\ignorespaces High \textit {S. pneumoniae} load and clinical outcomes}}{106}{table.caption.51}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Viral vs bacterial infection}}{108}{table.caption.53}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Summary of differential expression analysis}}{128}{table.caption.66}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Previous work transcriptomic signatures for microbiology}}{95}{table.caption.40}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary of microarray datasets}}{100}{table.caption.41}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Incidence of viral reactivation}}{105}{table.caption.45}
+\contentsline {table}{\numberline {5.4}{\ignorespaces EBV status by day of sampling}}{108}{table.caption.46}
+\contentsline {table}{\numberline {5.5}{\ignorespaces EBV and clinical outcomes}}{109}{table.caption.47}
+\contentsline {table}{\numberline {5.6}{\ignorespaces EBV and clinical outcomes}}{110}{table.caption.48}
+\contentsline {table}{\numberline {5.7}{\ignorespaces \textit {S. pneumoniae} positivity and clinical outcomes}}{118}{table.caption.54}
+\contentsline {table}{\numberline {5.8}{\ignorespaces High \textit {S. pneumoniae} load and clinical outcomes}}{118}{table.caption.55}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Viral vs bacterial infection}}{120}{table.caption.57}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Summary of differential expression analysis}}{136}{table.caption.72}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Primer/probe sets used for the digital droplet PCR experiments}}{133}{table.caption.67}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Primer/probe sets used for the digital droplet PCR experiments}}{147}{table.caption.74}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Enrichment Probe Set Viruses}}{135}{table.caption.68}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Enrichment Probe Set Bacteria}}{136}{table.caption.69}
-\contentsline {table}{\numberline {B.3}{\ignorespaces Viral Multiplex Reference}}{137}{table.caption.70}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Enrichment Probe Set Viruses}}{149}{table.caption.75}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Enrichment Probe Set Bacteria}}{150}{table.caption.76}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Viral Multiplex Reference}}{151}{table.caption.77}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Differentially expressed genes in EBV reactivation}}{139}{table.caption.71}
-\contentsline {table}{\numberline {C.2}{\ignorespaces Differentially expressed genes in EBV reactivation with SRS as a covariate}}{139}{table.caption.72}
-\contentsline {table}{\numberline {C.3}{\ignorespaces Differentially expressed genes in viral infection}}{140}{table.caption.73}
-\contentsline {table}{\numberline {C.4}{\ignorespaces Differentially expressed genes in influenza infection}}{141}{table.caption.74}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Differentially expressed genes in EBV reactivation}}{154}{table.caption.80}
+\contentsline {table}{\numberline {D.2}{\ignorespaces Differentially expressed genes in EBV reactivation with SRS as a covariate}}{155}{table.caption.81}
+\contentsline {table}{\numberline {D.3}{\ignorespaces Differentially expressed genes in viral infection}}{156}{table.caption.82}
+\contentsline {table}{\numberline {D.4}{\ignorespaces Differentially expressed genes in influenza infection}}{157}{table.caption.83}
 \contentsfinish 

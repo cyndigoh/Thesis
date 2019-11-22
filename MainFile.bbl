@@ -420,6 +420,89 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Anderson2010}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ACA}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Carl\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PFH}{%
+         family={Pettersson},
+         familyi={P\bibinitperiod},
+         given={Fredrik\bibnamedelima H.},
+         giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CGM}{%
+         family={Clarke},
+         familyi={C\bibinitperiod},
+         given={Geraldine\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CLR}{%
+         family={Cardon},
+         familyi={C\bibinitperiod},
+         given={Lon\bibnamedelima R.},
+         giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MAP}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=ZKT}{%
+         family={Zondervan},
+         familyi={Z\bibinitperiod},
+         given={Krina\bibnamedelima T.},
+         giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Animals, *Case-Control Studies, Computational Biology/*methods,
+  Female, *Genetic Techniques, Genome-Wide Association Study/methods, Humans,
+  Male, Quality Control}
+    \strng{namehash}{ACA+1}
+    \strng{fullhash}{ACAPFHCGMCLRMAPZKT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    This protocol details the steps for data quality assessment and control
+  that are typically carried out during case-control association studies. The
+  steps described involve the identification and removal of DNA samples and
+  markers that introduce bias. These critical steps are paramount to the
+  success of a case-control study and are necessary before statistically
+  testing for association. We describe how to use PLINK, a tool for handling
+  SNP data, to perform assessments of failure rate per individual and per SNP
+  and to assess the degree of relatedness between individuals. We also detail
+  other quality-control procedures, including the use of SMARTPCA software for
+  the identification of ancestral outliers. These platforms were selected
+  because they are user-friendly, widely used and computationally efficient.
+  Steps needed to detect and establish a disease association using case-control
+  data are not discussed here. Issues concerning study design and marker
+  selection in case-control studies have been discussed in our earlier
+  protocols. This protocol, which is routinely used in our labs, should take
+  approximately 8 h to complete.%
+    }
+    \field{issue}{9}
+    \field{pages}{1564\bibrangedash 73}
+    \field{title}{Data quality control in genetic case-control association
+  studies.}
+    \field{volume}{5}
+    \list{location}{1}{%
+      {England}%
+    }
+    \field{journaltitle}{Nature protocols}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Anh2019}{article}{}
     \name{author}{13}{}{%
       {{hash=ANT}{%
@@ -1747,77 +1830,6 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Bone1992}{article}{}
-    \name{author}{8}{}{%
-      {{hash=BRC}{%
-         family={Bone},
-         familyi={B\bibinitperiod},
-         given={R.\bibnamedelima C.},
-         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BRA}{%
-         family={Balk},
-         familyi={B\bibinitperiod},
-         given={R.\bibnamedelima A.},
-         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=CFB}{%
-         family={Cerra},
-         familyi={C\bibinitperiod},
-         given={F.\bibnamedelima B.},
-         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=DRP}{%
-         family={Dellinger},
-         familyi={D\bibinitperiod},
-         given={R.\bibnamedelima P.},
-         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=FAM}{%
-         family={Fein},
-         familyi={F\bibinitperiod},
-         given={A.\bibnamedelima M.},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=KWA}{%
-         family={Knaus},
-         familyi={K\bibinitperiod},
-         given={W.\bibnamedelima A.},
-         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=SRM}{%
-         family={Schein},
-         familyi={S\bibinitperiod},
-         given={R.\bibnamedelima M.},
-         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=SWJ}{%
-         family={Sibbald},
-         familyi={S\bibinitperiod},
-         given={W.\bibnamedelima J.},
-         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BRC+1}
-    \strng{fullhash}{BRCBRACFBDRPFAMKWASRMSWJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1992}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{issn}{0012-3692 (Print) 0012-3692}
-    \field{number}{6}
-    \field{pages}{1644\bibrangedash 55}
-    \field{title}{Definitions for sepsis and organ failure and guidelines for
-  the use of innovative therapies in sepsis. The ACCP/SCCM Consensus Conference
-  Committee. American College of Chest Physicians/Society of Critical Care
-  Medicine}
-    \field{volume}{101}
-    \field{type}{Journal Article}
-    \field{journaltitle}{Chest}
-    \field{year}{1992}
-  \endentry
-
   \entry{Bonsall2015}{article}{}
     \name{author}{10}{}{%
       {{hash=BD}{%
@@ -2061,6 +2073,30 @@
     \field{journaltitle}{JAMA}
     \field{year}{2011}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Breiman2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Breiman},
+         familyi={B\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{4\bibrangedash 32}
+    \field{title}{Random Forests}
+    \field{volume}{45}
+    \field{journaltitle}{Machine Learning}
+    \field{year}{2001}
   \endentry
 
   \entry{Breitbart2005}{article}{}
@@ -5217,32 +5253,40 @@
   \endentry
 
   \entry{Goh2019}{article}{}
-    \name{author}{1}{}{%
-      {{hash=GCAMdCMTAEIBDPPBASHMNDSGMBJMMHPHCSTBEPASMKJBRGT}{%
-         family={Goh\bibnamedelima C},
-         familyi={G\bibinitperiod\bibinitdelim C\bibinitperiod},
-         suffix={Golubchik\bibnamedelima T},
-         suffixi={G\bibinitperiod\bibinitdelim T\bibinitperiod},
-         given={Ansari MA de Cesare M Trebes A Elliott I Bonsall D Piazza P
-  Brown A Slawinski H Martin N Defres S Griffiths MJ Bray JE Maiden MC Hutton P
-  Hinds CJ Solomon T Barnes E Pollard AJ Sadarangani M Knight JC
-  Bowden\bibnamedelima R},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod d\bibinitperiod
-  C\bibinitperiod M\bibinitperiod T\bibinitperiod A\bibinitperiod
-  E\bibinitperiod I\bibinitperiod B\bibinitperiod D\bibinitperiod
-  P\bibinitperiod P\bibinitperiod B\bibinitperiod A\bibinitperiod
-  S\bibinitperiod H\bibinitperiod M\bibinitperiod N\bibinitperiod
-  D\bibinitperiod S\bibinitperiod G\bibinitperiod M\bibinitperiod
-  B\bibinitperiod J\bibinitperiod M\bibinitperiod M\bibinitperiod
-  H\bibinitperiod P\bibinitperiod H\bibinitperiod C\bibinitperiod
-  S\bibinitperiod T\bibinitperiod B\bibinitperiod E\bibinitperiod
-  P\bibinitperiod A\bibinitperiod S\bibinitperiod M\bibinitperiod
-  K\bibinitperiod J\bibinitperiod B\bibinitperiod\bibinitdelim
-  R\bibinitperiod},
+    \name{author}{5}{}{%
+      {{hash=GC}{%
+         family={Goh},
+         familyi={G\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Golubchik},
+         familyi={G\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ansari},
+         familyi={A\bibinitperiod},
+         given={M.A.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJC}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bowden},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GCGTAMdCMTAEIBDPPBASHMNDSGMBJMMHPHCSTBEPASMKJBR1}
-    \strng{fullhash}{GCGTAMdCMTAEIBDPPBASHMNDSGMBJMMHPHCSTBEPASMKJBR1}
+    \strng{namehash}{GC+1}
+    \strng{fullhash}{GCGTAMKJCBR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
@@ -5738,6 +5782,140 @@
     \field{journaltitle}{Cell host \& microbe}
     \field{year}{2008}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Heininger2011}{article}{}
+    \name{author}{11}{}{%
+      {{hash=HA}{%
+         family={Heininger},
+         familyi={H\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Haeberle},
+         familyi={H\bibinitperiod},
+         given={Helene},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FI}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Imma},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Riessen},
+         familyi={R\bibinitperiod},
+         given={Reimer},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Rohde},
+         familyi={R\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meisner},
+         familyi={M\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JG}{%
+         family={Jahn},
+         familyi={J\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Koenigsrainer},
+         familyi={K\bibinitperiod},
+         given={Alfred},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=UK}{%
+         family={Unertl},
+         familyi={U\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hamprecht},
+         familyi={H\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Aged, Critical Illness, Cytomegalovirus/*physiology, Cytomegalovirus
+  Infections/mortality/*virology, Double-Blind Method, Humans, Length of
+  Stay/statistics & numerical data, Male, Middle Aged, Prospective Studies,
+  Respiration, Artificial, Sepsis/mortality/*virology, Treatment Outcome,
+  *Virus Activation}
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAHHFIBRRRRFMCJGKAUKHK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    INTRODUCTION: Sepsis has been identified as a risk factor for human
+  cytomegalovirus (CMV) reactivation in critically ill patients. However, the
+  contribution of CMV reactivation on morbidity and mortality is still
+  controversial. Therefore, we analyzed the incidence and impact of CMV
+  reactivation on outcome in patients with severe sepsis. METHODS: In a
+  prospective longitudinal double-blinded observational study, 97 adult
+  nonimmunosuppressed CMV-seropositive patients with new onset of severe sepsis
+  were included. Leukocytes, plasma and tracheal secretions were examined
+  weekly for CMV-DNA by PCR. Tracheal secretions were additionally tested for
+  HSV (Herpes Simplex Virus)-DNA. The influence of CMV-reactivation on the
+  endpoints was analysed by Cox proportional-hazard regression analysis.
+  Time-dependency was evaluated by landmark analysis. RESULTS: Six out 97 died
+  and five were discharged from the hospital within 72 hours and were excluded
+  of the analysis. CMV reactivation occurred in 35 of the 86 (40.69%) analysed
+  patients. HSV infection occurred in 23 of the 35 (65.7%) CMV reactivators. In
+  10 patients CMV-plasma-DNAemia appeared with a DNA-content below 600
+  copies/ml in four cases and a peak amount of 2,830 copies/ml on average. In
+  patients with and without CMV reactivation mortality rates were similar
+  (37.1% vs. 35.3%, P = 0.861), respectively. However, in the multivariate COX
+  regression analyses CMV reactivation was independently associated with
+  increased length of stay in the ICU (30.0, interquartile range 14 to 48 vs.
+  12.0, interquartile range 7 to 19 days; HR (hazard ratio) 3.365; 95% CI
+  (confidence interval) 1.233 to 9.183, P = 0.018) and in the hospital (33.0,
+  interquartile range 24 to 62 vs. 16.0, interquartile range 10 to 24 days, HR
+  3.3, 95% CI 1.78 to 6.25, P < 0.001) as well as prolonged mechanical
+  ventilation (22.0, interquartile range 6 to 36 vs. 7.5, interquartile range 5
+  to 15.5 days; HR 2.6,CI 95% 1.39 to 4.94; P < 0.001) and impaired pulmonary
+  gas exchange (six days, interquartile range 1 to 17, vs. three, interquartile
+  range 1 to 7, days in reactivators vs. non-reactivators, P = 0.038). HSV
+  reactivation proved not to be a risk factor for these adverse effects.
+  CONCLUSIONS: These data indicate an independent correlation between CMV
+  reactivation and increased morbidity in the well-defined group of
+  nonimmunosuppressed patients with severe sepsis, but CMV reactivation had no
+  impact on mortality in this group with low CMV-DNA plasma levels. Thus, the
+  potential harms and benefits of antiviral treatment have to be weighed
+  cautiously in patients with severe sepsis or septic shock.%
+    }
+    \field{issue}{2}
+    \field{pages}{R77}
+    \field{title}{Cytomegalovirus reactivation and associated outcome of
+  critically ill patients with severe sepsis.}
+    \field{volume}{15}
+    \list{location}{1}{%
+      {England}%
+    }
+    \field{journaltitle}{Critical care (London, England)}
+    \field{year}{2011}
   \endentry
 
   \entry{Herberg2016}{article}{}
@@ -6325,6 +6503,58 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Huber2002}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HW}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=vHA}{%
+         prefix={von},
+         prefixi={v\bibinitperiod},
+         family={Heydebreck},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sultmann},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Poustka},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vingron},
+         familyi={V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HW+1}
+    \strng{fullhash}{HWHAvSHPAVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{issn}{1367-4803 (Print) 1367-4803}
+    \field{pages}{S96\bibrangedash 104}
+    \field{title}{Variance stabilization applied to microarray data calibration
+  and to the quantification of differential expression}
+    \field{volume}{18 Suppl 1}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2002}
+  \endentry
+
   \entry{Ichinohe2011}{article}{}
     \name{author}{7}{}{%
       {{hash=IT}{%
@@ -6778,6 +7008,118 @@
     \field{journaltitle}{The New England journal of medicine}
     \field{year}{2015}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Jia2013}{article}{}
+    \name{author}{8}{}{%
+      {{hash=JX}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Buhm},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OGS}{%
+         family={Onengut-Gumuscu},
+         familyi={O\bibinitperiod-G\bibinitperiod},
+         given={Suna},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CWM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Wei-Min},
+         giveni={W\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=CPJ}{%
+         family={Concannon},
+         familyi={C\bibinitperiod},
+         given={Patrick\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RSS}{%
+         family={Rich},
+         familyi={R\bibinitperiod},
+         given={Stephen\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Raychaudhuri},
+         familyi={R\bibinitperiod},
+         given={Soumya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=dBPIW}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Bakker},
+         familyi={B\bibinitperiod},
+         given={Paul I.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Alleles, Amino Acids/*genetics/immunology, Chromosome Mapping,
+  Diabetes Mellitus, Type 1/ethnology/*genetics/immunology, European
+  Continental Ancestry Group, Genetic Predisposition to Disease, Genome-Wide
+  Association Study, HLA Antigens/*genetics/immunology, HapMap Project,
+  Haplotypes, Histocompatibility Antigens Class I/*genetics/immunology,
+  Histocompatibility Antigens Class II/*genetics/immunology, Humans, Linkage
+  Disequilibrium, *Polymorphism, Single Nucleotide}
+    \strng{namehash}{JX+1}
+    \strng{fullhash}{JXHBOGSCWMCPJRSSRSBPIWd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    DNA sequence variation within human leukocyte antigen (HLA) genes mediate
+  susceptibility to a wide range of human diseases. The complex genetic
+  structure of the major histocompatibility complex (MHC) makes it difficult,
+  however, to collect genotyping data in large cohorts. Long-range linkage
+  disequilibrium between HLA loci and SNP markers across the major
+  histocompatibility complex (MHC) region offers an alternative approach
+  through imputation to interrogate HLA variation in existing GWAS data sets.
+  Here we describe a computational strategy, SNP2HLA, to impute classical
+  alleles and amino acid polymorphisms at class I (HLA-A, -B, -C) and class II
+  (-DPA1, -DPB1, -DQA1, -DQB1, and -DRB1) loci. To characterize performance of
+  SNP2HLA, we constructed two European ancestry reference panels, one based on
+  data collected in HapMap-CEPH pedigrees (90 individuals) and another based on
+  data collected by the Type 1 Diabetes Genetics Consortium (T1DGC, 5,225
+  individuals). We imputed HLA alleles in an independent data set from the
+  British 1958 Birth Cohort (N = 918) with gold standard four-digit HLA types
+  and SNPs genotyped using the Affymetrix GeneChip 500 K and Illumina
+  Immunochip microarrays. We demonstrate that the sample size of the reference
+  panel, rather than SNP density of the genotyping platform, is critical to
+  achieve high imputation accuracy. Using the larger T1DGC reference panel, the
+  average accuracy at four-digit resolution is 94.7% using the low-density
+  Affymetrix GeneChip 500 K, and 96.7% using the high-density Illumina
+  Immunochip. For amino acid polymorphisms within HLA genes, we achieve 98.6%
+  and 99.3% accuracy using the Affymetrix GeneChip 500 K and Illumina
+  Immunochip, respectively. Finally, we demonstrate how imputation and
+  association testing at amino acid resolution can facilitate fine-mapping of
+  primary MHC association signals, giving a specific example from type 1
+  diabetes.%
+    }
+    \field{issue}{6}
+    \field{pages}{e64683}
+    \field{title}{Imputing amino acid polymorphisms in human leukocyte
+  antigens.}
+    \field{volume}{8}
+    \list{location}{1}{%
+      {United States}%
+    }
+    \field{journaltitle}{PloS one}
+    \field{year}{2013}
   \endentry
 
   \entry{Jilek2012}{article}{}
@@ -7292,147 +7634,6 @@
     }
     \field{journaltitle}{Gastroenterology}
     \field{year}{2011}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{Kingsmore2008}{article}{}
-    \name{author}{14}{}{%
-      {{hash=KSF}{%
-         family={Kingsmore},
-         familyi={K\bibinitperiod},
-         given={Stephen\bibnamedelima F.},
-         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Kennedy},
-         familyi={K\bibinitperiod},
-         given={Neil},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=HHL}{%
-         family={Halliday},
-         familyi={H\bibinitperiod},
-         given={Henry\bibnamedelima L.},
-         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=VVJC}{%
-         family={Van\bibnamedelima Velkinburgh},
-         familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod},
-         given={Jennifer\bibnamedelima C.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=ZS}{%
-         family={Zhong},
-         familyi={Z\bibinitperiod},
-         given={Shengiang},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GV}{%
-         family={Gabriel},
-         familyi={G\bibinitperiod},
-         given={Vanessa},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Grant},
-         familyi={G\bibinitperiod},
-         given={Judith},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=BWD}{%
-         family={Beavis},
-         familyi={B\bibinitperiod},
-         given={William\bibnamedelima D.},
-         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=TVT}{%
-         family={Tchernev},
-         familyi={T\bibinitperiod},
-         given={Velizar\bibnamedelima T.},
-         giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=PL}{%
-         family={Perlee},
-         familyi={P\bibinitperiod},
-         given={Lorah},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=LS}{%
-         family={Lejnine},
-         familyi={L\bibinitperiod},
-         given={Serguei},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GB}{%
-         family={Grimwade},
-         familyi={G\bibinitperiod},
-         given={Brian},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Sorette},
-         familyi={S\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=EJDM}{%
-         family={Edgar},
-         familyi={E\bibinitperiod},
-         given={J.\bibnamedelima David\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Biomarkers/*blood, Blood Proteins/analysis, Cluster Analysis,
-  Demography, Gestational Age, Humans, Immunoassay, Infant, Newborn, Infant,
-  Premature/*blood, Infant, Premature, Diseases/*blood/*diagnosis,
-  Infection/*blood/*diagnosis, Multivariate Analysis}
-    \strng{namehash}{KSF+1}
-    \strng{fullhash}{KSFKNHHLVVJCZSGVGJBWDTVTPLLSGBSMEJDM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2008}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{abstract}{%
-    Infection is a leading cause of neonatal morbidity and mortality worldwide.
-  Premature neonates are particularly susceptible to infection because of
-  physiologic immaturity, comorbidity, and extraneous medical interventions.
-  Additionally premature infants are at higher risk of progression to sepsis or
-  severe sepsis, adverse outcomes, and antimicrobial toxicity. Currently
-  initial diagnosis is based upon clinical suspicion accompanied by nonspecific
-  clinical signs and is confirmed upon positive microbiologic culture results
-  several days after institution of empiric therapy. There exists a significant
-  need for rapid, objective, in vitro tests for diagnosis of infection in
-  neonates who are experiencing clinical instability. We used immunoassays
-  multiplexed on microarrays to identify differentially expressed serum
-  proteins in clinically infected and non-infected neonates. Immunoassay arrays
-  were effective for measurement of more than 100 cytokines in small volumes of
-  serum available from neonates. Our analyses revealed significant alterations
-  in levels of eight serum proteins in infected neonates that are associated
-  with inflammation, coagulation, and fibrinolysis. Specifically P- and
-  E-selectins, interleukin 2 soluble receptor alpha, interleukin 18, neutrophil
-  elastase, urokinase plasminogen activator and its cognate receptor, and
-  C-reactive protein were observed at statistically significant increased
-  levels. Multivariate classifiers based on combinations of serum analytes
-  exhibited better diagnostic specificity and sensitivity than single analytes.
-  Multiplexed immunoassays of serum cytokines may have clinical utility as an
-  adjunct for rapid diagnosis of infection and differentiation of etiologic
-  agent in neonates with clinical decompensation.%
-    }
-    \field{issue}{10}
-    \field{pages}{1863\bibrangedash 75}
-    \field{title}{Identification of diagnostic biomarkers for infection in
-  premature neonates.}
-    \field{volume}{7}
-    \list{location}{1}{%
-      {United States}%
-    }
-    \field{journaltitle}{Molecular \& cellular proteomics : MCP}
-    \field{year}{2008}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -8715,6 +8916,78 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Leek2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LJT}{%
+         family={Leek},
+         familyi={L\bibinitperiod},
+         given={Jeffrey\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=JWE}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={W.\bibnamedelima Evan},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PHS}{%
+         family={Parker},
+         familyi={P\bibinitperiod},
+         given={Hilary\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JAE}{%
+         family={Jaffe},
+         familyi={J\bibinitperiod},
+         given={Andrew\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJD}{%
+         family={Storey},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Gene Expression Profiling, Genomics, High-Throughput Nucleotide
+  Sequencing, Humans, Regression Analysis, *Software, Urinary Bladder
+  Neoplasms/genetics}
+    \strng{namehash}{LJT+1}
+    \strng{fullhash}{LJTJWEPHSJAESJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Heterogeneity and latent variables are now widely recognized as major
+  sources of bias and variability in high-throughput experiments. The most
+  well-known source of latent variation in genomic experiments are batch
+  effects-when samples are processed on different days, in different groups or
+  by different people. However, there are also a large number of other
+  variables that may have a major impact on high-throughput measurements. Here
+  we describe the sva package for identifying, estimating and removing unwanted
+  sources of variation in high-throughput experiments. The sva package supports
+  surrogate variable estimation with the sva function, direct adjustment for
+  known batch effects with the ComBat function and adjustment for batch and
+  latent variables in prediction problems with the fsva function.%
+    }
+    \field{issue}{6}
+    \field{pages}{882\bibrangedash 3}
+    \field{title}{The sva package for removing batch effects and other unwanted
+  variation in high-throughput experiments.}
+    \field{volume}{28}
+    \list{location}{1}{%
+      {England}%
+    }
+    \field{journaltitle}{Bioinformatics (Oxford, England)}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Lesnik1995}{article}{}
     \name{author}{2}{}{%
       {{hash=LEA}{%
@@ -8775,6 +9048,167 @@
     \field{journaltitle}{Biochemistry}
     \field{year}{1995}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Levy2003}{article}{}
+    \name{author}{10}{}{%
+      {{hash=LMM}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Mitchell\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FMP}{%
+         family={Fink},
+         familyi={F\bibinitperiod},
+         given={Mitchell\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Abraham},
+         familyi={A\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Angus},
+         familyi={A\bibinitperiod},
+         given={Derek},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={Deborah},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OSM}{%
+         family={Opal},
+         familyi={O\bibinitperiod},
+         given={Steven\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VJL}{%
+         family={Vincent},
+         familyi={V\bibinitperiod},
+         given={Jean-Louis},
+         giveni={J\bibinitperiod-L\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ramsay},
+         familyi={R\bibinitperiod},
+         given={Graham},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Humans, Multiple Organ Failure/complications/diagnosis,
+  Sepsis/complications/*diagnosis, Shock, Septic/diagnosis, Systemic
+  Inflammatory Response Syndrome/*diagnosis, *Terminology as Topic}
+    \strng{namehash}{LMM+1}
+    \strng{fullhash}{LMMFMPMJCAEADCDCJOSMVJLRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    OBJECTIVE: In 1991, the American College of Chest Physicians (ACCP) and the
+  Society of Critical Care Medicine (SCCM) convened a "Consensus Conference,"
+  the goals of which were "to provide a conceptual and a practical framework to
+  define the systemic inflammatory response to infection, which is a
+  progressive injurious process that falls under the generalized term 'sepsis'
+  and includes sepsis-associated organ dysfunction as well." The general
+  definitions introduced as a result of that conference have been widely used
+  in practice and have served as the foundation for inclusion criteria for
+  numerous clinical trials of therapeutic interventions. Nevertheless, there
+  has been an impetus from experts in the field to modify these definitions to
+  reflect our current understanding of the pathophysiology of these syndromes.
+  DESIGN: Several North American and European intensive care societies agreed
+  to revisit the definitions for sepsis and related conditions. This conference
+  was sponsored by the SCCM, The European Society of Intensive Care Medicine
+  (ESICM), The American College of Chest Physicians (ACCP), the American
+  Thoracic Society (ATS), and the Surgical Infection Society (SIS). METHODS:
+  The conference was attended by 29 participants from Europe and North America.
+  In advance of the conference, five subgroups were formed to evaluate the
+  following areas: signs and symptoms of sepsis, cell markers, cytokines,
+  microbiologic data, and coagulation parameters. The subgroups corresponded
+  electronically before the conference and met in person during the conference.
+  A spokesperson for each group presented the deliberation of each group to all
+  conference participants during a plenary session. A writing committee was
+  formed at the conference and developed the current article based on executive
+  summary documents generated by each group and the plenary group
+  presentations. The present article serves as the final report of the 2001
+  International Sepsis Definitions Conference. CONCLUSION: This document
+  reflects a process whereby a group of experts and opinion leaders revisited
+  the 1992 sepsis guidelines and found that apart from expanding the list of
+  signs and symptoms of sepsis to reflect clinical bedside experience, no
+  evidence exists to support a change to the definitions. This lack of evidence
+  serves to underscore the challenge still present in diagnosing sepsis in 2003
+  for clinicians and researchers and also provides the basis for introducing
+  PIRO as a hypothesis-generating model for future research.%
+    }
+    \field{issue}{4}
+    \field{pages}{1250\bibrangedash 6}
+    \field{title}{2001 SCCM/ESICM/ACCP/ATS/SIS International Sepsis Definitions
+  Conference.}
+    \field{volume}{31}
+    \list{location}{1}{%
+      {United States}%
+    }
+    \field{journaltitle}{Critical care medicine}
+    \field{year}{2003}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Li2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Durbin},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LHDR1}
+    \strng{fullhash}{LHDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btp324
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{14}
+    \field{pages}{1754\bibrangedash 60}
+    \field{title}{Fast and accurate short read alignment with Burrows-Wheeler
+  transform}
+    \field{volume}{25}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2009}
   \endentry
 
   \entry{Li2015}{article}{}
@@ -15533,6 +15967,208 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Ramsuran2018}{article}{}
+    \name{author}{26}{}{%
+      {{hash=RV}{%
+         family={Ramsuran},
+         familyi={R\bibinitperiod},
+         given={Veron},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Naranbhai},
+         familyi={N\bibinitperiod},
+         given={Vivek},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Horowitz},
+         familyi={H\bibinitperiod},
+         given={Amir},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=QY}{%
+         family={Qi},
+         familyi={Q\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MMP}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Maureen\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yuki},
+         familyi={Y\bibinitperiod},
+         given={Yuko},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Xiaojiang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WSV}{%
+         family={Walker-Sperling},
+         familyi={W\bibinitperiod-S\bibinitperiod},
+         given={Victoria},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DPGQ}{%
+         family={Del\bibnamedelima Prete},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Gregory\bibnamedelima Q.},
+         giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=SDK}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Douglas\bibnamedelima K.},
+         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LJD}{%
+         family={Lifson},
+         familyi={L\bibinitperiod},
+         given={Jeffrey\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fellay},
+         familyi={F\bibinitperiod},
+         given={Jacques},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DSG}{%
+         family={Deeks},
+         familyi={D\bibinitperiod},
+         given={Steven\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MJN}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Jeffrey\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=GJJ}{%
+         family={Goedert},
+         familyi={G\bibinitperiod},
+         given={James\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WSM}{%
+         family={Wolinsky},
+         familyi={W\bibinitperiod},
+         given={Steven\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MNL}{%
+         family={Michael},
+         familyi={M\bibinitperiod},
+         given={Nelson\bibnamedelima L.},
+         giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KGD}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Gregory\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Buchbinder},
+         familyi={B\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Haas},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Ndung'u},
+         familyi={N\bibinitperiod},
+         given={Thumbi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Goulder},
+         familyi={G\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Parham},
+         familyi={P\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WBD}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Bruce\bibnamedelima D.},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={Carlson},
+         familyi={C\bibinitperiod},
+         given={Jonathan\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carrington},
+         familyi={C\bibinitperiod},
+         given={Mary},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Alleles, CD4 Lymphocyte Count, Cohort Studies, HIV/*immunology, HIV
+  Infections/drug therapy/genetics/*immunology, HLA
+  Antigens/genetics/*metabolism, Humans, Killer Cells, Natural/*immunology,
+  Ligands, NK Cell Lectin-Like Receptor Subfamily C/antagonists &
+  inhibitors/genetics/*metabolism, Protein Sorting Signals, Viremia/immunology}
+    \strng{namehash}{RV+1}
+  \strng{fullhash}{RVNVHAQYMMPYYGXWSVDPGQSDKLJDFJDSGMJNGJJWSMMNLKGDBSHDNTGPPPWBDCJMCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    The highly polymorphic human leukocyte antigen (HLA) locus encodes cell
+  surface proteins that are critical for immunity. HLA-A expression levels vary
+  in an allele-dependent manner, diversifying allele-specific effects beyond
+  peptide-binding preference. Analysis of 9763 HIV-infected individuals from 21
+  cohorts shows that higher HLA-A levels confer poorer control of HIV. Elevated
+  HLA-A expression provides enhanced levels of an HLA-A-derived signal peptide
+  that specifically binds and determines expression levels of HLA-E, the ligand
+  for the inhibitory NKG2A natural killer (NK) cell receptor. HLA-B haplotypes
+  that favor NKG2A-mediated NK cell licensing (i.e., education) exacerbate the
+  deleterious effect of high HLA-A on HIV control, consistent with
+  NKG2A-mediated inhibition impairing NK cell clearance of HIV-infected
+  targets. Therapeutic blockade of HLA-E:NKG2A interaction may yield benefit in
+  HIV disease.%
+    }
+    \field{issue}{6371}
+    \field{pages}{86\bibrangedash 90}
+    \field{title}{Elevated HLA-A expression impairs HIV control through
+  inhibition of NKG2A-expressing cells.}
+    \field{volume}{359}
+    \list{location}{1}{%
+      {United States}%
+    }
+    \field{journaltitle}{Science (New York, N.Y.)}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Rando2007}{article}{}
     \name{author}{2}{}{%
       {{hash=ROJ}{%
@@ -18891,85 +19527,6 @@
     }
     \field{journaltitle}{Nature}
     \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{Thompson2015}{article}{}
-    \name{author}{5}{}{%
-      {{hash=TJA}{%
-         family={Thompson},
-         familyi={T\bibinitperiod},
-         given={Jessica\bibnamedelima Ann},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=ORA}{%
-         family={Oliveira},
-         familyi={O\bibinitperiod},
-         given={Rita\bibnamedelima Almeida},
-         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Djukovic},
-         familyi={D\bibinitperiod},
-         given={Ana},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=UC}{%
-         family={Ubeda},
-         familyi={U\bibinitperiod},
-         given={Carles},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=XKB}{%
-         family={Xavier},
-         familyi={X\bibinitperiod},
-         given={Karina\bibnamedelima Bivar},
-         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Animals, Anti-Bacterial Agents/pharmacology, Bacteroidetes/drug
-  effects, Escherichia coli/metabolism, Homoserine/*analogs &
-  derivatives/metabolism/pharmacology, Intestines/*microbiology,
-  Lactones/metabolism/*pharmacology, Male, Mice, Mice, Inbred C57BL,
-  Microbiota/*drug effects/physiology, *Quorum Sensing, Staphylococcaceae/drug
-  effects, Streptomycin/pharmacology}
-    \strng{namehash}{TJA+1}
-    \strng{fullhash}{TJAORADAUCXKB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{abstract}{%
-    The mammalian gut microbiota harbors a diverse ecosystem where hundreds of
-  bacterial species interact with each other and their host. Given that
-  bacteria use signals to communicate and regulate group behaviors (quorum
-  sensing), we asked whether such communication between different commensal
-  species can influence the interactions occurring in this environment. We
-  engineered the enteric bacterium, Escherichia coli, to manipulate the levels
-  of the interspecies quorum sensing signal, autoinducer-2 (AI-2), in the mouse
-  intestine and investigated the effect upon antibiotic-induced gut microbiota
-  dysbiosis. E. coli that increased intestinal AI-2 levels altered the
-  composition of the antibiotic-treated gut microbiota, favoring the expansion
-  of the Firmicutes phylum. This significantly increased the
-  Firmicutes/Bacteroidetes ratio, to oppose the strong effect of the
-  antibiotic, which had almost cleared the Firmicutes. This demonstrates that
-  AI-2 levels influence the abundance of the major phyla of the gut microbiota,
-  the balance of which is known to influence human health.%
-    }
-    \field{issue}{11}
-    \field{pages}{1861\bibrangedash 71}
-    \field{title}{Manipulation of the quorum sensing signal AI-2 affects the
-  antibiotic-treated gut microbiota.}
-    \field{volume}{10}
-    \list{location}{1}{%
-      {United States}%
-    }
-    \field{journaltitle}{Cell reports}
-    \field{year}{2015}
     \warn{\item Invalid format of field 'month'}
   \endentry
 

@@ -8,14 +8,14 @@
 \doublespacing
 
 \section{Introduction}
-We anticipated two main challenges associated with metagenomic sequencing from sepsis plasma samples. Firstly, sensitivity for detecting microbial nucleic acids would be low since human nucleic acids would be present in far greater excess, especially with antimicrobial use prior to sample collection. Secondly, the design of a single library preparation method suitable for sequencing both DNA and RNA when most examples in the literature target only one type of nucleic acid. These challenges were addressed through the application of probe-based enrichment and a combined DNA and RNA library preparation workflow, respectively and we termed this probe-based targeted enrichment method \textit{Castanet}.
+We anticipated two main challenges associated with metagenomic sequencing from sepsis plasma samples. Firstly, sensitivity for detecting microbial nucleic acids would be low since human nucleic acids would be present in greater excess, especially with antimicrobial use prior to sample collection. Secondly, the design of a single library preparation method suitable for sequencing both DNA and RNA when almost all examples of library preparation methods in the literature target only one type of nucleic acid. These challenges were addressed through the application of probe-based enrichment and a combined DNA and RNA library preparation workflow, respectively and we termed this probe-based targeted enrichment method \textit{Castanet}.
 
 \subsection{Probe-based enrichment} 
-Our starting point for targeted metagenomics using oligonucleotide enrichment probes was work done \parencite{Bonsall2015} by the Stratified Medicine to Optimise the Treatment of Patients with Hepatitis C Virus Infection (STOP-HCV) consortium (led by Professor Ellie Barnes, University of Oxford). The genome of Hepatitis C virus (HCV) is highly diverse with strains subdivided into seven genotypes which differ at approximately 30-35\% positions across the ~9650 nt genome. This makes work on HCV highly applicable to the range of diverse bacteria and viruses we would need to target in CAP.
+Our starting point for targeted metagenomics using oligonucleotide enrichment probes was work done \parencite{Bonsall2015} by the Stratified Medicine to Optimise the Treatment of Patients with Hepatitis C Virus Infection (STOP-HCV) consortium (led by Professor Ellie Barnes, University of Oxford). The genome of Hepatitis C virus (HCV) is highly diverse with strains subdivided into seven genotypes which differ at approximately 30-35\% positions across the ~9650 nt genome. This makes work on HCV highly applicable its genomic diversity is analogous to the range of diverse bacteria and viruses we would need to target in CAP.
 
 Bonsall and colleagues observed greater than 10$^{3}$ fold enrichment in mid-range viral load samples (10$^{4}$-10$^{5}$ IU/ml). This degree of enrichment enabled an increased depth of sequencing to be achieved, enabling more affordable sequencing through multiplexing of larger numbers of samples for the same amount of sequencing capacity.
 
-In addition, the STOP-HCV group were able to exploit a phenomenon they observed, that a 20\% divergence between probe and target was tolerated with minimal reduction in enrichment efficiency. They started with a probe panel covering 4 genotypes and augmented it to improve coverage for the four already-included subtypes and six additional subtypes. To do this, a consensus sequence for each HCV subtype was generated. Then, for each whole genome sequence in a reference set, genomic regions with less than 80\% identity to a starting panel of probes were identified. For each of these regions, the subtype consensus sequence was considered as a reference if there was $\geq$ 80\% similarity. If not, a probe was added to cover that genomic region. In this way, a cost-effective, non-redundant set of probes was generated.
+In addition, the STOP-HCV group were able to exploit a phenomenon they observed, namely that a 20\% divergence between probe and target was tolerated with minimal reduction in enrichment efficiency. They started with a probe panel covering 4 genotypes and augmented it to improve coverage for the four already-included subtypes and six additional subtypes. To do this, a consensus sequence for each HCV subtype was generated. Then, for each whole genome sequence in a reference set, genomic regions with less than 80\% identity to a starting panel of probes were identified. For each of these regions, the subtype consensus sequence was considered as a reference if there was $\geq$ 80\% similarity. If not, a probe was added to cover that genomic region. In this way, a cost-effective, non-redundant set of probes was generated.
 
 \subsection{Ribosomal multilocus sequence typing}
 The ribosomal multilocus sequence typing (rMLST) scheme \parencite{Jolley2012} for combined taxonomy and typing in bacteria is a development from 16S rRNA gene approaches \parencite{Woese1987}. This approach indexes variation of the 53 bacterial ribosome protein subunit (\textit{rps}) genes to enable resolution into groups at all taxonomic and most typing levels. This is possible as the \textit{rps} genes are conserved enough to enable taxonomic organisation and yet sufficiently diverse to enable species and type characterisation. As of 23 July 2019, the rMLST database (http://pubmlst.org/rmlst) contained 304,876 genomes and 1,861,484 alleles. 
@@ -28,7 +28,7 @@ There are few examples in the literature of a single combined library preparatio
 Other examples of combined library preparation methods include that described in the VirCapSeq-VERT method \parencite{Briese2015} which involved nucleic acid extraction, cDNA synthesis, fragmentation using ultrasonication, and subsequent processing using the KAPA library prepration kit. However, the authors did not trial this method on actual clinical specimens. 
 
 \subsection{Viral multiplex reference}
-We evaluated our workflow using a Viral Multiplex Reference (VMR) control (11/242) available through the UK National Institute for Biological Standards and Control (NIBSC). The reagent contains 25 infectious viruses covering a range of genome types (dsDNA, dsRNA, ssRNA+, ssRNA-), sizes (6.8-233.7 kb), envelope types and pre-assayed concentrations (Table ~\ref{tab:VMR}). 
+We evaluated our workflow using a Viral Multiplex Reference (VMR) control (11/242) available through the UK National Institute for Biological Standards and Control (NIBSC). The reagent contains 25 viruses covering a range of genome types (dsDNA, dsRNA, ssRNA+, ssRNA-), sizes (6.8-233.7 kb), envelope types and pre-assayed concentrations (Table ~\ref{tab:VMR}). The viruses represent a range of common hazard group 2 human viruses (UK Advisory Committee on Dangerous Pathogens classification) and were propagated in cell culture or by egg passage, or isolated from clinical specimens.
 
 Mee and colleagues \parencite{Mee2016} document a study involving 15 laboratories who were invited to process the VMR control using their own wet-lab and informatics methods. In this study, 6/25 target viruses were detected by all laboratories and two laboratories detected all 25 viruses. We will compare the performance of \textit{Castanet} against these 15 laboratories.
 
@@ -64,7 +64,7 @@ HCV yield was highest in the CnoF prep, superior even to the standard RNA librar
 \begin{sidewaysfigure}[htbp]
 \centering
 \includegraphics[width=\textwidth, scale=0.9]{./Results1/Images/libprep.png}
-\caption[Comparison of four library preparation methods]{\textbf{Comparison of four library preparation methods} Performance of the different library preparation methods was evaluated with regards to: (a) ERCC RNA yield; (b) Plasmid DNA yield; (c) HCV RNA yield; (d) HCV genome coverage. (ERCC=External RNA Controls Consortium Spike-in Mix; CF=Combined with Fragmentation; CnoF=Combined with no Fragmentation; HCV=Hepatitis C Virus}
+\caption[Comparison of four library preparation methods]{\textbf{Comparison of four library preparation methods} Plasma samples from five patients with HCV infection were processed by four library preparation methods in parallel. Performance of the different library preparation methods was evaluated with regards to: (a) ERCC RNA yield; (b) Plasmid DNA yield; (c) HCV RNA yield; (d) HCV genome coverage. (ERCC=External RNA Controls Consortium Spike-in Mix; CF=Combined with Fragmentation; CnoF=Combined with no Fragmentation; HCV=Hepatitis C Virus}
 \label{fig:Fig4libprep}
 
 
@@ -73,13 +73,13 @@ HCV yield was highest in the CnoF prep, superior even to the standard RNA librar
 
 
 
-For each sample, we calculated the input DNA:RNA spike-in ratio and compared this against the ratio of DNA:RNA (plasmid:ERCC) reads recovered (Table ~\ref{tab:plasmidERCC}). We observed that the yield of DNA:RNA reads closely matched the input spike-in concentrations of DNA:RNA with the CnoF prep, indicating that this method method was similarly efficient for recovery of both DNA and RNA when compared to the CF prep.
+For each sample, we calculated the input DNA:RNA spike-in ratio and compared this against the ratio of DNA:RNA (plasmid:ERCC) reads recovered (Table ~\ref{tab:plasmidERCC}). We observed that the yield of DNA:RNA reads closely matched the input spike-in concentrations of DNA:RNA with the CnoF prep, indicating that this method was similarly efficient for recovery of both DNA and RNA when compared to the CF prep.
 
 \begin{table}[htbp]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-&& HCV146 & HCV371 & HCV953 & HCV958 & HCV972\\
+&& HCV1 & HCV2 & HCV3 & HCV4 & HCV5\\
 \hline
 Input & Both & 1.5 & 5.9 & 1.4 & 1.8 & 1.8\\
 (Plasmid:ERCC mass) &&&&&&\\
@@ -90,14 +90,14 @@ Output & CF & 12.0 & 53.6 & 11.0 & 21.3 & 16.4\\
 \end{tabular}
 \end{center}
 \smallskip
-\caption[Combined library preparations: plasmid to ERCC ratios]{\textbf{Sequencing yield of plasmid:ERCC reads relative to plasmid:ERCC spike-in mass}. The combined with no fragmentation (CnoF) and combined with fragmentation (CF) library preps are compared.}
+\caption[Combined library preparations: plasmid to ERCC ratios]{\textbf{Sequencing yield of plasmid:ERCC reads relative to plasmid:ERCC spike-in mass}. The combined with no fragmentation (CnoF) and combined with fragmentation (CF) library preps are compared in plasma samples from five patients with HCV infection (HCV1 to HCV5)}
 \label{tab:plasmidERCC}
 \end{table}
 \smallskip
 
 
 \subsection{Evaluation of the Combined no Fragmentation protocol} 
-A subsequent experiment was performed to further evaluate the CnoF library prep protocol (Figure ~\ref{fig:Exp2}), with the following specific aims: (i) to compare relative yield of reads originating from RNA and DNA; (ii) to evaluate the relationship of sequencing yield with read length and concentration for RNA and DNA; and (iii) to trial the CnoF protocol in sepsis patients.
+A subsequent experiment was performed to further evaluate the CnoF library prep protocol (Figure ~\ref{fig:Exp2}), with the following specific aims: (i) to compare relative yield of reads originating from RNA and DNA; (ii) to evaluate the relationship of sequencing yield with read length and concentration for RNA and DNA; and (iii) to trial the CnoF protocol in sepsis patients. The sepsis samples were obtained from GAinS patients with sepsis due to CAP.
 
 \begin{figure}[htbp]
 \centering
@@ -105,20 +105,21 @@ A subsequent experiment was performed to further evaluate the CnoF library prep 
 \caption[Combined no fragmentation library preparation evaluation]{\textbf{Workflow for CnoF Evaluation Experiment.} Each HCV sample was divided into three aliquots following nucleic acid extraction and spiked with (i) ERCC only, (ii) plasmid only, or (iii) both ERCC and plasmid. Each sepsis sample was spiked with both ERCC and plasmid.}
 \label{fig:Exp2}
 \end{figure}
+\FloatBarrier
 
 Sequencing yielded a mean total read count of 24.8x10$^6$ with minimal variation between HCV and sepsis samples (range 22.7-28.3x10$^6$) (Table ~\ref{tab:OptSummary}).
 
 \begin{table}[]
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-                      & HCV371 & HCV958 & Sepsis4 & Sepsis6 \\ \hline
+                      & HCV2 & HCV4 & Sepsis1 & Sepsis2 \\ \hline
 Total reads (x10$^6$) & 23.9   & 22.7   & 25.7    & 25.1    \\ \hline
 \% Human              & 95.2   & 96.4   & 96.4    & 99.1    \\ \hline
 \% HCV                & 1.98   & 0.44   & 0       & 0       \\ \hline
 \% ERCC               & 0.23   & 0.27   & 0.20    & 0.18    \\ \hline
 \% Plasmid            & 0.38   & 0.50   & 0.23    & 0.19    \\ \hline
 \end{tabular}
-\caption[Combined no fragmentation evaluation: summary]{\textbf{Percentage of reads aligning to each of the relevant reference genomes.} Results are for samples with dual ERCC and plasmid spike-ins}
+\caption[Combined no fragmentation evaluation: summary]{\textbf{Percentage of reads aligning to each of the relevant reference genomes.} Results are for samples with dual ERCC and plasmid spike-ins. In this experiment, plasma samples from two patients with HCV infection (HCV2 and HCV4) and two patients with sepsis due to CAP (Sepsis1 and Sepsis2) was evaluated.}
 \label{tab:OptSummary}
 \end{table}
 
@@ -137,12 +138,12 @@ The plasmid and ERCC controls were spiked-in at 1\% by mass of the initial sampl
 \begin{tabular}{|c|c|c|}
 \hline
 Sample   & Input ratio (mass) & Output ratio (reads) \\ \hline
-HCV371   & 1.94               & 1.65                 \\ \hline
-HCV958   & 2.40               & 1.86                 \\ \hline
-Sepsis4  & 1.12               & 1.15                 \\ \hline
-Sepsis16 & 0.70               & 1.03                 \\ \hline
+HCV2   & 1.94               & 1.65                 \\ \hline
+HCV4   & 2.40               & 1.86                 \\ \hline
+Sepsis1  & 1.12               & 1.15                 \\ \hline
+Sepsis2 & 0.70               & 1.03                 \\ \hline
 \end{tabular}
-\caption[Combined no fragmentation evaluation: plasmid to ERCC ratios]{\textbf{Sequencing yield of plasmid:ERCC (reads) relative to spike-in input (mass)}}
+\caption[Combined no fragmentation evaluation: plasmid to ERCC ratios]{\textbf{Sequencing yield of plasmid:ERCC (reads) relative to spike-in input (mass).} The relative performance of the library preparation method for sequencing RNA and DNA was evaluated by comparing input to output ratios for plasmid:ERCC (DNA:RNA). Plasma samples from two patients with HCV infection (HCV2 and HCV4) and two patients with sepsis due to CAP (Sepsis1 and Sepsis2 was evaluated.}
 \label{tab:ratios}
 \end{table}
 
@@ -151,7 +152,7 @@ There was no association between sequencing yield and fragment size for either p
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth, trim={0 2cm 0 8cm},clip]{./Results1/Images/1b_control_length.pdf}
+\includegraphics[width=\textwidth]{./Results1/Images/1b_control_length.pdf}
 \caption[Relationship between read yield and fragment length]{\textbf{Relationship between read yield and fragment length.} (a) ERCC, (b) Plasmid. The y-axis displays read count normalised for fragment length, total read count per sample, and fragment concentration. RPKM = reads per kilobase of fragment per million reads.}
 \label{fig:1bcontrollength}
 \end{figure}
@@ -164,7 +165,7 @@ For the ERCCs, sequencing yield was proportional to input concentration (Figure 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth, trim={0 2cm 0 6cm},clip]{./Results1/Images/1b_control_conc.pdf}
+\includegraphics[width=\textwidth]{./Results1/Images/1b_control_conc.pdf}
 \caption[Relationship between read yield and input concentration]{\textbf{Relationship between read yield and input concentration (molarity).} (a) ERCC, (b) Plasmid. RPKM = reads per kilobase of fragment per million reads.}
 \label{fig:1bcontrolconc}
 \end{figure}
@@ -221,11 +222,13 @@ A data processing pipeline (Figure \ref{fig:dataprocessing}) was developed in co
 \end{figure}
 \FloatBarrier
 
-De-multiplexed sequence read-pairs were trimmed of adapter sequences using Trimmomatic v0.36, with the ILLUMINACLIP options set to “2:10:7:1:true MINLEN:50”, using the set of Illumina adapters supplied with the software \parencite{Bolger2014}. The trimmed reads were then classified using Kraken v1 \parencite{Wood2014} using a custom database containing the human genome (GRCh38 build), all RefSeq bacterial and viral genomes, and a selection of fungal genomes that were most likely to be associated with cases of meningitis \parencite{Cuomo2017}. These were: \textit{Aspergillus fumigatus}, \textit{Candida} spp., \textit{Coccidioides} spp., \textit{Cryptococcus} spp., \textit{Histoplasma capsulatum}, \textit{Paracoccidioides brasiliensis}, and \textit{Pneumocystis} spp. Reads identified as bacterial or viral were aligned using BWA v0.7.1243 with default settings to a multi-fasta reference of consensus sequences corresponding to the enrichment probe targets, augmented with sequences of known or suspected contaminants. These included (i) reagent contaminants (\textit{Alteromonas} and \textit{Achromobacter} spp.), (ii) genomes of two viruses known to have been sequenced on the same flow cell: MVMPCG spike-in control and Echovirus 7; and (iii) the rMLST sequences of commensal Streptococcus species (\textit{S. mitis, S. oralis, S. pseudopneumoniae}) that were thought to be likely contaminants in clinical samples.
+De-multiplexed sequence read-pairs were trimmed of adapter sequences using Trimmomatic v0.36, with the ILLUMINACLIP options set to “2:10:7:1:true MINLEN:50”, using the set of Illumina adapters supplied with the software \parencite{Bolger2014}. The trimmed reads were then classified using Kraken v1 \parencite{Wood2014} using a custom database containing the human genome (GRCh38 build), all RefSeq bacterial and viral genomes, and a selection of fungal genomes that were most likely to be associated with cases of meningitis \parencite{Cuomo2017}. These were: \textit{Aspergillus fumigatus}, \textit{Candida} spp., \textit{Coccidioides} spp., \textit{Cryptococcus} spp., \textit{Histoplasma capsulatum}, \textit{Paracoccidioides brasiliensis}, and \textit{Pneumocystis} spp. This custom database including both human and microbial reads was created to optimise the accuracy of classification, minimising the likelihood of human reads being classified as microbial or vice versa.
 
-Following alignment, we corrected our sequencing results for index misassignment (index hopping). This well-recognised phenomenon occurs when a small proportion of reads belonging to a sample gets misassigned to a different index on a nearby optical cluster. For each sequencing pool, we identified PCR-duplicated reads and reassigned all reads in each duplicate cluster to the sample with the highest number of reads in that cluster.
+Subsequently, reads identified by Kraken as bacterial or viral were aligned using BWA v0.7.1243 with default settings to a multi-fasta reference of consensus sequences corresponding to the enrichment probe targets, augmented with sequences of known or suspected contaminants. These included (i) reagent contaminants (\textit{Alteromonas} and \textit{Achromobacter} spp.), (ii) genomes of two viruses known to have been sequenced on the same flow cell: MVMPCG spike-in control and Echovirus 7; and (iii) the rMLST sequences of commensal Streptococcus species (\textit{S. mitis, S. oralis, S. pseudopneumoniae}) that were thought to be likely contaminants in clinical samples. This two step process of Kraken classification followed by BWA alignment has not previously been described; it was used in the \textit{Castanet} data processing pipeline as the initial Kraken step efficiently and accurately separates human/fungal from bacterial/viral reads, enabling the BWA mapping to occur in a computationally efficient manner, accurately aligning reads to the probe sequences. 
 
-After duplicate reassignment, we calculated a set of descriptive statistics for each sample and target organism. These included sequencing depth with and without deduplication, and coverage of target sequences at various depth thresholds. The collected statistics were combined with available laboratory data and ddPCR results where available and the resulting data frame used to train a random forest model. 
+Following BWA alignment, we corrected our sequencing results for index misassignment (index hopping). This well-recognised phenomenon occurs when a small proportion of reads belonging to a sample gets misassigned to a different index in the multiplexed pool. For each sequencing pool, we identified duplicated reads and reassigned all reads in each duplicate cluster to the sample with the highest number of reads in that cluster. This data processing step is unique to \textit{Castanet} and decreases the number of false positives arising from index hopping.
+
+After duplicate reassignment, we calculated a set of descriptive statistics for each sample and target organism. These included sequencing depth with and without deduplication, and coverage of target sequences at various depth thresholds. The collected statistics were combined with available laboratory data and ddPCR results where available and the resulting data frame used to train a random forest model (Section 4.2.1). 
 
 \section{Discussion}
 In this chapter, I have described \textit{Castanet}, a versatile probe-based enrichment sequencing method that combines the analysis of RNA and DNA from the same starting material in a single protocol and enriches for pathogens of interest using a modestly sized panel of probes.
